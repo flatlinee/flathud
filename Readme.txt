@@ -1,11 +1,12 @@
 Welcome to flatHUD!
 
-Version: 1.1
-Released: December 15, 2013
+Version: 1.3
+Released: December 17, 2013
 
 Changes:
--Added file directory for easy customization
--Fixed resolution errors? (not that testable)
+-Added support for Fog's Xhairs V3
+-Health Cross created (resource/ui, will put in customization in later update)
+-Other minor bug fixes
 
 FAQ:
 
@@ -14,7 +15,7 @@ A: Go into the flathud base folder and pick the proper resolution.  Drop the res
 
 Q: I have [x] bug.  How do I report this?
 A: Report it to me through the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud).  This is the only
-place you can contact me about this (no gamebanana, github, etc).
+place you can contact me about this.
 
 Q: My fonts are weird.  What do I have to do?
 A: This most likely means you didn't install the fonts correctly.  Navigate to your flathud/resource folder and install
