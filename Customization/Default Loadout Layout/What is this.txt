@@ -1,0 +1,1 @@
+Changes your loadout screen to the default TF2 layout.
