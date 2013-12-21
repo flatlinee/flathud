@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Engineer.res"
+"Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"391"
+		"ypos"			"367"
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterFG"		"TransparentBlack"
+		"MeterBG"		"0 0 0 100"
 	}
 	
 	"ItemEffectMeterBG"
@@ -20,8 +20,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"0"
-		"wide"			"12"
-		"tall"			"12"
+		"wide"			"1000"
+		"tall"			"1000"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -37,10 +37,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"1"
+		"xpos"					"c-372"
+		"ypos"					"42"
 		"zpos"					"2"
-		"wide"					"70"
+		"wide"					"40"
 		"tall"					"24"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -51,9 +51,9 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BigNoodleTitling24"
-	}
-
+		"font"					"BigNoodleTitling16"
+		"fgcolor_override"		"White"
+	}	
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -61,9 +61,12 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"wide_minmode"			"50"
+		"tall"					"9"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -71,14 +74,15 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor"				"0 0 0 100"
 	}					
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"85"
-		"ypos"					"-6"
+		"xpos"					"c-372"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"36"	
@@ -90,14 +94,15 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BigNoodleTitling36"
+		"font"					"BigNoodleTitling24"
+		"fgcolor_override"		"White"
 	}
-	"ItemEffectMeterCountBackground"
+		"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"
-		"xpos"					"86"
-		"ypos"					"-5"
+		"xpos"					"c-371"
+		"ypos"					"21"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"36"	
@@ -109,7 +114,23 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BigNoodleTitling36"
+		"font"					"BigNoodleTitling24"
 		"fgcolor"				"transparentblack"
+	}
+	"ItemEffectMeterBG2"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterBG2"
+		"xpos"					"c-372"
+		"ypos"					"25"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"40"	
+		"autoResize"			"0"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"fillcolor"				"0 0 0 100"
 	}
 }

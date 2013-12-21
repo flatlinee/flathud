@@ -37,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"21"
+		"xpos"					"c-372"
+		"ypos"					"42"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"24"
@@ -51,7 +51,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BigNoodleTitling24"
+		"font"					"BigNoodleTitling16"
+		"fgcolor_override"		"White"
 	}	
 	"ItemEffectMeter"
 	{	
@@ -80,8 +81,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"80"
-		"ypos"					"15"
+		"xpos"					"c-372"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"36"	
@@ -93,14 +94,15 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BigNoodleTitling36"
+		"font"					"BigNoodleTitling24"
+		"fgcolor_override"		"White"
 	}
 		"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"
-		"xpos"					"81"
-		"ypos"					"16"
+		"xpos"					"c-371"
+		"ypos"					"21"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"36"	
@@ -112,7 +114,23 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BigNoodleTitling36"
+		"font"					"BigNoodleTitling24"
 		"fgcolor"				"transparentblack"
+	}
+	"ItemEffectMeterBG2"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterBG2"
+		"xpos"					"c-372"
+		"ypos"					"25"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"40"	
+		"autoResize"			"0"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"fillcolor"				"0 0 0 100"
 	}
 }
