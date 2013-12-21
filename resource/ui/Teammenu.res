@@ -267,7 +267,7 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Cancel"
