@@ -1,12 +1,14 @@
 Welcome to flatHUD!
 
-Version: 1.3
-Released: December 17, 2013
+Version: 1.4
+Released: January 6, 2014
 
 Changes:
--Added support for Fog's Xhairs V3
--Health Cross created (resource/ui, will put in customization in later update)
--Other minor bug fixes
+-All-new MvM Wave design
+-MvM scoreboard fix
+-Black border added around CP icons
+-Winpanel updated to support killstreak icons
+-Various other bug fixes
 
 FAQ:
 

@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"110"
@@ -24,7 +24,6 @@
 			"enabled"		"1"
 			"fillcolor"		"70 130 180 153"
 			"scaleImage"		"1"
-			
 		}
 		"RedScoreBG"
 		{

@@ -23,19 +23,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Cerbetica32"
+		"font"			"BigNoodleTitling32"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"20"
+		"tall"			"50"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "0 89 140 255"
 	}
 	"ExplanationLabel"
 	{

@@ -152,8 +152,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"WeblySleek14"
-		"xpos"			"42"
+		"font"			"WeblySleek12"
+		"xpos"			"45"
 		"ypos"			"28"	
 		"zpos"			"6"
 		"wide"			"300"
@@ -166,6 +166,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"Heal Numbers"
 	}
 	"SpectatorGUIHealth"
 	{

@@ -69,7 +69,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_exit_not_built"
+			"labelText"		"Not Built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"

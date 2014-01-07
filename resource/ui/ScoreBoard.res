@@ -373,7 +373,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"68"
+			"ypos"			"50"
+			"xpos"			"c-259"
 		}
 	}
 	"ServerTimeLeft"
@@ -398,7 +399,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"80"
+			"ypos"			"60"
+			"xpos"			"c-259"
 		}
 	}							
 	"BluePlayerList"

@@ -1964,11 +1964,11 @@
 			"image"			"glyph_options"
 		}						
 	}			
-	"SuSurf iT"
+	"JP Surf"
 	{
 	
 	    "ControlName"   "CExImageButton"
-		"fieldname"     "SuSurf iT"
+		"fieldname"     "JP Surf"
 	    "xpos"          "350"
 		"ypos"          "462"
 		"zpos"          "11"
@@ -1980,7 +1980,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"SuSurf iT"
+		"labelText"		"JP Surf"
 		"font"			"BigNoodleTitling16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
@@ -1989,7 +1989,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine connect 66.151.244.243:27015"
+		"Command"		"engine connect surf.justplay.tf:27015"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "0 69 140 255"

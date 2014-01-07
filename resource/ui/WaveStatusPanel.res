@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"197"
+		"ypos"			"2"
 		"zpos"			"-1"
-		"wide"			"400"
-		"tall"			"35"
+		"wide"			"500"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -26,15 +26,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"WeblySleek12"
 		"fgcolor"		"TanLight"
-		"xpos"			"200"
-		"ypos"			"5"
+		"xpos"			"197"
+		"ypos"			"3"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"		"150"
+		"xpos_minmode"		"280"
 		"wide_minmode"		"180"
+		"ypos_minmode"		"5"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
@@ -67,7 +68,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"CerbeticaBold14"
+		"font"			"WeblySleek12"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"
@@ -93,7 +94,7 @@
 		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"178"
-		"tall"			"10"
+		"tall"			"11"
 		"xpos_minmode"	"211"
 		"ypos_minmode"	"8"
 		"wide_minmode"	"178"
@@ -101,31 +102,31 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"	"20"				// pixels inside the image
+		"src_corner_width"	"20"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"210"
-		"ypos"			"19"
+		"xpos"			"211"
+		"ypos"			"10"
 		"zpos"			"3"
-		"wide"			"180"
-		"tall"			"12"
+		"wide"			"170"
+		"tall"			"10"
 		"xpos_minmode"	"210"
 		"ypos_minmode"	"7"
-		"wide_minmode"	"180"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide_minmode"	"178"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"	"20"				// pixels inside the image
+		"src_corner_width"	"20"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	

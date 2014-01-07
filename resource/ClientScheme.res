@@ -1418,10 +1418,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"12"
+				"tall_hidef"	"12"
+				"tall_lodef"	"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1432,9 +1432,7 @@ Scheme
 			"1"
 			{
 				"name"		"WeblySleek UI Semibold"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
+				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2680,6 +2678,16 @@ Scheme
 			{
 				"name"		 "WeblySleek UI Semibold"
 				"tall" 		 "9"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"WeblySleek10"
+		{
+			"1"
+			{
+				"name"		 "WeblySleek UI Semibold"
+				"tall" 		 "10"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}

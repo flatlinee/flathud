@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"100"
-		"ypos"				"8"
+		"xpos"				"c-400"
+		"ypos"				"-4"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -19,10 +19,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"98"
+		"xpos"			"68"
 		"ypos"			"71"
 		"zpos"			"-1"
-		"wide"			"445"
+		"wide"			"590"
 		"tall"			"288"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"WeblySleek24"
+			"font"			"WeblySleek16"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -71,7 +71,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"WeblySleek16"
+			"font"			"WeblySleek12"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -110,7 +110,7 @@
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"110"
 		"ypos"			"79"
-		"wide"			"420"
+		"wide"			"520"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -119,7 +119,6 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
-		"font"			"WeblySleek16"
 	}
 	
 	"CreditStatsContainer"

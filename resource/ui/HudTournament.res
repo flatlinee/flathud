@@ -52,9 +52,9 @@
 				{
 					"xpos"				"4"
 					"ypos"				"25"
-					"wide"			"48"
+					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"WeblySleek10"
 				}
 			}
 			
@@ -64,7 +64,7 @@
 				"fieldName"		"classimage"
 				"xpos"			"2"
 				"ypos"			"2"
-				"zpos"			"2"
+				"zpos"			"4"
 				"wide"			"22"
 				"tall"			"22"
 				"visible"		"1"
@@ -86,9 +86,29 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"55"
+				"tall"			"55"
+				"visible"		"0"
+				"enabled"		"1"
+				"bgcolor_override"		"Black"
+				"PaintBackgroundType"	"0"
+				
+				if_mvm
+				{
+					"visible"		"0"
+				}
+			}
+			
+			"classimageBG2"
+			{
+				"ControlName"		"Panel"
+				"fieldName"		"classimagebg2"
 				"xpos"			"5"
 				"ypos"			"4"
-				"zpos"			"2"
+				"zpos"			"3"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
@@ -125,14 +145,14 @@
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
-				"ypos"			"6"
+				"ypos"			"5"
 				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"17"
+				"tall"			"17"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/tournament_panel_brown"
 
 				"src_corner_height"	"22"				// pixels inside the image
@@ -151,11 +171,11 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"32"
-				"ypos"			"8"
+				"xpos"			"31"
+				"ypos"			"6"
 				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"15"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
@@ -185,6 +205,11 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
+				
+				if_mvm
+				{
+					"font"		"WeblySleek10"
+				}
 			}
 			
 			"chargeamount"
@@ -251,11 +276,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBackground"
-		"xpos"			"-50"
-		"ypos"			"30"
-		"zpos"			"-1"
+		"xpos"			"-40"
+		"ypos"			"0"
+		"zpos"			"-2"
 		"wide"			"250"
-		"tall"			"18"
+		"tall"			"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -536,7 +561,7 @@
 		
 		if_mvm
 		{
-			"font"			"WeblySleekBold16"
+			"font"			"WeblySleek12"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -582,18 +607,18 @@
 		"enabled"		"1"
 		"image"			"../HUD/color_panel_red"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
+		"src_corner_height"	"35"				// pixels inside the image
+		"src_corner_width"	"35"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" "5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" "0"	
 	}
 
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"WeblySleek24"
+		"font"			"BigNoodleTitling32"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -606,13 +631,14 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+		"fgcolor"		"white"
 	}
 	
 	"CountdownLabelShadow"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"WeblySleek24"
+		"font"			"BigNoodleTitling32"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"
