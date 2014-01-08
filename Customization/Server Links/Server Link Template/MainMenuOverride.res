@@ -1,4 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
+
+//CTRL+F FOR "FAVORITESERVER" TO CHANGE SERVER LINKS//
 {
 	MainMenuOverride
 	{
