@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"c-200"
-		"ypos"				"r150"
+		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
@@ -16,7 +16,7 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"				"r200"
+			"ypos"				"r140"
 			"tall"				"200"
 		}
 	}
@@ -81,14 +81,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"64"
-		"xpos_minmode"		"64"		
+		"xpos_minmode"	"64"		
 		"ypos"			"116"
-		"ypos_minmode"		"116"
+		"ypos_minmode"	"116"
 		"zpos"			"1"
 		"wide"			"18"
-		"wide_minmode"		"18"
+		"wide_minmode"	"18"
 		"tall"			"18"
-		"tall_minmode"		"18"
+		"tall_minmode"	"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -202,9 +202,9 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"WeblySleek8"		
+			"font"			"WeblySleek10"		
 			"xpos"			"18"			
-			"ypos"			"53"		
+			"ypos"			"52"		
 			"zpos"			"2"
 			"wide"			"17"
 			"tall"			"7"
@@ -276,6 +276,28 @@
 				"tall"			"30"
 			}						
 		}
+		"EscortItemImageBG"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"EscortItemIMageBG"
+			"xpos"			"14"
+			"ypos"			"45"
+			"zpos"			"-1"
+			"wide"			"25"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"../HUD/tournament_panel_brown"
+
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
 		
 		"EscortItemImageBottom"
 		{

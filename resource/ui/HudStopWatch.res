@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"80"
+		"ypos"			"-5"
 		"zpos"			"-1"
-		"wide"			"300"
-		"tall"			"31"
+		"wide"			"150"
+		"tall"			"27"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -19,10 +19,9 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
-
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"		"ImagePanel"
@@ -56,10 +55,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"BigNoodleTitling20"
+			"font"			"WeblySleek16"
 			"fgcolor"		"TanLight"
 			"xpos"			"-183"
-			"ypos"			"-3"
+			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"300"
 			"tall"			"31"
@@ -73,11 +72,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"BigNoodleTitling24"
+		"font"			"WeblySleek14"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"west"
 		"xpos"			"180"
-		"ypos"			"-3"
+		"ypos"			"-5"
 		"zpos"			"4"
 		"wide"			"300"
 		"tall"			"30"
@@ -90,11 +89,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"BigNoodleTitling24"
+		"font"			"WeblySleek14"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"west"
-		"xpos"			"194"
-		"ypos"			"-3"
+		"xpos"			"190"
+		"ypos"			"-5"
 		"zpos"			"4"
 		"wide"			"300"
 		"tall"			"30"
@@ -109,11 +108,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"BigNoodleTitling14"
+		"font"			"WeblySleek12"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"west"
-		"xpos"			"180"
-		"ypos"			"-2"
+		"xpos"			"104"
+		"ypos"			"27"
 		"zpos"			"4"
 		"wide"			"150"
 		"tall"			"30"
