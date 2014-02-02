@@ -101,8 +101,9 @@ a.fl-button[data-role="red-underline"]:hover {
 
 .fl-content-container {
 	width:100%;
-	height:470px;
+	height:465px;
 	background-color:rgba(128,137,255,0.95);
+	box-shadow:0 5px 0 #3751FF;
 }
 
 .fl-content-container .fl-container {
