@@ -8,11 +8,11 @@ body {
 }
 
 .slides-container {
+	margin-left:auto;
+	margin-right:auto;
 	height:400px;
 	width:1000px;
-	float:right;
-	background-color:rgba(0,0,0,0.75);
-	margin-top:75px;
+	margin-top:10px;
 	box-shadow:0 5px 0 #464646;
 }
 
@@ -23,7 +23,7 @@ body {
 .fl-header {
 	width:100%;
 	height:125px;
-	background:rgba(0,0,0,0.75);
+	background:rgba(0,0,0,0.50);
 }
 
 .fl-header .fl-container {
@@ -52,24 +52,25 @@ h1.fl-brand {
 }
 
 .fl-button-container {
-	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	width:560px;
 }
 
 a.fl-button {
 	font-family:'bignoodletitlingregular';
-	display:list-item;
+	display:inline-block;
 	height:125px;
 	width:125px;
 	border-radius:75px;
 	background:#e1e1e1;
-	text-align:center;/*
-	margin-left:auto;
-	margin-right:auto;*/
+	text-align:center;
+	margin-left:5px;
+	margin-right:5px;
 	margin-top:10px;
-	list-style:none;
 	text-decoration:none;
 	color:#f4f4f4;
-	line-height:130px;
+	line-height:132px;
 	font-size:1.6em;
 	font-weight:bold;
 	text-shadow:2px 2px 0 rgba(0,0,0,0.50);
