@@ -9,6 +9,30 @@
         <link rel="stylesheet" type="text/css" href="fonts/big_noodle_titling.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
     	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script src="Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+        <script>
+			$(function() {
+				$("#slides").slidesjs({
+					width:1000,
+					height:400,
+					navigation:false,
+					pagination:false,
+					play: {
+						active:true,
+						effect:'slide',
+						interval:5000,
+						auto:true,
+						pauseOnHover:false
+					},
+					effect: {
+						slide: {
+							speed:300
+						}
+					}
+				});
+			});
+		</script>
   	</head>
 	<body>
     	<div class="fl-header">
@@ -18,11 +42,23 @@
         </div>
         <div class="fl-utils">
         	<div class="fl-container">
-            	<a href="http://steamcommunity.com/id/dochavoc" class="fl-button" data-role="blue-underline">Steam Profile</a>
-                <a href="http://github.com/flatlinee/flathud-" class="fl-button" data-role="red-underline">Github</a>
-                <a href="http://teamfortress.tv/forum/thread/14664-flathud" class="fl-button" data-role="blue-underline">TFTV Thread</a>
-                <a href="http://github.com/flatlinee/flathud-/archive/master.zip" class="fl-button" data-role="red-underline">Download</a>
+            	<div class="fl-button-container">
+            		<a href="http://steamcommunity.com/id/dochavoc" class="fl-button" data-role="blue-underline">Steam Profile</a>
+                	<a href="http://github.com/flatlinee/flathud-" class="fl-button" data-role="red-underline">Github</a>
+                	<a href="http://teamfortress.tv/forum/thread/14664-flathud" class="fl-button" data-role="blue-underline">TFTV Thread</a>
+                	<a href="http://github.com/flatlinee/flathud-/archive/master.zip" class="fl-button" data-role="red-underline">Download</a>
+                </div>
+                <div class="slides-container">
+                	<div id="slides">
+                		<img src="http://placehold.it/1000x400">
+                        <img src="http://placehold.it/1000x400">
+                        <img src="http://placehold.it/1000x400">
+                        <img src="http://placehold.it/1000x400">
+                	</div>
+                </div>
             </div>
         </div>
+     
+        
   	</body>
 </html>
