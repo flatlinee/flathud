@@ -45,16 +45,17 @@
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
+			"bgcolor_override"	"35 35 35 255"
+			
 			}
 			
 			"itemmodelpanel"
@@ -62,6 +63,8 @@
 				"use_item_rendertarget" "0"
 				"inventory_image_type" "1"
 			}
+		
+
 		}
 	}
 	
@@ -180,8 +183,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Next &D"
-		"font"			"WeblySleek16"
+		"labelText"		"&D"
+		"font"			"CerbeticaBold16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -213,8 +216,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Previous &A"
-		"font"			"WeblySleek16"
+		"labelText"		"&A"
+		"font"			"CerbeticaBold16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -303,7 +306,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
 		"xpos"			"c210"
-		"ypos"			"135"
+		"ypos"			"155"
 		"zpos"			"10"
 		"wide"			"30"
 		"tall"			"30"
