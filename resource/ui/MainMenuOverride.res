@@ -1633,7 +1633,7 @@
 			"use_proportional_insets" "1"
 			"font"			"BigNoodleTitling24"
 			"textAlignment"	"center"
-			"labelText"		"Version 1.4"
+			"labelText"		"Version 1.5"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -2014,11 +2014,11 @@
 			"image"			"glyph_options"
 		}						
 	}			
-	"Surf iT"
+	"ReSurfed"
 	{
 	
 	    "ControlName"   "CExImageButton"
-		"fieldname"     "Surf iT"
+		"fieldname"     "ReSurfed"
 	    "xpos"          "350"
 		"ypos"          "442"
 		"zpos"          "11"
@@ -2030,7 +2030,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Surf iT"
+		"labelText"		"ReSurfed"
 		"font"			"BigNoodleTitling16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
@@ -2039,7 +2039,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine connect 216.52.143.76:27015"
+		"Command"		"engine connect 216.52.143.58:27015"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "0 69 140 255"

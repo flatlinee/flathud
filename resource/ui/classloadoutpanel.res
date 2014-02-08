@@ -265,24 +265,42 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
 			"bgcolor_override"	"30 30 30 255"
+			
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
     	}
-		
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -434,6 +452,8 @@
 			}				
 		}		
 	}
+	
+	
 	"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"

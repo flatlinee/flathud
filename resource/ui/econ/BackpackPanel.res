@@ -57,6 +57,9 @@
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			
+			"deferred_description" "1"
+			"deferred_icon" 	   "1"
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -141,7 +144,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
-		"border"			"CyanBorder"
+		"border"            "CyanBorder"
 		
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 0"
@@ -228,12 +231,13 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"			"0"
+		"tabPosition"		"1"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
+
 		
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 0"
@@ -254,9 +258,10 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"paintborder"			"1"
-		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"bgcolor_override" "0 0 0 0"
+		"noitem_textcolor" "117 107 94 255"
+		"paintbackgroundtype"  "2"
+		"paintborder"   "1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -270,35 +275,35 @@
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"1"
 			"border"			"NoBorder"
 			"bgcolor_override"	"35 35 35 255"
+			
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
     	}
-		
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
-		}
 	}
 	
 	"mousedragitempanel"
@@ -984,7 +989,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1053,7 +1058,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"default"		"1"
+			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
