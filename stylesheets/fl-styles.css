@@ -58,10 +58,12 @@ h1.fl-brand {
 }
 
 p.fl-desc {
+	font-size:14px;
 	color:#fff;
 	text-align:center;
+	font-style:italic;
 	position:relative;
-	bottom:80px;
+	bottom:78px;
 	text-shadow:0 1px 0 rgba(0,0,0,0.50);
 }
 
@@ -103,6 +105,14 @@ a.fl-button[data-role="blue-underline"]:hover {
 	box-shadow:0 3px 0 #6962FF;
 }
 
+a.fl-button[data-role="yellow-underline"]:hover {
+	box-shadow:0 3px 0 #FEED16;
+}
+
+a.fl-button[data-role="green-underline"]:hover {
+	box-shadow:0 3px 0 #00AE0D;
+}
+
 a.fl-button[data-role="red-underline"]:hover {
 	box-shadow:0 3px 0 #FF3E43;
 }
@@ -119,16 +129,13 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-content-container .fl-container h2 {
-	font-size:64px;
+	font-size:48px;
 	line-height:100px;
+	text-shadow:0 1px 0 rgba(0,0,0,0.50);
 }
 
 .fl-content-container .fl-container p {
-	font-size:24px;
+	font-size:14px;
+	text-shadow:0 1px 0 rgba(0,0,0,0.50);
 	margin-top:-50px;
 }
-
-A.fl-button[data-color="color"] {}
-A.fl-button[data-color="color"] {}
-A.fl-button[data-color="color"] {}
-A.fl-button[data-color="color"] {}
