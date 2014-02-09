@@ -20,8 +20,25 @@ body {
 	box-shadow:0 5px 0 #464646;
 }
 
-.slidesjs-stop {
+.slidesjs-stop, .slidesjs-play {
 	display:none !important;
+}
+
+.slidesjs-navigation {
+	position:relative;
+	bottom:70px;
+	left:915px;
+	margin-right:10px;
+	color:#fff;
+	z-index:9999;
+	text-shadow:1px 1px 0 rgba(0,0,0,0.50);
+	font-size:48px;
+	text-decoration:none;
+	-moz-transition:ease-in-out 0.25s;
+}
+
+.slidesjs-navigation:hover {
+	color:#6962FF;
 }
 
 .fl-header {
