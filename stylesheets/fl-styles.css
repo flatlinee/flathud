@@ -119,7 +119,7 @@ a.fl-button[data-role="red-underline"]:hover {
 
 .fl-content-container {
 	width:100%;
-	height:465px;
+	height:200px;
 	background-color:rgba(0,0,0,0.50);
 	box-shadow:0 5px 0 #3751FF;
 }
