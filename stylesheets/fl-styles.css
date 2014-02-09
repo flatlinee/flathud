@@ -18,6 +18,8 @@ body {
 	margin-top:10px;
 	margin-bottom:10px;
 	box-shadow:0 5px 0 #464646;
+	-moz-box-shadow:0 5px 0 #464646;
+	-webkit-box-shadow:0 5px 0 #464646;
 }
 
 .slidesjs-stop, .slidesjs-play {
@@ -26,15 +28,23 @@ body {
 
 .slidesjs-navigation {
 	position:relative;
-	bottom:70px;
-	left:915px;
-	margin-right:10px;
 	color:#fff;
+	bottom:325px;
 	z-index:9999;
 	text-shadow:1px 1px 0 rgba(0,0,0,0.50);
-	font-size:48px;
+	font-size:72px;
 	text-decoration:none;
+	transition:ease-in-out 0.25s;
 	-moz-transition:ease-in-out 0.25s;
+	-webkit-transition:ease-in-out 0.25s;
+}
+
+.slidesjs-previous {
+	left:30px;
+}
+
+.slidesjs-next {
+	left:890px;
 }
 
 .slidesjs-navigation:hover {
@@ -99,7 +109,6 @@ a.fl-button {
 	display:block;
 	height:50px;
 	width:250px;
-	background:#e1e1e1;
 	text-align:center;
 	margin-bottom:10px;
 	float:left;
@@ -109,9 +118,13 @@ a.fl-button {
 	font-size:1.6em;
 	font-weight:bold;
 	text-shadow:2px 2px 0 rgba(0,0,0,0.50);
-	transition:ease-out 0.25s;
+	transition:ease-in-out 0.25s;
+	-moz-transition:ease-in-out 0.25s;
+	-webkit-transition:ease-in-out 0.25s;
 	background-color:rgba(133, 133, 133, 0.75);
 	box-shadow:0 3px 0 #464646;
+	-moz-box-shadow:0 3px 0 #464646;
+	-webkit-box-shadow:0 3px 0 #464646;
 }
 
 a.fl-button:hover {
@@ -120,18 +133,26 @@ a.fl-button:hover {
 
 a.fl-button[data-role="blue-underline"]:hover {
 	box-shadow:0 3px 0 #6962FF;
+	-moz-box-shadow:0 3px 0 #6962FF;
+	-webkit-box-shadow:0 3px 0 #6962FF;
 }
 
 a.fl-button[data-role="yellow-underline"]:hover {
 	box-shadow:0 3px 0 #FEED16;
+	-moz-box-shadow:0 3px 0 #FEED16;
+	-webkit-box-shadow:0 3px 0 #FEED16;
 }
 
 a.fl-button[data-role="green-underline"]:hover {
 	box-shadow:0 3px 0 #00AE0D;
+	-moz-box-shadow:0 3px 0 #00AE0D;
+	-webkit-box-shadow:0 3px 0 #00AE0D;
 }
 
 a.fl-button[data-role="red-underline"]:hover {
 	box-shadow:0 3px 0 #FF3E43;
+	-moz-box-shadow:0 3px 0 #FF3E43;
+	-webkit-box-shadow:0 3px 0 #FF3E43;
 }
 
 .fl-content-container {
@@ -139,6 +160,8 @@ a.fl-button[data-role="red-underline"]:hover {
 	height:200px;
 	background-color:rgba(0,0,0,0.50);
 	box-shadow:0 5px 0 #3751FF;
+	-moz-box-shadow:0 5px 0 #3751FF;
+	-webkit-box-shadow:0 5px 0 #3751FF;
 }
 
 .fl-content-container .fl-container {
