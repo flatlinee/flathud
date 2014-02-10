@@ -182,6 +182,8 @@ a.fl-button[data-role="red-underline"]:hover {
 	text-align:center;
 	text-shadow:none;
 	color:#e1e1e1;
+	width:100%;
+	height:75px;
 }
 
 .fl-footer p {
@@ -193,4 +195,5 @@ a.fl-button[data-role="red-underline"]:hover {
 	font-family:'weblysleek_uisemibold';
 	text-decoration:underline;
 	font-weight:600;
+	color:#e1e1e1;
 }
