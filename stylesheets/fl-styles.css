@@ -198,4 +198,5 @@ a.fl-button[data-role="red-underline"]:hover {
 	font-family:'weblysleek_uisemibold';
 	text-decoration:none;
 	font-color:rgba(255,255,255);
+	font-weight:600;
 }
