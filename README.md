@@ -25,7 +25,8 @@ Use line-height:Xpx;
 - border-radius: applies radius' to elements with height/width (may require -moz-/-webkit-)
 
 - transition: applies an animated transition to changing elements uses linear, ease-in, ease-out, ease-in-out and uses - second based timings(may require -moz-/-webkit-)
-            - For example (
-              - a       { color:#fff; transition:ease-in-out 0.25s; }
-              - a:hover { color:#333; }
-            - )
+
+-For example:
+- a       { color:#fff; transition:ease-in-out 0.25s; }
+- a:hover { color:#333; }
+
