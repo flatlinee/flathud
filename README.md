@@ -8,15 +8,15 @@ Website by tstm
 Coding Tips-
 ========
 
-#idname[data-role="role"]     { <styles> }
-.classname[data-role="role"]  { <styles> }
+- #idname[data-role="role"]     { <styles> }
+- .classname[data-role="role"]  { <styles> }
 
-  - Use this if you plan to use a class more than once for example on wide containers and you want more unique styles for them, same goes for anything else.
+- Use this if you plan to use a class more than once for example on wide containers and you want more unique styles for them, same goes for anything else.
   
-Try not to push single lines of text or headers when they're by them selves in containers.
+- Try not to push single lines of text or headers when they're by them selves in containers.
 Use line-height:Xpx;
 
-Don't use margin-{value} or positional values such as top or bottom, as this can cause shifts in other elements and break the page.
+- Don't use margin-{value} or positional values such as top or bottom, as this can cause shifts in other elements and break the page.
 
 background-color: # or rgb/a
 color: # or rgb/a - text color
