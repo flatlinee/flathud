@@ -159,9 +159,6 @@ a.fl-button[data-role="red-underline"]:hover {
 	width:100%;
 	height:200px;
 	background-color:rgba(0,0,0,0.50);
-	box-shadow:0 5px 0 #3751FF;
-	-moz-box-shadow:0 5px 0 #3751FF;
-	-webkit-box-shadow:0 5px 0 #3751FF;
 }
 
 .fl-content-container .fl-container {
@@ -181,22 +178,19 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-footer {
-	background-color:rgba(0,0,0,0.25);
-	margin-top:64px;
+	background-color:#1e1e1e;
 	text-align:center;
-	text-shadow:0px;
+	text-shadow:none;
 }
 
 .fl-footer p {
-	font-size:10px;
-	font-family:'weblysleek_uisemibold';
-	text-align:center;
+	font-size:12px;
 }
 
 .fl-footer a {
 	font-size:10px;
 	font-family:'weblysleek_uisemibold';
 	text-decoration:none;
-	font-color:rgba(255,255,255);
+	color:#e1e1e1;
 	font-weight:600;
 }
