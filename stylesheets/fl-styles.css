@@ -187,13 +187,13 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-footer p {
-	font-size:8px;
+	font-size:10px;
 	font-family:'weblysleek_uisemibold';
 	text-align:center;
 }
 
 .fl-footer a {
-	font-size:8px;
+	font-size:10px;
 	font-family:'weblysleek_uisemibold';
 	font-style:bold;
 	font-color:rgba(255,255,255)
