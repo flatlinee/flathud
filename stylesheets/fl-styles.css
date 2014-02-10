@@ -182,8 +182,9 @@ a.fl-button[data-role="red-underline"]:hover {
 
 .fl-footer {
 	background-color:rgba(0,0,0,0.25);
-	margin-top:60px;
+	margin-top:62px;
 	text-align:center;
+	text-shadow:0px;
 }
 
 .fl-footer p {
