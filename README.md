@@ -18,14 +18,14 @@ Use line-height:Xpx;
 
 - Don't use margin-{value} or positional values such as top or bottom, as this can cause shifts in other elements and break the page.
 
-background-color: # or rgb/a
-color: # or rgb/a - text color
+- background-color: # or rgb/a
+- color: # or rgb/a - text color
 
-box-shadow: applies shadows to elements with height/width (may require -moz-/-webkit-)
-border-radius: applies radius' to elements with height/width (may require -moz-/-webkit-)
+- box-shadow: applies shadows to elements with height/width (may require -moz-/-webkit-)
+- border-radius: applies radius' to elements with height/width (may require -moz-/-webkit-)
 
-transition: applies an animated transition to changing elements uses linear, ease-in, ease-out, ease-in-out and uses second based timings(may require -moz-/-webkit-)
-            For example (
-              a       { color:#fff; transition:ease-in-out 0.25s; }
-              a:hover { color:#333; }
-            )
+- transition: applies an animated transition to changing elements uses linear, ease-in, ease-out, ease-in-out and uses - second based timings(may require -moz-/-webkit-)
+            - For example (
+              - a       { color:#fff; transition:ease-in-out 0.25s; }
+              - a:hover { color:#333; }
+            - )
