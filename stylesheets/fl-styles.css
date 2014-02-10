@@ -179,3 +179,18 @@ a.fl-button[data-role="red-underline"]:hover {
 	text-shadow:0 1px 0 rgba(0,0,0,0.50);
 	margin-top:-50px;
 }
+
+.fl-footer {
+	background-color:rgba(0,0,0,25);
+}
+
+.fl-footer p {
+	font-size:12px;
+	font-family:'weblysleek_uisemibold';
+}
+
+.fl-footer a {
+	font-size:12px;
+	font-family:'weblysleek_uisemibold';
+	font-style:bold;
+}
