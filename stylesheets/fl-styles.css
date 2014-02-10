@@ -181,13 +181,14 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-footer {
-	background-color:rgba(255,255,255,25);
-	margin-top:-100px;
+	background-color:rgba(0,0,0,0.25;
+	margin-top:100px;
 }
 
 .fl-footer p {
 	font-size:12px;
 	font-family:'weblysleek_uisemibold';
+	text-align:center;
 }
 
 .fl-footer a {
