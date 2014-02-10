@@ -181,7 +181,7 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-footer {
-	background-color:rgba(0,0,0,25);
+	background-color:rgba(255,255,255,25);
 }
 
 .fl-footer p {
@@ -193,4 +193,5 @@ a.fl-button[data-role="red-underline"]:hover {
 	font-size:12px;
 	font-family:'weblysleek_uisemibold';
 	font-style:bold;
+	font-color:rgba(255,255,255)
 }
