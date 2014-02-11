@@ -180,7 +180,6 @@ a.fl-button[data-role="red-underline"]:hover {
 .fl-footer {
 	background-color:#1e1e1e;
 	text-align:center;
-	text-shadow:none;
 	color:#e1e1e1;
 	width:100%;
 	height:50px;
@@ -189,10 +188,12 @@ a.fl-button[data-role="red-underline"]:hover {
 
 .fl-footer p {
 	font-size:12px;
+	text-shadow:none;
 }
 
 .fl-footer a {
 	font-size:12px;
+	text-shadow:none;
 	font-family:'weblysleek_uisemibold';
 	text-decoration:underline;
 	font-weight:600;
