@@ -37,7 +37,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c-372"
+		"xpos"					"55"
 		"ypos"					"42"
 		"zpos"					"2"
 		"wide"					"40"
@@ -63,7 +63,7 @@
 		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
-		"zpos"					"2"
+		"zpos"					"-1"
 		"wide"					"40"
 		"wide_minmode"			"50"
 		"tall"					"9"				
@@ -81,7 +81,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"c-372"
+		"xpos"					"55"
 		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"
-		"xpos"					"c-371"
+		"xpos"					"56"
 		"ypos"					"21"
 		"zpos"					"2"
 		"wide"					"40"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ItemEffectMeterBG2"
-		"xpos"					"c-372"
+		"xpos"					"55"
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"40"

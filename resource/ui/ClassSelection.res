@@ -97,7 +97,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"random"
-		"xpos"				"c300"
+		"xpos"				"r135"
 		"ypos"				"330"
 		"zpos"				"6"
 		"wide"				"150"
@@ -548,7 +548,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-425"
+		"xpos"			"0"
 		"ypos"			"335"
 		"zpos"			"6"
 		"wide"			"100"

@@ -18,6 +18,19 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 	}
+	"TimePanelBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TimePanelBG2"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"     "0 0 0 100"
+	}
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
@@ -44,7 +57,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"25"
-		"ypos"			"21"
+		"ypos"			"24"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"19"

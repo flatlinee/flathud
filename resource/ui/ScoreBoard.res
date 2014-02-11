@@ -364,7 +364,7 @@
 		"ypos"			"55"
 		"ypos_minmode"	"80"
 		"zpos"			"999"
-		"wide"			"600"
+		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -547,7 +547,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StatsBackground"
-		"xpos"          "c-427"
+		"xpos"          "0"
 		"ypos"			"0"	
 		"zpos"			"2"
 		"wide"			"115"
@@ -639,7 +639,7 @@
 		"font"			"BigNoodleTitling24"
 		"labelText"		"%playerscore%"
 		"textAlignment"		"center"
-		"xpos"			"c-446"
+		"xpos"			"-19"
 		"ypos"			"310"
 		"zpos"			"3"
 		"wide"			"140"
@@ -870,7 +870,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"c-460"
+		"xpos"			"-30"
 		"ypos"			"96"
 		"zpos"			"3"
 		"wide"			"166"
@@ -994,7 +994,7 @@
 			"font"			"BigNoodleTitling24"
 			"labelText"		"%mapname%"
 			"textAlignment"		"center"
-			"xpos"			"c-395"
+			"xpos"			"24"
 			"ypos"			"258"
 			"zpos"			"3"
 			"wide"			"116"
@@ -1012,7 +1012,7 @@
 			"font"			"BigNoodleTitling16"
 			"labelText"		"%gametype%"
 			"textAlignment"		"center"
-			"xpos"			"c-395"
+			"xpos"			"24"
 			"ypos"			"278"
 			"zpos"			"3"
 			"wide"			"116"
@@ -1397,6 +1397,41 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+		"DamageLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"BigNoodleTitling16"
+			"labelText"		"#TF_ScoreBoard_DamageLabel"
+			"textAlignment"		"west"
+			"xpos"			"40"
+			"ypos"			"204"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Damage"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"BigNoodleTitling16"
+			"labelText"		"%damage%"
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"100"
+			"ypos"			"204"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		
 	}
 
 

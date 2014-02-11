@@ -87,7 +87,7 @@
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"south-west"
 			"dulltext"		"0"
-			"brighttext"	"0"
+			"brighttext"	"1"
 		}
 		
 	
