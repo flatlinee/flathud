@@ -1633,7 +1633,7 @@
 			"use_proportional_insets" "1"
 			"font"			"BigNoodleTitling24"
 			"textAlignment"	"center"
-			"labelText"		"Version 1.5"
+			"labelText"		"Version 1.51"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

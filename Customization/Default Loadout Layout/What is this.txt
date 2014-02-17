@@ -1,1 +1,4 @@
 Changes your loadout screen to the default TF2 layout.
+Useful on 4x3 resolutions to fix character model scrunching and other issues.
+
+Drag into resource/ui.

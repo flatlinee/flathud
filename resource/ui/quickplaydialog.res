@@ -350,8 +350,8 @@
 				"tall"			"20"
 				"autoResize"	"1"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 
 			"GameModeOptionContainer"
@@ -399,7 +399,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"ValveServerOption"
 				"xpos"		"10"
-				"ypos"		"50"
+				"ypos"		"20"
 				"zpos"		"60"
 				"wide"		"175"
 				"tall"		"70"
@@ -460,7 +460,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"IncreasedPlayerCountOption"
 				"xpos"		"195"
-				"ypos"		"50"
+				"ypos"		"20"
 				"zpos"		"60"
 				"wide"		"175"
 				"tall"		"70"
@@ -521,7 +521,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"RandomCritsOption"
 				"xpos"		"10"
-				"ypos"		"145"
+				"ypos"		"90"
 				"zpos"		"60"
 				"wide"		"175"
 				"tall"		"70"
@@ -582,7 +582,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"RespawnTimesOption"
 				"xpos"		"195"
-				"ypos"		"145"
+				"ypos"		"90"
 				"zpos"		"60"
 				"wide"		"175"
 				"tall"		"70"
@@ -635,9 +635,71 @@
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
+				}
+			}
+			"DamageSpreadOption"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"DamageSpreadOption"
+				"xpos"		"10"
+				"ypos"		"160"
+				"zpos"		"60"
+				"wide"		"175"
+				"tall"		"60"
+
+				"OptionNameLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"OptionNameLabel"
+					"font"			"HudFontSmallBold"
+					"labelText"		"#TF_Quickplay_DamageSpread"
+					"textAlignment"	"left"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"
+					"wide"			"180"
+					"tall"			"15"
+				}
+
+				"RadioButton0"
+				{
+					"ControlName"		"RadioButton"
+					"fieldName"			"RadioButton0"
+					"Font"				"HudFontSmallest"
+					"xpos"				"20"
+					"ypos"				"15"
+					"zpos"				"1"
+					"wide"				"165"
+					"tall"				"15"
+				}	
+
+				"RadioButton1"
+				{
+					"ControlName"		"RadioButton"
+					"fieldName"			"RadioButton1"
+					"Font"				"HudFontSmallest"
+					"xpos"				"20"
+					"ypos"				"30"
+					"zpos"				"1"
+					"wide"				"165"
+					"tall"				"15"
+				}	
+
+				"RadioButton2"
+				{
+					"ControlName"		"RadioButton"
+					"fieldName"			"RadioButton2"
+					"Font"				"HudFontSmallest"
+					"xpos"				"20"
+					"ypos"				"45"
+					"zpos"				"1"
+					"wide"				"165"
+					"tall"				"15"
 				}	
 			}
-		}
+
+		}				
+			
 
 		"PlayNowButton"
 		{
@@ -663,12 +725,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
+			"border_default"	"CyanBorderThick"
+			"border_armed"		"CyanBorderThick"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "0 89 140 255"
 			"depressedFgColor_override" "46 43 42 255"
 		}
 
@@ -696,12 +758,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
+			"border_default"	"CyanBorderThick"
+			"border_armed"		"CyanBorderThick"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "0 89 140 255"
 			"depressedFgColor_override" "46 43 42 255"
 		}
 
@@ -790,6 +852,7 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border"		"CyanBorder"
 		}			
 	}
 }

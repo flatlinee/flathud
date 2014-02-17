@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"BigNoodleTitling48"
-		"fgcolor_override"		"255 255 255 255"
+		"fgcolor_override"		"TanLight"
 	}
 	"ChargeLabelShadow"
 	{
