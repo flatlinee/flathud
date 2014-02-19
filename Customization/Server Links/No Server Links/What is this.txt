@@ -1,3 +1,0 @@
-Removes the server links section from your main menu.
-
-Place into resource/ui.
