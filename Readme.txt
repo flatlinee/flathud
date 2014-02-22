@@ -1,14 +1,11 @@
 Welcome to flatHUD!
 
-Version: 1.4
-Released: January 6, 2014
+Version: 1.52
+Released: February 20th, 2014
 
 Changes:
--All-new MvM Wave design
--MvM scoreboard fix
--Black border added around CP icons
--Winpanel updated to support killstreak icons
--Various other bug fixes
+-Main menus updated to version 1.52
+-"No Server Links" main menu now updated to be the default one
 
 FAQ:
 
@@ -19,9 +16,9 @@ Q: I have [x] bug.  How do I report this?
 A: Report it to me through the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud).  This is the only
 place you can contact me about this.
 
-Q: My fonts are weird.  What do I have to do?
+[b]Q: My fonts are weird.  What do I have to do?
 A: This most likely means you didn't install the fonts correctly.  Navigate to your flathud/resource folder and install
-the fonts "big_noodle_titling" and all the ones beginning with "weblysleek".  This should fix your problem.
+the fonts "big_noodle_titling" and all the ones beginning with "weblysleek".  This should fix your problem.[/b]
 
 Q: How do I use Fog's Xhairs?
 A: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3 This is the thread for Fog's xhairs, he has a tidy
