@@ -61,7 +61,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
+				"allow_manip"		"1"
 			}
 		}
 		"itemoptionpanels_kv"
