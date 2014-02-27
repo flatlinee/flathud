@@ -61,7 +61,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"allow_manip"		"1"
+				"allow_rot"			"0"
 			}
 		}
 		"itemoptionpanels_kv"
@@ -178,7 +178,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"		"1"
 				
 		"model"
 		{
@@ -313,7 +313,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"WeblySleek12"
-		"xpos"			"c-125"
+		"xpos"			"c-150"
 		"ypos"			"115"
 		"zpos"			"0"	
 		"wide"			"270"
@@ -468,5 +468,116 @@
 		"bgcolor_override"		"25 25 25 255"
 		"PaintBackgroundType"	"2"
 	}
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c-30"
+		"ypos"				"20"
+		"zpos"				"12"	
+		"wide"				"30"
+		"tall"				"34"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"WeblySleek16"
+		"tabPosition"		"0"
+		"labelText"			"RED"
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1; r_skin 0"
+		
+		"fgcolor"			"Red"
+		"defaultFgColor_override" "184 56 59 255"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 128"
+		"image_armedcolor"		"255 255 255 255"
+		"image_selectedcolor"	"255 255 255 255"
 	
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"52"
+			"tall"			"52"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleImage"	"1"
+			"image"			"/store/store_redteam"
+			"scaleImage"	"1"
+		}				
+	}
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c"
+		"ypos"				"20"
+		"zpos"				"12"	
+		"wide"				"30"
+		"tall"				"34"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"WeblySleek16"
+		"tabPosition"		"0"
+		"labelText"			"BLU"
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1; r_skin 1"
+		
+		"fgcolor"			"Blue"
+		"defaultFgColor_override" "88 133 162 255"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 128"
+		"image_armedcolor"		"255 255 255 255"
+		"image_selectedcolor"	"255 255 255 255"
+	
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"52"
+			"tall"			"52"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleImage"	"1"
+			"image"			"/store/store_blueteam"
+			"scaleImage"	"1"
+		}				
+	}
 }
