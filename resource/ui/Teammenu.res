@@ -545,8 +545,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
-		"xpos"			"0"
-		"ypos"			"c95"
+		"xpos"			"c-127"
+		"ypos"			"c119"
 		"zpos"			"6"
 		"wide"			"255"
 		"tall"			"50"
@@ -567,8 +567,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"1"
-		"ypos"			"c96"
+		"xpos"			"c-126"
+		"ypos"			"c120"
 		"zpos"			"6"
 		"wide"			"255"
 		"tall"			"50"

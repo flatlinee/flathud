@@ -677,8 +677,8 @@
                 "xpos"                        "14"        [$X360]
                 "ypos"                        "153"
                 "zpos"                        "3"
-                "wide"                        "128"        [$WIN32]
-                "wide"                        "150"        [$X360]
+                "wide"                        "75"        [$WIN32]
+                "wide"                        "75"        [$X360]
                 "tall"                        "20"
                 "autoResize"                "0"
                 "pinCorner"                "0"
@@ -696,7 +696,7 @@
                 "xpos"                        "227"
                 "ypos"                        "153"
                 "zpos"                        "3"
-                "wide"                        "200"
+                "wide"                        "35"
                 "tall"                        "20"
                 "autoResize"                "0"
                 "pinCorner"                "0"
