@@ -33,6 +33,12 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 		
+		"page_button_y"	"288"
+		"page_button_x_delta" "3"
+		"page_button_y_delta" "3"
+ 		"page_button_per_row" "20"
+		"page_button_height" "13"
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -86,7 +92,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
+		"fgcolor_override" "Tanlight"
 	}
 	"ClassLabel"
 	{
@@ -339,8 +345,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"290"
+		"xpos"			"c-285"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -377,8 +383,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"290"
+		"xpos"			"c-260"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -393,8 +399,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"290"
+		"xpos"			"c-215"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -586,8 +592,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c50"
-		"ypos"			"290"
+		"xpos"			"c-185"
+		"ypos"			"325"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"

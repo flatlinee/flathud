@@ -60,6 +60,30 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	"HealthBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"115"
+		"ypos"			"65"
+		"zpos"			"-5"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_brown"
+		"scaleimage"	"1"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"src_corner_height" "20"
+		"src_corner_width" "20"
+		"draw_corner_width" "0"
+		"draw_corner_height" "0"
+	}
+		
+		
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -74,7 +98,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BigNoodleTitling48"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"Health Normal"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -91,7 +115,7 @@
 		"textAlignment"	"center"	
 		"font"			"BigNoodleTitling48"
 		"fgcolor"		"TransparentBlack"
-	}			
+	}		
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
