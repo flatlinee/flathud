@@ -1,11 +1,13 @@
 Welcome to flatHUD!
 
-Version: 1.52
-Released: February 20th, 2014
+Version: 1.53
+Released: April 2nd, 2014
 
 Changes:
--Main menus updated to version 1.52
--"No Server Links" main menu now updated to be the default one
+-Updated to use new Backpack UI
+-Fixed item descriptions w/Default Loadout Screen
+-Fixed clipping problems on 6v6 scoreboard
+-Updated version number
 
 FAQ:
 
