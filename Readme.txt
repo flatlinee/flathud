@@ -1,13 +1,15 @@
 Welcome to flatHUD!
 
-Version: 1.53
-Released: April 2nd, 2014
+Version: 1.54
+Released: April 10th, 2014
 
 Changes:
--Updated to use new Backpack UI
--Fixed item descriptions w/Default Loadout Screen
--Fixed clipping problems on 6v6 scoreboard
--Updated version number
+-Added new loading screen (courtesy of Suyo!)
+-Added Customization option for new loading screen w/o stats
+-Fixed font definitions and sizes in Engineer Build/Destroy menus and Spy Disguise menu
+-Fixed allcaps tooltips for HUD buttons (requesting coaches, calling votes, etc)
+-Updated Version Numbers to 1.54
+-Secrets
 
 FAQ:
 
