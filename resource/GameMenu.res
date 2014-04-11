@@ -1,11 +1,12 @@
 "GameMenu" [$WIN32]
 {
 
-	"VersionNumber"
+	"Version"
 	{
-		"label" "tmoney is cool" 
-		"subimage" ""
+		"label" "Version 1.54" 
+		"command" "engine con_enable 1; engine showconsole; clear; echo flatHUD V1.53.  wooooooooooooooooooooooooooooooooooooo Thanks to Rays, Doodle, Harvest, Suyo, and all my beta testers! <3"
 		"OnlyAtMenu" "0"
+		"tooltip" "I love you <3"
 	}
 	"QuickplayButton"
 	{
@@ -68,7 +69,7 @@
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"tooltip" "Create Server"
 	}
 	"GeneralStoreButton"
 	{
@@ -91,7 +92,7 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"tooltip" "Call a Vote"
 	}
 	"MutePlayersButton"
 	{
@@ -99,7 +100,7 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"tooltip" "Mute Players"
 	}
 	"RequestCoachButton"
 	{
@@ -107,6 +108,6 @@
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"tooltip" "Request a Coach"
 	}
 }

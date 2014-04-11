@@ -1,0 +1,3 @@
+Eliminates the stat panel (hours on class/whatever you have chosen) from the loading screen.
+
+Place into resource/ui.

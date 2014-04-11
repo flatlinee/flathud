@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+   "$basetexture" "vgui/replay/thumbnails/loadingscreen_anim"
+   "$vertexcolor" 		1 
+   "$vertexalpha" 		1 
+   "$nolod" 		1
+   "$translucent"		1
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "25"
+      }
+   }
+}
