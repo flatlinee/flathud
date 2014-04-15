@@ -16,6 +16,22 @@
 		"paintbackground"	"0"
 	}
 	
+	"MainBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
+	
 	"titlelabel"
 	{
 		"ControlName"		"CExLabel"
@@ -51,7 +67,7 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"skip"
-		"font"			"WeblySleek20"
+		"font"			"BigNoodleTitling24"
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanLight"
@@ -82,7 +98,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"command"		"skip"
-		"font"			"BigNoodleTitling20"
+		"font"			"BigNoodleTitling24"
 	}
 	
 	"Back" [$WIN32] 
@@ -103,7 +119,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"BigNoodleTitling16"
+		"font"			"BigNoodleTitling24"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanLight"
@@ -127,7 +143,7 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_ReplayIntro"
 		"textAlignment"	"center"
@@ -184,8 +200,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -226,8 +242,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
-		"xpos"			"c-145"
-		"ypos"			"c40"
+		"xpos"			"c-155"
+		"ypos"			"c80"
 		"zpos"			"6"
 		"wide"			"295"
 		"tall"			"70"
@@ -240,7 +256,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
-		"fgcolor"		"White"
+		"fgcolor"		"Black"
 		"wrap"			"1"
 	}
 	

@@ -149,7 +149,20 @@
 			"image"		"../console/background_xmas2011"
 		}
 	}
-	
+	"ButtonBarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ButtonBar"
+		"xpos"			"0"
+		"ypos"			"120"
+		"zpos"			"1"
+		"wide"			"198"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"0 89 140 255"
+	}
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -173,8 +186,8 @@
 		"zpos"			"0"
 		"wide"			"350"
 		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"25 25 25 100"
 	}
@@ -187,8 +200,8 @@
 		"zpos"			"0"
 		"wide"			"343"
 		"tall"			"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"0 89 140 255"
 	}
@@ -201,8 +214,8 @@
 		"zpos"			"0"
 		"wide"			"2"
 		"tall"			"341"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"0 89 140 255"
 	}
@@ -215,8 +228,8 @@
 		"zpos"			"0"
 		"wide"			"2"
 		"tall"			"341"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"0 89 140 255"
 	}
@@ -1605,10 +1618,10 @@
 		}
 	}
 
-	"VersionNumber"
+	"Version"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"VersionNumber"
+		"fieldname"		"Version"
 		"xpos"			"-53"
 		"ypos"			"95"
 		"zpos"			"11"
@@ -1633,7 +1646,7 @@
 			"use_proportional_insets" "1"
 			"font"			"BigNoodleTitling24"
 			"textAlignment"	"center"
-			"labelText"		"Version 1.54"
+			"labelText"		"Version 1.55"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1679,8 +1692,8 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"rayspugs"
 		"font"			"BigNoodleTitling16"
@@ -1728,8 +1741,8 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.na (dal)"
 		"font"			"BigNoodleTitling16"
@@ -1777,8 +1790,8 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.na (chi1)"
 		"font"			"BigNoodleTitling16"
@@ -1827,8 +1840,8 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.na (chi2)"
 		"font"			"BigNoodleTitling16"
@@ -1877,8 +1890,8 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.nahl (dal)"
 		"font"			"BigNoodleTitling16"
@@ -1927,8 +1940,8 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.nahl (chi)"
 		"font"			"BigNoodleTitling16"
@@ -1964,11 +1977,11 @@
 			"image"			"glyph_options"
 		}						
 	}			
-	"SuSurf iT"
+	"ReSuSurfed"
 	{
 	
 	    "ControlName"   "CExImageButton"
-		"fieldname"     "SuSurf iT"
+		"fieldname"     "ReSuSurfed"
 	    "xpos"          "350"
 		"ypos"          "462"
 		"zpos"          "11"
@@ -1977,10 +1990,10 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"SuSurf iT"
+		"labelText"		"ReSuSurfed"
 		"font"			"BigNoodleTitling16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
@@ -1989,7 +2002,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine connect 66.151.244.243:27015"
+		"Command"		"engine connect 162.248.92.11:27015"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "0 69 140 255"
@@ -2014,11 +2027,11 @@
 			"image"			"glyph_options"
 		}						
 	}			
-	"Surf iT"
+	"ReSurfed"
 	{
 	
 	    "ControlName"   "CExImageButton"
-		"fieldname"     "Surf iT"
+		"fieldname"     "ReSurfed"
 	    "xpos"          "350"
 		"ypos"          "442"
 		"zpos"          "11"
@@ -2027,10 +2040,10 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Surf iT"
+		"labelText"		"ReSurfed"
 		"font"			"BigNoodleTitling16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
@@ -2039,7 +2052,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine connect 216.52.143.76:27015"
+		"Command"		"engine connect 216.52.143.58:27015"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "0 69 140 255"
@@ -2829,7 +2842,7 @@
 		"fieldName"		"ReportBugButton"
 		"xpos"			"130"
 		"ypos"			"120"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"24"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -3011,7 +3024,7 @@
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 		}			
-	}		
+	}
 	
 	"QuitButton"
 	{

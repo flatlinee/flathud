@@ -1,5 +1,10 @@
 
-CURRENT VERSION: 1.54
+CURRENT VERSION: 1.55
+
+Version 1.55:
+Changelog:
+-Arena support added
+-IntroMenu (tutorial movies) fixed
 
 Version 1.54:
 Changelog:

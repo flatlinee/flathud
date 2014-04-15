@@ -1,7 +1,7 @@
 Welcome to flatHUD!
 
-Version: 1.54
-Released: April 10th, 2014
+Version: 1.55
+Released: April 15th, 2014
 
 Changes:
 -Added new loading screen (courtesy of Suyo!)
