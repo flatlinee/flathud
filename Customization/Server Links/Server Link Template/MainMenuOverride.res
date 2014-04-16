@@ -1607,10 +1607,10 @@
 		}
 	}
 
-	"VersionNumber"
+	"Version"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"VersionNumber"
+		"fieldname"		"Version"
 		"xpos"			"-53"
 		"ypos"			"95"
 		"zpos"			"11"
