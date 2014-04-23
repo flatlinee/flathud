@@ -13,7 +13,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"TriCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -34,7 +34,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"QuadOpenDamageCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -55,7 +55,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"QuadClosedDamageCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -76,7 +76,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -97,7 +97,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -118,7 +118,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"FullSquare"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -139,7 +139,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -160,7 +160,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BoldExpCrossDotSmall"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -180,7 +180,11 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleDot"
+<<<<<<< HEAD
 		"visible"		"1"
+=======
+		"visible"		"0"
+>>>>>>> 61604cb8229db4f2ebd59de1502836ed6a155c98
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -202,7 +206,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -223,7 +227,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ScatterSpread"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -244,7 +248,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DoubleDamageCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -265,7 +269,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"QuadOpenDamageCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -286,7 +290,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Brackets"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -307,7 +311,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BracketCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -349,7 +353,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BoldExpCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -370,7 +374,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BoldExpCrossDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -391,7 +395,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"TwoOpenDamageCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -412,7 +416,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"FullMedicCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -433,7 +437,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"FullCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -454,7 +458,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Default+Cross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -475,7 +479,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DefaultNoDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -496,7 +500,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"FullCrossSmallDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -517,7 +521,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DefaultWide"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -538,7 +542,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DefaultWideNoDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -559,7 +563,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"LargeThinCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -580,7 +584,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"LargeThinCrossNoDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -601,7 +605,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BoldOutlineBox"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -622,7 +626,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OutlineBox"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -643,7 +647,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"SmallCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -664,7 +668,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OpenCircleDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -685,7 +689,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"TFCrosshair"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -706,7 +710,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"-/\-Cross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -727,7 +731,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OpenMedicCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -748,7 +752,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CircleCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -769,7 +773,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CircleCrossDot"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -790,7 +794,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -811,7 +815,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"QuakeCrosshair"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -832,7 +836,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"SmallCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -853,7 +857,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"QuadDividedCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -874,7 +878,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"MedicCrossOutline"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -895,7 +899,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"LongCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -916,7 +920,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HexagonCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -950,7 +954,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -971,7 +975,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -992,7 +996,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1013,7 +1017,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1033,7 +1037,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "150"
 	}
@@ -1053,7 +1057,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1075,7 +1079,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1100,7 +1104,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1121,7 +1125,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1142,7 +1146,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1163,7 +1167,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1184,7 +1188,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "150"
 	}
@@ -1205,7 +1209,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1226,7 +1230,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1251,7 +1255,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1272,7 +1276,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1293,7 +1297,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -1314,7 +1318,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1335,7 +1339,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "150"
 	}
@@ -1356,7 +1360,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -1378,7 +1382,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
