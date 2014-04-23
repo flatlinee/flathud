@@ -5537,12 +5537,12 @@ Scheme
 		}
 		"14" // BigNoodleTitling (Main font)
 		{
-		    "font" "resource/big-noodle-titling.ttf"
+		    "font" "resource/big_noodle_titling.ttf"
 			"name" "BigNoodleTitling"
         }
 		"15" // WeblySleek (Body font)
 		{
-		    "font" "resource/weblysleekuil.ttf"
+		    "font" "resource/weblysleekuisb.ttf"
 			"name" "WeblySleek UI Semibold"
 		}
 		"16" //Blocks (Body font)
