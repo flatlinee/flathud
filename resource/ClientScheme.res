@@ -2579,6 +2579,17 @@ Scheme
 			}
 		}
 		
+			"Entypo"
+		{
+			"1"
+			{
+			"name"			"Entypo"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
 		"Symbol32"
 		{
 			"1"
@@ -3165,6 +3176,16 @@ Scheme
 			{
 				"name"		 "BigNoodleTitling"
 				"tall" 		 "56"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BigNoodleTitling96"
+		{
+			"1"
+			{
+				"name"		 "BigNoodleTitling"
+				"tall" 		 "96"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -5529,6 +5550,10 @@ Scheme
 		    "font" "resource/Blocks.ttf"
 			"name" "Blocks"
 		}
+		"17" //Entypo
+		{
+			"font" "resource/entypo.otf"
+			"name" "Entypo"
 }
 
 

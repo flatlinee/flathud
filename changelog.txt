@@ -1,5 +1,16 @@
 
-CURRENT VERSION: 1.55
+CURRENT VERSION: 1.6
+
+Version 1.6:
+Changelog:
+-4x3 FIXES MY LORD
+	-loading screen (separate file in 4x3 directory)
+	-demo sticky charge meter
+	-medic uber label
+	-custom server panel
+-New MOTD panel
+-Added customization option for minimalist scoreboards (they work on 4x3!)
+-Other fixes
 
 Version 1.55:
 Changelog:

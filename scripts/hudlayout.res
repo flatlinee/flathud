@@ -4,6 +4,9 @@
 	//    FOG'S CROSSHAIRS V3    //
 	//    	 (C) FOG 2013        //
 	// QUESTIONS? README IN MAIN //
+	// XHAIRS ARE IN ORDER AS ON //
+	// 	 THE CROSSHAIR GRAPHIC   //
+	//     (I SUCK AT NAMES)     //      
 	//###########################//
 	"TriCross"
 	{
@@ -87,7 +90,7 @@
 		"labelText"		"3"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	"DamageCircleDot"
 	{
@@ -177,8 +180,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleDot"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -192,7 +195,7 @@
 		"labelText"		"8"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	"DamageCircle"
 	{
@@ -1445,7 +1448,7 @@
 		"MeterBG"		"Gray"
 	}
 	
-	HudMedicCharge
+    HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"

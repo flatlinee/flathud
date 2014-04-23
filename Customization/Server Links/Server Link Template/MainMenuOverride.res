@@ -170,7 +170,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomPanelBG"
-		"xpos"			"363"
+		"xpos"			"c-65"
 		"ypos"			"415"
 		"zpos"			"0"
 		"wide"			"350"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ServersTopStripe"
-		"xpos"			"365"
+		"xpos"			"c-63"
 		"ypos"			"418"
 		"zpos"			"0"
 		"wide"			"343"
@@ -198,7 +198,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ServersLeftStripe"
-		"xpos"			"365"
+		"xpos"			"c-63"
 		"ypos"			"418"
 		"zpos"			"0"
 		"wide"			"2"
@@ -212,7 +212,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ServersRightStripe"
-		"xpos"			"708"
+		"xpos"			"c280"
 		"ypos"			"418"
 		"zpos"			"0"
 		"wide"			"2"

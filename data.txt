@@ -5,4 +5,4 @@ steamid=76561198042031937
 url=http://github.com/flatlinee/flatHUD-
 url=http://flatlinee.github.io/flatHUD-
 url=http://teamfortress.tv/thread/14664/flathud
-version=1.55
+version=1.6

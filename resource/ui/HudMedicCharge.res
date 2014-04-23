@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"BigNoodleTitling48"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	"ChargeLabelShadow"
 	{
@@ -210,10 +210,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c-350"
+		"xpos"			"50"
 		"ypos"			"95"
 		"zpos"			"3"
-		"wide"			"150"
+		"wide"			"200"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
