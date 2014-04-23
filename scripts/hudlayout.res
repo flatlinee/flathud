@@ -180,11 +180,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleDot"
-<<<<<<< HEAD
-		"visible"		"1"
-=======
 		"visible"		"0"
->>>>>>> 61604cb8229db4f2ebd59de1502836ed6a155c98
 		"enabled"		"1"
 		"zpos"			"2"
 
