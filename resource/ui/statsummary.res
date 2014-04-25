@@ -274,7 +274,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
-		"xpos"		"-132"
+		"xpos"		"c-560"
 		"ypos"		"20"
 		"zpos"		"999"
 		"wide"		"f0"
