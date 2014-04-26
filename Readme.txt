@@ -1,18 +1,11 @@
 Welcome to flatHUD!
 
-Version: 1.6
-Released: April 22nd, 2014
+Version: 1.61
+Released: April 25nd, 2014
 
 Changelog:
--4x3 FIXES MY LORD
-	-loading screen (separate file in 4x3 directory)
-	-demo sticky charge meter
-	-medic uber label
-	-custom server panel
--New MOTD panel
--Added customization option for minimalist scoreboards (they work on 4x3!)
--Other fixes
-
+-New engi HUD menu
+-New chat client (thanks to xetsog from the hud modifications thread!  all credit to him)
 FAQ:
 
 Q: How do I install?

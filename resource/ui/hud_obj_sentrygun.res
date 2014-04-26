@@ -15,6 +15,20 @@
 		"tabPosition"	"0"
 	}
 	
+	"BG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"156"
+		"zpos"			"-2"
+		"wide"			"117"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 160"
+	}
+	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -90,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"WeblySleek10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -119,8 +133,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"46"
-			"ypos"			"4"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
 			"wide"			"8"
 			"tall"			"8"
@@ -135,8 +149,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"46"
-			"ypos"			"4"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
 			"wide"			"8"
 			"tall"			"8"
@@ -151,8 +165,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"46"
-			"ypos"			"4"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
 			"wide"			"8"
 			"tall"			"8"
@@ -216,9 +230,9 @@
 			"fieldName"		"Health"
 			"font"			"Default"
 			"xpos"			"13"
-			"ypos"			"3"
+			"ypos"			"13"
 			"wide"			"8"
-			"tall"			"53"
+			"tall"			"35"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -233,7 +247,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
 			"xpos"			"60"
-			"ypos"			"0"
+			"ypos"			"10"
 			"wide"			"100"
 			"tall"			"60"
 			"visible"		"0"

@@ -1,5 +1,10 @@
 
-CURRENT VERSION: 1.6
+CURRENT VERSION: 1.61
+
+Version 1.61:
+Changelog:
+-New engi HUD menu
+-New chat client (thanks to xetsog from the hud modifications thread!  all credit to him)
 
 Version 1.6:
 Changelog:
