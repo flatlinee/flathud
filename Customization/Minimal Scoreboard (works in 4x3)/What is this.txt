@@ -1,0 +1,3 @@
+Alternate minimalist scoreboard.
+
+Place into resource/ui.

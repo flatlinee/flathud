@@ -1,0 +1,4 @@
+This scoreboard gives 32-player (16v16) support.  Is a version of the minimal scoreboard, so it should work
+on all resolutions.
+
+Put into resource/ui.
