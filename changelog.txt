@@ -1,5 +1,12 @@
 
-CURRENT VERSION: 1.61
+CURRENT VERSION: 1.62
+
+Version 1.62:
+Changelog:
+-Fixed text bleeding on class loadout panels
+-Updated freezecam on death
+-Cleaned up ready menu on tournament setup
+-Fixed button misalignment on advanced options dialog
 
 Version 1.61:
 Changelog:

@@ -19,15 +19,15 @@
 		"src_corner_height"	"20"				// pixels inside the image
 		"src_corner_width"	"20"
 		
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"Cerbetica16"
+		"font"			"WeblySleek12"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -46,16 +46,16 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"Cerbetica12"
-		"xpos"			"87"
-		"ypos"			"28"
+		"font"			"WeblySleek12"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"74"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"#Tournament_TeamNamePanel"
 		"textAlignment"		"center"
@@ -65,9 +65,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TournamentNameEdit"
-		"xpos"				"30"
+		"xpos"				"50"
 		"ypos"				"27"
-		"wide"				"120"
+		"wide"				"80"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -83,27 +83,27 @@
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"%teamname%"
-		"font" 				"Cerbetica12"
+		"font" 				"WeblySleek12"
 		"textAlignment"		"west"
 	}
 
 	"HudTournamentNameBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"30"
 		"ypos"		"28"
-		"wide"		"50"
-		"tall"		"14"
+		"wide"		"0"
+		"tall"		"0"
 		"zpos"		"0"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
+		"scaleimage" "1"
 		"fillcolor"	"0 0 0 255"
-		"scaleImage"	"1"
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" "0"
+		"draw_corner_width" "0"
 	}
 
 	"TournamentNotReadyButton"
@@ -125,8 +125,12 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"CerbeticaBold12"
-		"fgcolor"		"Red"
+		"font"			"WeblySleek12"
+		"fgcolor"		"TanLight"
+		
+		"defaultBgColor_override" "0 0 0 255"
+		"armedBgColor_override"   "125 125 125 255"
+		"depressedBgColor_override" "125 125 125 255"
 	}
 
 	"TournamentReadyButton"
@@ -149,7 +153,11 @@
 		"command"		"teamready" 
 		"paintborder"	"0"
 		"default"		"1"
-		"font"			"CerbeticaBold12"
-		"fgcolor"		"FooterBGBlack"
+		"font"			"WeblySleek12"
+		"fgcolor"		"TanLight"
+		
+		"defaultBgColor_override" "0 0 0 255"
+		"armedBgColor_override"   "125 125 125 255"
+		"depressedBgColor_override" "125 125 125 255"
 	}
 }
