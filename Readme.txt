@@ -12,7 +12,8 @@ Changelog:
 FAQ:
 
 Q: How do I install?
-A: Go into the flathud base folder and pick the proper resolution.  Drop the resolution folder into your tf/custom and enjoy!
+A: Drag and drop the flathud master folder into your tf/custom folder.  If you are running 4:3 open the 4:3
+folder in flathud master and drag and drop the files inside into flathudmaster/resource/ui.
 
 Q: I have [x] bug.  How do I report this?
 A: Report it to me through the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud).  This is the only
