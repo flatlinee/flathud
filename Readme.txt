@@ -1,13 +1,12 @@
 Welcome to flatHUD!
 
-Version: 1.62
-Released: April 25nd, 2014
+Version: 1.7
+Released: May 18th, 2014
 
 Changelog:
--Fixed text bleeding on class loadout panels
--Updated freezecam on death
--Cleaned up ready menu on tournament setup
--Fixed button misalignment on advanced options dialog
+-Full support for a new red menu colorscheme
+-Payload and Payload Race meters downsized
+-Other misc bugfixes
 
 FAQ:
 

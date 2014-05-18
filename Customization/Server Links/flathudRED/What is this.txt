@@ -1,0 +1,7 @@
+Changes your main menu to have an empty server links bracket.  Also gives you a tutorial on how to edit
+your own servers into that server list.
+
+--This version is for flathudRED version.  The box will be red.  If you are using default flathud
+use the default version of this.--
+
+Place into resource/ui.

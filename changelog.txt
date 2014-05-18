@@ -1,5 +1,11 @@
 
-CURRENT VERSION: 1.62
+CURRENT VERSION: 1.7
+
+Version 1.7:
+Changelog:
+-Full support for a new red menu colorscheme
+-Payload and Payload Race meters downsized
+-Other misc bugfixes
 
 Version 1.62:
 Changelog:
