@@ -25,10 +25,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
-		"xpos"			"73"
+		"xpos"			"130"
 		"ypos"			"123"
 		"zpos"			"0"
-		"wide"			"254"
+		"wide"			"150"
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -80,8 +80,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"64"
-		"xpos_minmode"	"64"		
+		"xpos"			"120"
+		"xpos_minmode"	"120"		
 		"ypos"			"115"
 		"ypos_minmode"	"115"
 		"zpos"			"1"
@@ -115,7 +115,7 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"63"
+			"xpos"			"120"
 			"zpos"			"5"
 			"wide"			"11"
 			"tall"			"11"
@@ -330,7 +330,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"71"
+				"ypos"			"76"
 				"wide"			"24"
 				"tall"			"24"
 			}			
