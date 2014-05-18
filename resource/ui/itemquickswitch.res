@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SideLine"
-		"xpos"			"35"
+		"xpos"			"255"
 		"ypos"			"35"
 		"zpos"			"2"
 		"wide"			"2"
@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"20"
+		"xpos"			"-20"
 		"ypos"			"30"
 		"wide"			"265"
 		"tall"			"125"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"20"
+		"xpos"			"25"
 		"ypos"			"0"
 		"wide"			"260"
 		"tall"			"125"
@@ -180,7 +180,7 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"xpos"			"5"
+		"xpos"			"265"
 		"ypos"			"33"
 		"zpos"			"20"
 		"wide"			"25"
