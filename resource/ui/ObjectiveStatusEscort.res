@@ -40,7 +40,7 @@
 		{
 			"ypos"			"114"
 			"zpos"			"3"
-			"tall"			"10"
+			"tall"			"11"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
@@ -61,7 +61,7 @@
 		"xpos"			"73"
 		"ypos"			"123"
 		"zpos"			"4"
-		"wide"			"254"
+		"wide"			"150"
 		"tall"			"4"
 		"visible"		"0"
 		"enabled"		"1"
@@ -70,6 +70,7 @@
 		"if_multiple_trains"
 		{
 			"ypos"			"114"
+			"xpos"			"130"
 			"zpos"			"6"
 			"tall"			"10"
 			"visible"		"1"
@@ -170,8 +171,15 @@
 			"xpos"			"61"
 			"ypos"			"114"
 			"zpos"			"5"	
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"11"
+			"tall"			"11"
+		}
+		
+		"if_single_with_hills"
+		{
+			"ypos"	"118"
+			"wide"	"14"
+			"tall"	"14"
 		}
 	}
 
@@ -203,7 +211,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"WeblySleek10"		
-			"xpos"			"18"			
+			"xpos"			"17"			
 			"ypos"			"52"		
 			"zpos"			"2"
 			"wide"			"17"
@@ -365,8 +373,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
-			"xpos"			"23"
-			"xpos_minmode"		"23"
+			"xpos"			"21"
+			"xpos_minmode"		"21"
 			"ypos"			"53"
 			"ypos_minmode"		"53"
 			"zpos"			"2"
@@ -385,19 +393,19 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
+				"xpos"			"19"
 				"wide"			"8"
 				"tall"			"8"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"44"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"84"
 			}	
 		}
 		
@@ -405,25 +413,27 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"20"
-			"xpos_minmode"		"20"
-			"ypos"			"52"
-			"ypos_minmode"		"52"
+			"xpos"			"9999"
+			"xpos_minmode"		"9999"
+			"ypos"			"9999"
+			"ypos_minmode"		"9999"
 			"zpos"			"3"
-			"wide"			"4"
-			"wide_minmode"		"4"
-			"tall"			"8"
-			"tall_minmode"		"8"
+			"wide"			"3"
+			"wide_minmode"		"3"
+			"tall"			"7"
+			"tall_minmode"		"7"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"20"
-				"wide"			"5"
-				"tall"			"10"
+				"xpos"			"17"
+				"wide"			"0"
+				"tall"			"0"
+				"enabled"		"0"
+				
 			}
 			
 			"if_multiple_trains_top"
@@ -443,10 +453,10 @@
 			"fieldName"		"CapNumPlayers"
 			"font"			"WeblySleek8"
 			"font_minmode"		"WeblySleek8"
-			"xpos"			"25"
-			"xpos_minmode"		"25"
-			"ypos"			"53"
-			"ypos_minmode"		"53"
+			"xpos"			"22"
+			"xpos_minmode"		"22"
+			"ypos"			"52"
+			"ypos_minmode"		"52"
 			"zpos"			"4"
 			"wide"			"20"
 			"wide_minmode"		"20"
@@ -464,14 +474,14 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"25"
+				"xpos"			"20"
 				"wide"			"30"
 				"tall"			"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"43"
 			}										
 			
 			"if_multiple_trains_bottom"
@@ -504,19 +514,19 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
+				"xpos"			"19"
 				"wide"			"8"
 				"tall"			"8"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"44"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"84"
 			}
 		}
 	
@@ -544,8 +554,8 @@
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Teardrop"
-				"xpos"				"0"
-				"ypos"				"0"
+				"xpos"				"9999"
+				"ypos"				"9999"
 				"zpos"				"0"
 				"wide"				"54"
 				"wide_minmode"			"35"				
@@ -559,10 +569,10 @@
 				
 				"if_multiple_trains"
 				{
-					"xpos"			"0"
-					"ypos"			"0"			
-					"wide"			"35"			
-					"tall"			"42"			
+					"xpos"			"9999"
+					"ypos"			"9999"			
+					"wide"			"30"			
+					"tall"			"30"			
 				}	
 			}
 
@@ -629,10 +639,10 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"Capping"	
-				"xpos"			"8"
-				"xpos_minmode"		"8"
-				"ypos"			"8"
-				"ypos_minmode"		"8"
+				"xpos"			"9999"
+				"xpos_minmode"		"9999"
+				"ypos"			"9999"
+				"ypos_minmode"		"9999"
 				"zpos"			"1"
 				"wide"			"30"
 				"wide_minmode"		"20"
@@ -650,9 +660,9 @@
 				"if_multiple_trains"
 				{
 					"xpos"			"8"
-					"ypos"			"8"			
-					"wide"			"20"			
-					"tall"			"20"			
+					"ypos"			"28"			
+					"wide"			"10"			
+					"tall"			"10"			
 				}		
 			}			
 		}
