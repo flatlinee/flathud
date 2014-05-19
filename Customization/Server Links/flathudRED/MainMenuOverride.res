@@ -1672,6 +1672,20 @@
 			}
 		}
 	}
+   /////////////////////////////////////////////////////////////////////////
+	//THE MINI TUTORIAL: SERVER LINKS                                      //
+	//BY FLATLINE  														   //
+	//Six server templates are provided by default.                        //
+	//To add more:                                                         //
+	//1) copy the entire bracket (from "FavoriteServer" to the last closing//
+	//bracket } <-- this thing)                                            //
+	//2) paste below it                                                    //
+	//3) change the fieldname to something else (ex. FavoriteServer7) and  //
+	//change the title to reflect that                                     //
+	/////////////////////////////////////////////////////////////////////////
+	
+	//Always remember: The "fieldname" and section title ALWAYS MUST MATCH!//
+	
     "FavoriteServer" //Formality.  If you change fieldname, change this too.
 	{
 	    "ControlName"   "CExImageButton" //Tells the game what kind of button this is.  Don't mess with this.
@@ -1679,7 +1693,6 @@
 	    "xpos"          "600" //Controls movement on the x-axis.  Default should be fine unless you add more.
 		"ypos"          "462" //Controls movement on the y-axis.  
 		"zpos"          "11" // Overlays elements.  Shouldn't need to be touched.
-		"zpos"			"1" //idk
 		"wide"			"100" //Controls the wide value of the text field.  This setting allows for a lot of extra space so it shouldnt need to be changed unless you change the font above 16
 		"tall"			"16" //Controls the height value of the text field.  Change to whatever value you change the font size to and everything should be fine (unless you change it below 16).  Changing these might mess with the x-or y-pos.
 		"autoResize"	"0" //don't touch
@@ -1708,6 +1721,186 @@
 		"image_drawcolor"	"235 226 202 255"
 					
 	}		
+	
+	"FavoriteServer2" 
+	{
+	    "ControlName"   "CExImageButton" 
+		"fieldname"     "FavoriteServer2" 
+	    "xpos"          "600" 
+		"ypos"          "442"
+		"zpos"          "11" 
+		"wide"			"100" 
+		"tall"			"16" 
+		"autoResize"	"0" 
+		"pinCorner"		"3" 
+		"visible"		"0" 
+		"enabled"		"1" 
+		"tabPosition"	"0" 
+		"labelText"		"" 
+		"font"			"BigNoodleTitling16" 
+		"textAlignment"	"west" 
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine [connect string here]" 
+		
+		"defaultFgColor_override" "TanLight" 
+		"armedFgColor_override" "181 0 0 255"
+		"depressedFgColor_override" "181 0 0 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav" 
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+					
+	}		
+	
+	"FavoriteServer3" 
+	{
+	    "ControlName"   "CExImageButton" 
+		"fieldname"     "FavoriteServer3" 
+	    "xpos"          "600" 
+		"ypos"          "422"
+		"zpos"          "11" 
+		"wide"			"100" 
+		"tall"			"16" 
+		"autoResize"	"0" 
+		"pinCorner"		"3" 
+		"visible"		"0" 
+		"enabled"		"1" 
+		"tabPosition"	"0" 
+		"labelText"		"" 
+		"font"			"BigNoodleTitling16" 
+		"textAlignment"	"west" 
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine [connect string here]" 
+		
+		"defaultFgColor_override" "TanLight" 
+		"armedFgColor_override" "181 0 0 255"
+		"depressedFgColor_override" "181 0 0 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav" 
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+					
+	}	
+	
+	"FavoriteServer4" 
+	{
+	    "ControlName"   "CExImageButton" 
+		"fieldname"     "FavoriteServer4" 
+	    "xpos"          "500" 
+		"ypos"          "462"
+		"zpos"          "11" 
+		"wide"			"100" 
+		"tall"			"16" 
+		"autoResize"	"0" 
+		"pinCorner"		"3" 
+		"visible"		"0" 
+		"enabled"		"1" 
+		"tabPosition"	"0" 
+		"labelText"		"" 
+		"font"			"BigNoodleTitling16" 
+		"textAlignment"	"west" 
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine [connect string here]" 
+		
+		"defaultFgColor_override" "TanLight" 
+		"armedFgColor_override" "181 0 0 255"
+		"depressedFgColor_override" "181 0 0 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav" 
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+					
+	}	
+	
+	"FavoriteServer5" 
+	{
+	    "ControlName"   "CExImageButton" 
+		"fieldname"     "FavoriteServer5" 
+	    "xpos"          "500" 
+		"ypos"          "442"
+		"zpos"          "11" 
+		"wide"			"100" 
+		"tall"			"16" 
+		"autoResize"	"0" 
+		"pinCorner"		"3" 
+		"visible"		"0" 
+		"enabled"		"1" 
+		"tabPosition"	"0" 
+		"labelText"		"" 
+		"font"			"BigNoodleTitling16" 
+		"textAlignment"	"west" 
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine [connect string here]" 
+		
+		"defaultFgColor_override" "TanLight" 
+		"armedFgColor_override" "181 0 0 255"
+		"depressedFgColor_override" "181 0 0 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav" 
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+					
+	}	
+	
+	"FavoriteServer6" 
+	{
+	    "ControlName"   "CExImageButton" 
+		"fieldname"     "FavoriteServer6" 
+	    "xpos"          "500" 
+		"ypos"          "422"
+		"zpos"          "11" 
+		"wide"			"100" 
+		"tall"			"16" 
+		"autoResize"	"0" 
+		"pinCorner"		"3" 
+		"visible"		"0" 
+		"enabled"		"1" 
+		"tabPosition"	"0" 
+		"labelText"		"" 
+		"font"			"BigNoodleTitling16" 
+		"textAlignment"	"west" 
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine [connect string here]" 
+		
+		"defaultFgColor_override" "TanLight" 
+		"armedFgColor_override" "181 0 0 255"
+		"depressedFgColor_override" "181 0 0 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav" 
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+					
+	}	
 	"QuickplayButton"
 	{
 		"ControlName"	"EditablePanel"
