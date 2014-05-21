@@ -1,0 +1,105 @@
+"Resource/UI/LoadoutParticleSlider.res"
+{
+      
+	"HatParticleSliderToggleButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HatParticleSliderToggleButton"
+		"xpos"			"c400"
+		"ypos"			"15"
+		"wide"			"14"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"+"
+		"font"			"WeblySleek24"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"		"particle_button_clicked"
+		
+				
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+	}
+	
+	"HatParticleSliderBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HatParticleSliderBackground"
+		"xpos"			"c255"
+		"ypos"			"0"
+		"wide"			"145"
+		"tall"			"50"
+		"autoResize"	"1"
+		"visible"		"1"
+		"bgcolor_override"	"30 30 30 255"
+		"PaintBackgroundType"	"2"
+	}
+	"HatUseHeadCheckButton"
+	{
+		"ControlName"				"CheckButton"
+		"fieldName"					"HatUseHeadCheckButton"
+		"xpos"						"c255"
+		"ypos"						"10"
+		"wide"						"140"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"RoundedCorners"			"15"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"font"						"WeblySleek12"
+		"labelText"					"#GameUI_ParticleHatUseHead"
+		"textAlignment"				"west"
+		"dulltext"					"0"
+		"brighttext"				"1"
+		"wrap"						"0"
+		"centerwrap"				"0"
+		"textinsetx"				"6"
+		"textinsety"				"0"
+		"auto_wide_tocontents"		"0"
+		"use_proportional_insets"	"0"
+		"Default"					"0"
+		"Command"					"particle_use_head_clicked"
+
+		
+	}
+	
+	"HatParticleSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"HatParticleSlider"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"		"140"
+		"tall"		"14"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"RoundedCorners"		"15"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"fgcolor_override" "209 0 0 255"
+	}	
+	
+}
