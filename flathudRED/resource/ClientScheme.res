@@ -5595,6 +5595,7 @@ Scheme
 			"name" "Entypo"
 		}
 	}
+}
 
 
 
