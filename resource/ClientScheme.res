@@ -5554,7 +5554,9 @@ Scheme
 		{
 			"font" "resource/entypo.otf"
 			"name" "Entypo"
-}
+		}
+	}
+
 
 
 
