@@ -1,5 +1,14 @@
 
-CURRENT VERSION: 1.7
+CURRENT VERSION: 1.71
+
+Version 1.71:
+Changelog:
+-Fixed glitches on Mann Co. Catalog screen
+-Fixed font incongruities on item selection screen
+-New CTF flag screen layout
+-New 3d class model position
+-Fixed clipping on labels for round timer (setup, overtime, etc)
+-New training UI for consistency with rest of HUD
 
 Version 1.7:
 Changelog:

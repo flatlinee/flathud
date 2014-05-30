@@ -1,13 +1,15 @@
 Welcome to flatHUD!
 
-Version: 1.7
-Released: May 18th, 2014
+Version: 1.71
+Released: May 29th, 2014
 
 Changelog:
--Fixed text bleeding on class loadout panels
--Updated freezecam on death
--Cleaned up ready menu on tournament setup
--Fixed button misalignment on advanced options dialog
+-Fixed glitches on Mann Co. Catalog screen
+-Fixed font incongruities on item selection screen
+-New CTF flag screen layout
+-New 3d class model position
+-Fixed clipping on labels for round timer (setup, overtime, etc)
+-New training UI for consistency with rest of HUD
 
 FAQ:
 

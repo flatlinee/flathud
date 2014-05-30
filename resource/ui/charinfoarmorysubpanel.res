@@ -64,11 +64,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"WeblySleek16"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
-		"ypos"			"7"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
@@ -76,20 +76,20 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
+		"fgcolor_override" "TanLight"
 	}
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"#Armory"
+		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"560"
-		"tall"			"25"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -162,7 +162,7 @@
 		{
 			"ControlName"	"CEconItemDetailsRichText"
 			"fieldName"		"Data_TextRichText"
-			"font"			"Cerbetica12"
+			"font"			"WeblySleek12"
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -256,13 +256,14 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
@@ -272,8 +273,7 @@
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 			"bgcolor_override"	"30 30 30 255"
-    	}
-		
+		}
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"0"

@@ -91,11 +91,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"Cerbetica16"
+		"font"			"WeblySleek16"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
-		"ypos"			"25"
+		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"18"
@@ -103,13 +103,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
+		"fgcolor_override" "TanLight"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"WeblySleek36"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -200,7 +200,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"WeblySleek16"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"east"
 		"xpos"			"c-185"

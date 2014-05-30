@@ -288,7 +288,7 @@
 				"font"			"ItemFontAttribLarge"
 				"xpos"			"0"
 				"ypos"			"30"
-				"zpos"			"101"
+				"zpos"			"999"
 				"wide"			"140"
 				"tall"			"60"
 				"autoResize"	"0"
