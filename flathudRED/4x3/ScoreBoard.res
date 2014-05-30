@@ -400,7 +400,7 @@
 		if_mvm
 		{
 			"ypos"			"60"
-			"xpos"			"c-259"
+			"xpos"			"c-203"
 		}
 	}							
 	"BluePlayerList"
