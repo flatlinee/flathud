@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek16"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -24,7 +24,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CerbeticaBold12"
+		"font"			"WeblySleek12"
 		"xpos"			"15"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"WeblySleek12"
 		"fgcolor"		"TanLight"
 		"xpos"			"99999"
 		"ypos"			"99999"
@@ -146,7 +146,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek14"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"95"
@@ -166,7 +166,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek14"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"1"
 		"ypos"			"96"

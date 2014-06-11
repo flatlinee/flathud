@@ -1,15 +1,14 @@
 Welcome to flatHUD!
 
-Version: 1.71
-Released: May 29th, 2014
+Version: 1.8
+Released: June 11th, 2014
 
 Changelog:
--Fixed glitches on Mann Co. Catalog screen
--Fixed font incongruities on item selection screen
--New CTF flag screen layout
--New 3d class model position
--Fixed clipping on labels for round timer (setup, overtime, etc)
--New training UI for consistency with rest of HUD
+-Updated for Eureka Effect tele menu
+-Fixed font definitions in build/destroy menus
+-Widened custom text window (for logs)
+-Synchronized colors in clientscheme.res with other files for easier customization
+-Added files for taunt selection menu (currently not implemented in game)
 
 FAQ:
 

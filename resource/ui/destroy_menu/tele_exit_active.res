@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CerbeticaBold12"
+		"font"			"WeblySleek12"
 		"xpos"			"15"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -88,7 +88,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek16"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"95"
@@ -108,7 +108,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek16"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"1"
 		"ypos"			"96"

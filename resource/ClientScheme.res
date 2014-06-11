@@ -21,12 +21,13 @@ Scheme
 	
 		"Tutorial Color"	"0 255 0 128"
 	
-		//rayshud colors
+		//flathud colors
 	
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
 		"Ammo In Clip Low"						"255 151 38 255"
 		"Ammo In Reserve Low"					"255 51 51 255"
+		"Ammo No Clip"							"255 255 255 255"
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"255 255 255 255"
@@ -41,7 +42,7 @@ Scheme
 		"Uber Bar Color"						"235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
-		"Solid Color Uber"						"255 50 255 255"
+		"Solid Color Uber"						"0 69 140 255"
 		
 		"Flashing Uber Color1"					"0 110 255 255"
 		"Flashing Uber Color2"					"0 71 163 255"
@@ -86,9 +87,12 @@ Scheme
 			"ColorGreyLight"				"192 192 192 255"
 			"ColorWhite"					"255 255 255 255"
 			
-		//end rayshud colors
-			
-		// base colors
+		//end flathud colors
+		
+		
+		
+
+		// base tf2 colors, don't change these
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -5552,7 +5556,7 @@ Scheme
 		}
 		"17" //Entypo
 		{
-			"font" "resource/entypo.otf"
+			"font" "resource/Entypo.otf"
 			"name" "Entypo"
 		}
 	}

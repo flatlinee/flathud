@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Default"
+		"font"			"WeblySleek24"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"

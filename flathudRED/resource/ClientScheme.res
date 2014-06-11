@@ -21,12 +21,13 @@ Scheme
 	
 		"Tutorial Color"	"0 255 0 128"
 	
-		//rayshud colors
+		//flathud colors
 	
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
 		"Ammo In Clip Low"						"255 151 38 255"
 		"Ammo In Reserve Low"					"255 51 51 255"
+		"Ammo No Clip"							"255 255 255 255"
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"255 255 255 255"
@@ -41,10 +42,10 @@ Scheme
 		"Uber Bar Color"						"235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
-		"Solid Color Uber"						"255 50 255 255"
+		"Solid Color Uber"						"181 0 0 255"
 		
-		"Flashing Uber Color1"					"0 110 255 255"
-		"Flashing Uber Color2"					"0 71 163 255"
+		"Flashing Uber Color1"					"255 0 0 255"
+		"Flashing Uber Color2"					"163 0 0 255"
 		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
 	
 		"Heal Numbers"							"0 255 128 255"
@@ -86,27 +87,10 @@ Scheme
 			"ColorGreyLight"				"192 192 192 255"
 			"ColorWhite"					"255 255 255 255"
 			
-		//end rayshud colors
-		
-		//flatHUD menu colors
-		//use these to create your own menu GUI!
-		
-		//flathudRED
-		"MenuRed1" "209 0 0 255"
-		"MenuRed2" "181 0 0 255"
-		"MenuRed3" "222 0 0 255"
-		"MenuRed4" "168 0 0 255"
-		"MenuRed5" "166 0 0 255"
-		
-		//flathudBLUE
-		"MenuBlue1" "0 89 140 255"
-		"MenuBlue2" "0 69 140 255"
-		"MenuBlue3" "0 62 179 255"
-		"MenuBlue4" "0 59 168 255"
-		"MenuBlue5" "0 40 115 255"
+		//end flathud colors
 		
 		
-		// base colors
+		// base tf2 colors, don't change these
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
