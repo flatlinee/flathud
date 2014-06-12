@@ -687,8 +687,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"WeblySleek UI Semibold" [!$OSX]
+				"name"		"WeblySleek UI Semibold" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
