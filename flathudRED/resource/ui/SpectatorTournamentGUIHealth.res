@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CerbeticaBold16"
+		"font"			"WeblySleek14"
 		"fgcolor"		"Spec Health Normal"
 	}				
 }
