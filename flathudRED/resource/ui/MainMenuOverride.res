@@ -172,7 +172,7 @@
 		"zpos"			"0"
 		"wide"			"350"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"25 25 25 100"
@@ -186,10 +186,10 @@
 		"zpos"			"0"
 		"wide"			"343"
 		"tall"			"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"ServersLeftStripe"
 	{
@@ -200,10 +200,10 @@
 		"zpos"			"0"
 		"wide"			"2"
 		"tall"			"341"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"ServersRightStripe"
 	{
@@ -214,10 +214,10 @@
 		"zpos"			"0"
 		"wide"			"2"
 		"tall"			"341"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"SidePanelLeftStripe"
 	{
@@ -231,7 +231,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"SidePanelRightStripe"
 	{
@@ -245,7 +245,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"BottomPanelMain"
 	{
@@ -273,7 +273,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"scaleImage"	"0"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"BottomPanelBottomStripe"
 	{
@@ -287,7 +287,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"scaleImage"	"0"
-		"fillcolor"		"MenuRed1"
+		"fillcolor"		"209 0 0 255"
 	}
 	"TFLogoImage"
 	{
@@ -929,7 +929,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"MenuRed1"
+			"fgcolor_override"	"209 0 0 255"
 		}
 		"Notifications_CountLabelBG"
 		{
@@ -1693,7 +1693,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"rayspugs"
@@ -1742,7 +1742,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.na (dal)"
@@ -1791,7 +1791,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.na (chi1)"
@@ -1841,7 +1841,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.na (chi2)"
@@ -1891,7 +1891,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.nahl (dal)"
@@ -1941,7 +1941,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"pug.nahl (chi)"
@@ -1991,7 +1991,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"ReSuSurfed"
@@ -2041,7 +2041,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"ReSurfed"
