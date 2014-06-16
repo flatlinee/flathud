@@ -2569,6 +2569,17 @@ Scheme
 			}
 		}
 		
+		"ModernPics"
+		{
+			"1"
+			{
+			"name"			"ModernPictograms"
+			"tall"			"28"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
 		"Symbol16"
 		{
 			"1"
@@ -5572,10 +5583,15 @@ Scheme
 		    "font" "resource/Blocks.ttf"
 			"name" "Blocks"
 		}
-			"17" //Entypo
+		"17" //Entypo
 		{
 			"font" "resource/Entypo.otf"
 			"name" "Entypo"
+		}
+		"18" //Modernpics
+		{
+			"font" "resource/modernpics.otf"
+			"name" "ModernPictograms"
 		}
 	}
 }
