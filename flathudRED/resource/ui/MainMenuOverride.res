@@ -986,7 +986,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
-			"xpos"			"0"
+			"xpos"			"1"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"30"
