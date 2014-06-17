@@ -1,5 +1,11 @@
 
-CURRENT VERSION: 1.8
+CURRENT VERSION: 1.81
+
+
+Version 1.81:
+Changelog:
+-New menu color scheme!  Easily edit your menu colors in clientscheme.res
+-Misc. bugfixes
 
 Version 1.8:
 Changelog:

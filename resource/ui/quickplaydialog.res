@@ -730,7 +730,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "235 226 202 255"
-			"armedFgColor_override" "0 89 140 255"
+			"armedFgColor_override" "MenuBorder"
 			"depressedFgColor_override" "46 43 42 255"
 		}
 
@@ -763,7 +763,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "235 226 202 255"
-			"armedFgColor_override" "0 89 140 255"
+			"armedFgColor_override" "MenuBorder"
 			"depressedFgColor_override" "46 43 42 255"
 		}
 

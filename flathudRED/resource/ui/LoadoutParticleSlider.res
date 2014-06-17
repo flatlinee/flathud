@@ -99,7 +99,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"fgcolor_override" "209 0 0 255"
+		"fgcolor_override" "MenuBorder"
 	}	
 	
 }

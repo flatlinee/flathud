@@ -101,7 +101,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"0 40 115 255"
+			"bgcolor_override"		"MenuTabs"
 		}					
 	
 	"Sheet"
@@ -128,7 +128,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"0 40 115 255"
+			"bgcolor_override"		"MenuTabs"
 		}				
 		
 		"tabskv"

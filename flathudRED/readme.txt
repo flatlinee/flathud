@@ -1,14 +1,11 @@
 Welcome to flatHUD!
 
-Version: 1.8
-Released: June 11th, 2014
+Version: 1.81
+Released: June 17th, 2014
 
 Changelog:
--Updated for Eureka Effect tele menu
--Fixed font definitions in build/destroy menus
--Widened custom text window (for logs)
--Synchronized colors in clientscheme.res with other files for easier customization
--Added files for taunt selection menu (currently not implemented in game)
+-New menu color scheme!  Easily edit your menu colors in clientscheme.res
+-Misc. bugfixes
 
 FAQ:
 

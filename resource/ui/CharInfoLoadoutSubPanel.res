@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"0 89 140 255"
+		"itemcountcolor"			"MenuBorder"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	

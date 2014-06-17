@@ -22,6 +22,17 @@ Scheme
 		"Tutorial Color"	"0 255 0 128"
 	
 		//flathud colors
+		
+		//Menu scheme colors 
+		//Change these for custom menus
+		//Pick your first three values using an RGB color picker
+		//I recommend http://www.colorpicker.com/
+		//The "255" value controls transparency; leave it at 255
+		"MenuBorder"    "209 0 0 255"                  //Border stuff on main menu (for MOTD, alerts, and the lines on the mainmenu)
+		"MenuMouseover" "181 0 0 255"                  //Mouseover color
+		"MenuTabs"      "166 0 0 255"                  //Tabs border on menus; footers and headers for menu stuff also thin border on buttons (like the back button)
+		"MenuDark"      "222 0 0 255"                  //Darker borders (not used very often)
+		"MenuHover"     "168 0 0 255"                  //Hover color (only used in matchmaking and quickplay)
 	
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
@@ -42,7 +53,7 @@ Scheme
 		"Uber Bar Color"						"235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
-		"Solid Color Uber"						"181 0 0 255"
+		"Solid Color Uber"						"MenuMouseover"
 		
 		"Flashing Uber Color1"					"255 0 0 255"
 		"Flashing Uber Color2"					"163 0 0 255"
@@ -172,11 +183,11 @@ Scheme
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"168 0 0 255"
+ 		"MatchmakingDialogTitleColor"			"MenuHover"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"168 0 0 255"	
-		"MatchmakingMenuItemTitleColor"			"168 0 0 255"
-		"MatchmakingMenuItemDescriptionColor"	"168 0 0 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"MenuHover"	
+		"MatchmakingMenuItemTitleColor"			"MenuHover"
+		"MatchmakingMenuItemDescriptionColor"	"MenuHover"
 		
 		"HTMLBackground"						"95 92 101 255"
 		
@@ -253,9 +264,9 @@ Scheme
 		Econ.Button.DepressedBgColor						"25 25 25 255"
 		Econ.Button.DepressedFgColor						"TanDark"
 		
-		Econ.Button.PresetDefaultColorFg					"168 0 0 255"
-		Econ.Button.PresetArmedColorFg						"168 0 0 255"
-		Econ.Button.PresetDepressedColorFg					"168 0 0 255"
+		Econ.Button.PresetDefaultColorFg					"MenuHover"
+		Econ.Button.PresetArmedColorFg						"MenuHover"
+		Econ.Button.PresetDepressedColorFg					"MenuHover"
 		
 		Econ.Button.PresetDefaultColorBg					"25 25 25 255"
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
@@ -3271,7 +3282,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -3280,7 +3291,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -3289,7 +3300,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -3298,7 +3309,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -3315,22 +3326,22 @@ Scheme
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -3339,27 +3350,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -3368,27 +3379,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -3400,27 +3411,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -3429,27 +3440,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -3458,27 +3469,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -3490,7 +3501,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 4"
 				}
 			}
@@ -3499,7 +3510,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 0"
 				}
 			}
@@ -3508,7 +3519,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 0"
 				}
 			}
@@ -3517,7 +3528,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 0"
 				}
 			}
@@ -3529,17 +3540,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "2 0"
 				}
 			}
@@ -3548,17 +3559,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "2 0"
 				}
 			}
@@ -3567,17 +3578,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "2 0"
 				}
 			}
@@ -3586,17 +3597,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "209 0 0 255"
+					"color" "MenuBorder"
 					"offset" "2 0"
 				}
 			}
@@ -3689,7 +3700,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "222 0 0 255"
+					"color" "MenuDark"
 					"offset" "0 0"
 				}
 			}
@@ -3698,7 +3709,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "222 0 0 255"
+					"color" "MenuDark"
 					"offset" "0 0"
 				}
 			}
@@ -3707,7 +3718,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "222 0 0 255"
+					"color" "MenuDark"
 					"offset" "0 0"
 				}
 			}
@@ -4057,27 +4068,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -4086,27 +4097,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -4115,27 +4126,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "181 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "4 1"
 				}
 			}
@@ -4470,7 +4481,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4479,7 +4490,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4488,7 +4499,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4497,7 +4508,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4509,7 +4520,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4518,7 +4529,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4527,7 +4538,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}
@@ -4536,7 +4547,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "168 0 0 255"
+					"color" "MenuHover"
 					"offset" "0 0"
 				}
 			}

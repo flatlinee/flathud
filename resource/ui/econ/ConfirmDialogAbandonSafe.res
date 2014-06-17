@@ -35,7 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "0 89 140 255"
+		"fgcolor_override" "MenuBorder"
 	}
 	"ExplanationLabel"
 	{
