@@ -1403,7 +1403,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"DamageLabel"
 			"font"			"BigNoodleTitling16"
-			"labelText"		"#TF_ScoreBoard_DamageLabel"
+			"labelText"		"#TF_ScoreBoard_Damage"
 			"textAlignment"		"west"
 			"xpos"			"40"
 			"ypos"			"204"
@@ -1412,8 +1412,8 @@
 			"tall"			"20"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 		"Damage"
 		{
@@ -1429,8 +1429,8 @@
 			"tall"			"20"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 		
 	}
