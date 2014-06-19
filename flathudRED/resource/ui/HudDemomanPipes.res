@@ -38,7 +38,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"WeblySans12"
+		"font"					"WeblySleek12"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
