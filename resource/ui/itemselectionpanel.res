@@ -265,7 +265,7 @@
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
 		"xpos"			"c-306"
-		"ypos"			"340"
+		"ypos"			"333"
 		"zpos"			"1"
 		"wide"			"290"
 		"tall"			"25"

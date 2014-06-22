@@ -50,7 +50,7 @@
 		"zpos"			"3"
 		"wide"	"12"
 		"tall"	"12"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -70,5 +70,34 @@
 		"textAlignment"	"center"	
 		"font"			"WeblySleek14"
 		"fgcolor"		"Spec Health Normal"
-	}				
+	}		
+	"PlayerStatusHealthValueSpectatorShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpectatorShadow"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"WeblySleek14"
+		"fgcolor"		"TransparentBlack"
+	}		
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"			"1"
+		"wide"	"36"
+		"tall"	"36"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"Gray"
+	}
 }

@@ -407,7 +407,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"trading"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"BigNoodleTitling16"
 		"scaleImage"		"1"
 		"activeimage"		"trading_parcel"
 		"inactiveimage"		"trading_parcel_gray"
@@ -522,7 +522,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "TanLight"
 	}
 	"LoadoutChangesLabel"
 	{
@@ -618,7 +618,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"BigNoodleTitling14"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#LoadoutExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -715,7 +715,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "46 43 42 255"
 		}
 		"NextButton"
 		{
@@ -937,7 +937,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "46 43 42 255"
 		}
 		"NextButton"
 		{
@@ -1159,7 +1159,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "46 43 42 255"
 		}
 		"NextButton"
 		{
@@ -1381,7 +1381,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "46 43 42 255"
 		}
 		"NextButton"
 		{
@@ -1603,7 +1603,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "46 43 42 255"
 		}
 		"NextButton"
 		{
@@ -1824,7 +1824,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "46 43 42 255"
 		}
 	}	
 	
