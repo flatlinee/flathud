@@ -263,7 +263,7 @@
 				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"175"
-				"origin_y"		"2"
+				"origin_y"		"3"
 				"origin_z"		"-90"
 			}
 			"Spy"
