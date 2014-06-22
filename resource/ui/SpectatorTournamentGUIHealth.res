@@ -10,8 +10,8 @@
 		"wide"			"14"
 		"tall"			"14"
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"enabled"		"0"
+		"scaleImage"	"0"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -22,8 +22,8 @@
 		"zpos"			"3"
 		"wide"			"16"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -37,7 +37,7 @@
 		"wide"	"22"
 		"tall"	"22"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	
@@ -50,8 +50,8 @@
 		"zpos"			"3"
 		"wide"	"12"
 		"tall"	"12"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -87,17 +87,4 @@
 		"font"			"WeblySleek14"
 		"fgcolor"		"TransparentBlack"
 	}		
-	"HealthBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthBG"
-		"xpos"	"0"
-		"ypos"	"0"
-		"zpos"			"1"
-		"wide"	"36"
-		"tall"	"36"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"Gray"
-	}
 }
