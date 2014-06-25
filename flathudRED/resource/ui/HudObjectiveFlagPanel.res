@@ -23,7 +23,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-60"
-		"ypos"			"r40"	
+		"ypos"			"r45"	
 		"zpos"			"-1"
 		"wide"			"30"
 		"tall"			"50"
@@ -47,16 +47,77 @@
 			"visible"	"0"
 		}
 	}
+	
+	"LeftSideTopBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideTopBG"
+		"xpos"			"c-30"
+		"ypos"			"r45"	
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"70 130 180 153"
+		"scaleImage"	"1"	
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+	
 		
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c30"
-		"ypos"			"r40"	[$WIN32]
+		"ypos"			"r45"	[$WIN32]
 		"zpos"			"-1"
 		"wide"			"30"
-		"tall"			"50"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"205 50 50 153"
+		"scaleImage"	"1"	
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+	
+	"RightSideTopBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideTopBG"
+		"xpos"			"c"
+		"ypos"			"r45"	[$WIN32]
+		"zpos"			"-1"
+		"wide"			"30"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"205 50 50 153"
@@ -242,12 +303,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r137"	[$WIN32]
+		"ypos"			"r158"	[$X360]
 		"zpos"			"9"
 		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
+		"tall"			"75"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
@@ -316,14 +377,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r26"	[$WIN32]
-		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
+		"xpos"			"c-30"	[$WIN32]
+		"ypos"			"r20"	[$WIN32]
+		"zpos"			"-3"
+		"wide"			"60"	[$WIN32]
 		"tall"			"20"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
+		"fillcolor"		"0 0 0 200"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -346,7 +407,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-126"
+		"xpos"			"c-106"
 		"ypos"			"r90"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"100"
@@ -387,7 +448,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-36"
+		"xpos"			"c-56"
 		"ypos"			"r90"
 		"zpos"			"5"
 		"wide"			"160"
@@ -397,7 +458,7 @@
 				
 		"if_hybrid"
 		{
-			"visible"	"0"
+			"visible"	"1"
 			"ypos"		"r110"
 		}
 		
