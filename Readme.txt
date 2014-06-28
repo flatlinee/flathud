@@ -1,11 +1,15 @@
 Welcome to flatHUD!
 
-Version: 1.81
-Released: June 17th, 2014
+Version: 1.9
+Released: June 28th, 2014
 
 Changelog:
--New menu color scheme!  Easily edit your menu colors in clientscheme.res
--Misc. bugfixes
+-UI rework of popup panels to maintain consistency (style setting, training, store panels, etc)
+-Font fixes on popup panels
+-Fixed killstreak crafting menu not in same style as rest of HUD
+-Slightly bigger font for menu notification panel
+-Label fixes for MvM on minimal scoreboard
+
 
 FAQ:
 

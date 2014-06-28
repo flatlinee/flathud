@@ -164,7 +164,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"weblysleek12"
+			"font"			"weblysleek10"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -177,7 +177,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
@@ -199,7 +199,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
 		}
 

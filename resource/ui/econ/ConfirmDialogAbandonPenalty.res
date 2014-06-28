@@ -35,7 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "TanLight"
 	}
 	"AbandonIcon"
 	{
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"DfButton"
+		"font"			"WeblySleek12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -118,7 +118,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"DfButton"
+		"font"			"WeblySleek12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

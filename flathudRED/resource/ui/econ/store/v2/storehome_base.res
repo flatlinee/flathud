@@ -319,7 +319,7 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"Cerbetica16"
+			"font"			"WeblySleek14"
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override" "25 25 25 255"
@@ -336,7 +336,7 @@
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
-			"border"				"ButtonBorder"
+			"border"				"CyanBorderTabs"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -393,7 +393,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "MenuMouseover"
 	}
 	
 	"NextPageButton"
@@ -434,7 +434,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"Cerbetica14"
+		"font"			"WeblySleek12"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-42"

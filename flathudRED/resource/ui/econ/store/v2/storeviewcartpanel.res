@@ -15,17 +15,17 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"25 25 25 255"
+		"infocus_bgcolor_override"		"25 25 25 255"
+		"outoffocus_bgcolor_override"	"25 25 25 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"				"TanLight"
+		"titlebardisabledfgcolor_override"		"TanLight"
+		"titlebarbgcolor_override"				"25 25 25 255"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -76,13 +76,13 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"WeblySleek16"
 				"textAlignment"	"north-east"
 				"xpos"			"70"
-				"ypos"			"45"
+				"ypos"			"42"
 				"zpos"			"15"
 				"wide"			"16"
-				"tall"			"10"
+				"tall"			"25"
 				"autoResize"	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -99,7 +99,7 @@
 				"zpos"			"5"
 				"wide"			"580"
 				"tall"			"5"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
@@ -128,6 +128,15 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
 			}	
 			
 			"PriceLabel"
@@ -146,14 +155,14 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "TanLight"
 			}
 		}
 	}
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -162,12 +171,12 @@
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"bgcolor_override"		"25 25 25 255"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -176,21 +185,22 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"bgcolor_override"	"25 25 25 255"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"bgcolor_override"	"MenuTabs"
+		"PaintBackgroundType"	"0"
 		"scaleImage"	"1"
 	}				
 	
@@ -202,22 +212,23 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"				"25 25 25 255"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
+			"bgcolor_override"	"MenuTabs"
+			"PaintBackgroundType"	"0"
 			"scaleImage"	"1"
-		}				
+		}
 		
 		"CartItemsLabel"
 		{
@@ -246,11 +257,11 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
-		}				
+		}					
 		
 		"EmptyCartLabel"
 		{
@@ -281,7 +292,7 @@
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"51 47 46 255"
+			"bgcolor_override"	"25 25 25 255"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
@@ -349,7 +360,7 @@
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
 					"tall"			"110"
-					"bgcolor_override"	"0 0 0 0"	
+					"bgcolor_override"	"25 25 25 255"	
 					
 					"EstimatedTotalLabel"
 					{
@@ -367,6 +378,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
+						"fgcolor"		"TanLight"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
@@ -402,7 +414,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "TanLight"
 					}
 					
 					"TotalPriceLabel"
@@ -411,7 +423,7 @@
 						"fieldname"		"TotalPriceLabel"
 						"font"			"FontCartPrice"
 						"textAlignment"	"east"
-						"xpos"			"475"
+						"xpos"			"470"
 						"ypos"			"0"
 						"zpos"			"15"
 						"wide"			"100"
@@ -421,7 +433,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "TanLight"
 					}
 					
 				}
@@ -452,6 +464,15 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
 	}		
 	
 	"CheckoutButton"
@@ -477,6 +498,15 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
 	}
 	
 }

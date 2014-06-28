@@ -92,9 +92,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
-		"PaintBorder"	"1"
+		"paintbackground"	"1"
+		"border"		"NoBorder"
+		"bgcolor_override" "25 25 25 255"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -127,7 +127,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "25 25 25 255"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -145,7 +145,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "25 25 25 255"
 		}
 		
 		"ItemNameLabel"
@@ -385,6 +385,15 @@
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
 				}		
 				
 				"TradableLabel"
@@ -1024,7 +1033,7 @@
 		"ypos"			"c58"
 		"zpos"			"20"
 		"wide"			"15"
-		"tall"			"15"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1052,7 +1061,7 @@
 		"ypos"			"c58"
 		"zpos"			"20"
 		"wide"			"15"
-		"tall"			"15"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1103,7 +1112,7 @@
 		"ypos"			"190"
 		"zpos"			"20"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1132,7 +1141,7 @@
 		"ypos"			"190"
 		"zpos"			"20"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1496,11 +1505,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
-		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1539,7 +1543,15 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 	}		
 	
 	"TryItOutButton"
@@ -1564,7 +1576,15 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 	}	
 	
 	"AddToCartButton"
@@ -1593,5 +1613,11 @@
 		"defaultBgColor_override"	"76 107 34 255"
 		"ArmedBgColor_override"	"86 117 44 255"
 		"depressedBgColor_override" "66 97 24 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border"					"NoBorder"
+		
+		
 	}	
 }

@@ -179,16 +179,34 @@
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
 			"bgcolor_override"	"30 30 30 255"
+			
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
     	}
 		
 		"text_ypos"			"20"
@@ -301,7 +319,7 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"Cerbetica16"
+			"font"			"WeblySleek14"
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override" "25 25 25 255"
@@ -318,7 +336,7 @@
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
-			"border"				"ButtonBorder"
+			"border"				"CyanBorderTabs"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -375,7 +393,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "MenuMouseover"
 	}
 	
 	"NextPageButton"
@@ -416,7 +434,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"Cerbetica14"
+		"font"			"WeblySleek12"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-42"

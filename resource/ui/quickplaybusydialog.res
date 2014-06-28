@@ -32,7 +32,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"CyanBorderThick"
 
 		"Background"
 		{
@@ -47,7 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"25 25 25 255"
 		}
 
 		"TitleLabel"
@@ -122,6 +122,15 @@
 			"Command"		"user_close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
 		}			
 		
 	}
@@ -142,7 +151,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"CyanBorderThick"
 
 		"Background"
 		{
@@ -157,7 +166,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"25 25 25  255"
 		}
 
 		"TitleLabel"
@@ -168,10 +177,10 @@
 			"labelText"		"#TF_MM_ResultsDialog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"15"
+			"ypos"			"12"
 			"zpos"			"1"
 			"wide"			"500"
-			"tall"			"20"
+			"tall"			"22"
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -214,6 +223,7 @@
 			"Command"		"ConnectToServer"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border"		"CyanBorder"
 		}
 
 		"CancelButton"
@@ -239,6 +249,15 @@
 			"Command"		"user_close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
 		}			
 		
 	}

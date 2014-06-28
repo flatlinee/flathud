@@ -13,7 +13,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"25 25 25 255"
 		
 		
 		"button_kv"
