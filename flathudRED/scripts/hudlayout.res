@@ -4,6 +4,9 @@
 	//    FOG'S CROSSHAIRS V3    //
 	//    	 (C) FOG 2013        //
 	// QUESTIONS? README IN MAIN //
+	// XHAIRS ARE IN ORDER AS ON //
+	// 	 THE CROSSHAIR GRAPHIC   //
+	//     (I SUCK AT NAMES)     //      
 	//###########################//
 	"TriCross"
 	{
@@ -87,7 +90,7 @@
 		"labelText"		"3"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	"DamageCircleDot"
 	{
@@ -177,18 +180,18 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleDot"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
-		"ypos"			"c-98"
+		"ypos"			"c-97"
 		"wide"			"200"
 		"tall"			"200"
 
 		//"font"		"KonrWingsOutline24"
 
-		"font"			"Crosshairs32"
+		"font"			"Crosshairs34"
 		"labelText"		"8"
 		"textAlignment"	"center"	
 		
@@ -1402,7 +1405,6 @@
 		"enabled" "1"
 		"xpos"	"c70"
 		"ypos"	"c66"
-		"zpos"  "-100"
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"300"
 	}
@@ -1446,7 +1448,7 @@
 		"MeterBG"		"Gray"
 	}
 	
-	HudMedicCharge
+    HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
@@ -1559,7 +1561,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c112"
+		"xpos"					"c-78"
 		"ypos"					"c6"
 		"wide"					"116"
 		"tall"  				"180"
@@ -1615,7 +1617,7 @@
 		"ypos"		"c25"
 		"zpos"		"1"
 		"wide"	 	"200"
-		"tall"	 	"45"
+		"tall"	 	"43"
 		"priority"	"100"
 	}
 	
@@ -1625,7 +1627,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c150"
+		"ypos"		"c135"
 		"zpos"		"1"
 		"wide"	 	"200"
 		"tall"	 	"45"
@@ -2077,7 +2079,8 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+		"avatar_xpos"		"23"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
@@ -2091,7 +2094,7 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"33"
+		"text_xpos"			"51"
 	}
 
 	HudHintDisplay
@@ -2191,8 +2194,8 @@
 		"enabled"				"1"
 		"xpos"					"c-200"
 		"ypos"					"290"
-		"wide"					"400"
-		"tall"					"300"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	ArenaWinPanel
@@ -2696,6 +2699,31 @@
 		"TextFont" "BigNoodleTitling14"
 		"ItemFont" "BigNoodleTitling14"
 		"ItemFontPulsing" "BigNoodleTitling14"
+	}
+	
+	"CTFKillStreakNotice"
+	{
+		"fieldName"		"CTFKillStreakNotice"
+		"xpos"			"0"			
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
 	}
 	
 	"HudMenuTauntSelection"
