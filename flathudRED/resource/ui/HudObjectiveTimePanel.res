@@ -5,7 +5,7 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"25"
-		"ypos"			"22"
+		"ypos"			"20"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"5"
@@ -92,7 +92,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"25"
-		"ypos"			"33"
+		"ypos"			"24"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"19"
@@ -127,7 +127,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"25"
-		"ypos"			"33"
+		"ypos"			"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
@@ -164,7 +164,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"25"
-		"ypos"			"21"
+		"ypos"			"24"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"19"
@@ -199,7 +199,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"25"
-		"ypos"			"25"
+		"ypos"			"24"
 		"zpos"			"5"
 		"wide"			"50"
 		"wide_hidef"	"300"
@@ -218,20 +218,15 @@
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
-		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
-		"tall_minmode"	"0"
-		"visible"		"0"
+		"xpos"			"25"
+		"ypos"			"25"
+		"zpos"			"-1"
+		"wide"			"50"
+		"tall"			"16"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"fillcolor"		"0 0 0 100"
 	}	
 }

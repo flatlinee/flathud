@@ -373,8 +373,9 @@
 		
 		if_mvm
 		{
-			"ypos"			"50"
-			"xpos"			"c-259"
+			"ypos"			"60"
+			"xpos"			"c-269"
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -399,8 +400,9 @@
 		
 		if_mvm
 		{
-			"ypos"			"60"
-			"xpos"			"c-259"
+			"ypos"			"70"
+			"xpos"			"c-269"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"
@@ -566,7 +568,7 @@
 		{
 			"visible"		"1"
 			"xpos"			"c-220"
-			"ypos"			"365"	
+			"ypos"			"375"	
 		}
 	}
 	"ClassImage"	
@@ -889,7 +891,7 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos"			"366"
+			"ypos"			"376"
 		}
 
 		"KillsLabel"

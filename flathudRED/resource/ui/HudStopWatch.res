@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"80"
+		"xpos"			"76"
 		"ypos"			"-5"
 		"zpos"			"-999"
 		"wide"			"150"
-		"tall"			"27"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -21,6 +21,94 @@
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
+	}
+	"PanelBGBottom"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PanelBGBottom"
+		"xpos"			"76"
+		"ypos"			"20"
+		"zpos"			"2"
+		"wide"			"150"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"teambg_2"			"../hud/objectives_timepanel_red_bg"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
+	}
+	"PanelBGLeft"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PanelBGLeft"
+		"xpos"			"71"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"5"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"teambg_2"			"../hud/objectives_timepanel_red_bg"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
+	}
+	"PanelBGRight"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PanelBGRight"
+		"xpos"			"226"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"5"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"teambg_2"			"../hud/objectives_timepanel_red_bg"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
+	}
+	"TimePanel"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TimePanel"
+		"xpos"			"125"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"teambg_2"			"../hud/objectives_timepanel_red_bg"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
 	}
 	"StopWatchImageCaptureTime"
 	{
@@ -55,16 +143,16 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"WeblySleek16"
+			"font"			"BigNoodleTitling20"
 			"fgcolor"		"TanLight"
-			"xpos"			"-183"
+			"xpos"			"-50"
 			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"300"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"east"
+			"textAlignment"		"center"
 		}	
 	}
 
@@ -72,10 +160,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"WeblySleek14"
+		"font"			"BigNoodleTitling20"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"west"
-		"xpos"			"180"
+		"xpos"			"179"
 		"ypos"			"-5"
 		"zpos"			"4"
 		"wide"			"300"
@@ -89,10 +177,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"WeblySleek14"
+		"font"			"BigNoodleTitling20"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"west"
-		"xpos"			"190"
+		"xpos"			"188"
 		"ypos"			"-5"
 		"zpos"			"4"
 		"wide"			"300"

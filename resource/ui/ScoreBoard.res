@@ -375,6 +375,7 @@
 		{
 			"ypos"			"50"
 			"xpos"			"c-259"
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -401,6 +402,7 @@
 		{
 			"ypos"			"60"
 			"xpos"			"c-259"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"

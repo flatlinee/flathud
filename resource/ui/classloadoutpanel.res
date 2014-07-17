@@ -621,13 +621,6 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "MenuMouseover"
-		"depressedFgColor_override" "MenuMouseover"
-			
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"MenuMouseover"
 
 		"SubImage"
 		{
@@ -666,13 +659,6 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "MenuMouseover"
-		"depressedFgColor_override" "MenuMouseover"
-			
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"MenuMouseover"
 
 		"SubImage"
 		{
