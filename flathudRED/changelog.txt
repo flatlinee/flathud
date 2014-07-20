@@ -1,5 +1,12 @@
 
-CURRENT VERSION: 2.0
+CURRENT VERSION: 2.1
+
+Version 2.1:
+-Minor changes to disguise panel
+-Added tutorial text to hudanimations_tf.txt for creating flashing crosshairs
+-New MvM upgrade panel
+-Removed thin borders from panels in the MvM lobby
+-Fixed too-large text on applying paint dialog
 
 Version 2.0:
 -New redesign of class selection panel (removes floating labels underneath the classes)

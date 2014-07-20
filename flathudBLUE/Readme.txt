@@ -1,25 +1,14 @@
 Welcome to flatHUD!
 
-Version: 2.0
-Released: July 17th, 2014
+Version: 2.1
+Released: July 20th, 2014
 
 Changelog:
--New redesign of class selection panel (removes floating labels underneath the classes)
--Added in crosshair graphic to main HUD directory for easy crosshair selection
--Small changes to tournament HUD (to keep in same style as rest of HUD)
--All-new MvM scoreboards for each scoreboard type and resolution
--Fixed font errors on the control point countdown for KOTH maps
--Fixed certain buttons on menu popups not having color borders
--Fixed centering of the bonus HP cross on numerical HP
--Moved MvM currency HUD to accommodate this change
--Cleaned up and standardized team selection panel
--New stopwatch (payload/attack and defense) HUD
--Fixed clipping and color on Demo sticky amount
--Cleaned up hudlayout.res's crosshairs section
--Removed dummy files leftover from rayshud
--Added BG to server time limit on timer
--Added avatars to voice popups
--New Engi metal count element
+-Minor changes to disguise panel
+-Added tutorial text to hudanimations_tf.txt for creating flashing crosshairs
+-New MvM upgrade panel
+-Removed thin borders from panels in the MvM lobby
+-Fixed too-large text on applying paint dialog
 
 
 

@@ -199,7 +199,7 @@
 					"tabPosition"		"0"
 					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
-					"border"				"BackpackItemBorder"
+					"border"				"NoBorder"
 		
 					"Background"
 					{
@@ -508,7 +508,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"noborder"
+			"border"		"NoBorder"
 
 			"NavToRelay"	"TourList"
 
@@ -563,14 +563,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpTourLootDescriptionBox"
 		"xpos"		"c-305"
-		"ypos"		"240"
+		"ypos"		"236"
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"NoBorder"
 
 		"TourLootImage"
 		{
@@ -623,12 +623,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMEconItemsGroupBox"
 		"xpos"			"c-305"
-		"ypos"			"240"
+		"ypos"			"236"
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"120"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"NoBorder"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -702,7 +702,7 @@
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
 			"xpos"			"70"
-			"ypos"			"79"
+			"ypos"			"76"
 			"zpos"			"1"
 			"wide"			"60"
 			"tall"			"30"
@@ -735,6 +735,15 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 		}
 
 		"SquadSurplusImage"
@@ -762,7 +771,7 @@
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
 			"xpos"			"70"
-			"ypos"			"43"
+			"ypos"			"40"
 			"zpos"			"1"
 			"wide"			"60"
 			"tall"			"30"
@@ -795,6 +804,15 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 		}
 
 		"SquadSurplusCheckButton"
@@ -838,7 +856,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"NoBorder"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -982,7 +1000,7 @@
 			"labelText"		"%tour_level%"
 			"textAlignment"	"south"
 			"xpos"			"357"
-			"ypos"			"0"
+			"ypos"			"3"
 			"zpos"			"0"
 			"wide"			"30"
 			"tall"			"26"
@@ -1001,7 +1019,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"NoBorder"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -1045,7 +1063,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"NoBorder"
 
 		"NoGCTitle"
 		{
@@ -1093,7 +1111,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"NoBorder"
 
 		"SearchActiveTitle"
 		{
@@ -1492,7 +1510,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"NoBorder"
 
 			"NavToRelay"	"InviteButton"
 
@@ -1534,6 +1552,15 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
 			}
 
 			"TourLevelImage"

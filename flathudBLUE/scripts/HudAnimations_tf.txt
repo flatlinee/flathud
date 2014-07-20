@@ -1,3 +1,9 @@
+
+////////////////////////////////////////////////////
+//CTRL+F FOR "DAMAGEDPLAYER" TO ANIMATE CROSSHAIRS//
+////////////////////////////////////////////////////
+
+// sample animation script
 // sample animation script
 //
 //
@@ -108,6 +114,285 @@ event MenuPulse
 	Animate HudMenu		Blur		"2"			Deaccel	0.5		0.1
 	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
 }
+
+event MenuOpen
+{
+	StopEvent	MenuClose 0.0 
+
+	// fade in
+	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
+	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
+	Animate HudMenu FgColor		"FgColor"		Linear 0.0 0.1
+	Animate HudMenu MenuColor		"MenuColor"	Linear  0.0 0.1
+	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
+	Animate HudMenu TextScan		"1"		Linear 0.0 0.1
+
+	// Undo any blur
+	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
+	StopEvent FillUberBar 0.0
+	RunEvent ClearUberBar 0.01
+}
+
+event MenuClose
+{	
+	// Hide it
+	Animate HudMenu Alpha 		"0" Linear 0.0 1
+	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
+	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+	RunEvent FillUberBar 0.0
+}
+
+event FillUberBar
+{
+ RunEvent ClearUberBar 0.0
+ Animate UberBox0 alpha "255" Linear 0.10 0.001
+ Animate UberBox1 alpha "255" Linear 0.33 0.001
+ Animate UberBox2 alpha "255" Linear 0.67 0.001
+ Animate UberBox3 alpha "255" Linear 1.0 0.001
+ Animate UberBox4 alpha "255" Linear 1.33 0.001
+ Animate UberBox5 alpha "255" Linear 1.67 0.001
+ Animate UberBox6 alpha "255" Linear 2.0 0.001
+ Animate UberBox7 alpha "255" Linear 2.33 0.001
+ Animate UberBox8 alpha "255" Linear 2.67 0.001
+ Animate UberBox9 alpha "255" Linear 3.0 0.001
+ Animate UberBox10 alpha "255" Linear 3.33 0.001
+ Animate UberBox11 alpha "255" Linear 3.67 0.001
+ Animate UberBox12 alpha "255" Linear 4.0 0.001
+ Animate UberBox13 alpha "255" Linear 4.33 0.001
+ Animate UberBox14 alpha "255" Linear 4.67 0.001
+ Animate UberBox15 alpha "255" Linear 5.0 0.001
+ Animate UberBox16 alpha "255" Linear 5.33 0.001
+ Animate UberBox17 alpha "255" Linear 5.67 0.001
+ Animate UberBox18 alpha "255" Linear 6.0 0.001
+ Animate UberBox19 alpha "255" Linear 6.33 0.001
+ Animate UberBox20 alpha "255" Linear 6.67 0.001
+ Animate UberBox21 alpha "255" Linear 7.0 0.001
+ Animate UberBox22 alpha "255" Linear 7.33 0.001
+ Animate UberBox23 alpha "255" Linear 7.67 0.001
+ Animate UberBox24 alpha "255" Linear 8.0 0.001
+ Animate UberBox25 alpha "255" Linear 8.33 0.001
+ Animate UberBox26 alpha "255" Linear 8.67 0.001
+ Animate UberBox27 alpha "255" Linear 9.0 0.001
+ Animate UberBox28 alpha "255" Linear 9.33 0.001
+ Animate UberBox29 alpha "255" Linear 9.67 0.001
+ Animate UberBox30 alpha "255" Linear 10.0 0.001
+ Animate UberBox31 alpha "255" Linear 10.33 0.001
+ Animate UberBox32 alpha "255" Linear 10.67 0.001
+ Animate UberBox33 alpha "255" Linear 11.0 0.001
+ Animate UberBox34 alpha "255" Linear 11.33 0.001
+ Animate UberBox35 alpha "255" Linear 11.67 0.001
+ Animate UberBox36 alpha "255" Linear 12.0 0.001
+ Animate UberBox37 alpha "255" Linear 12.33 0.001
+ Animate UberBox38 alpha "255" Linear 12.67 0.001
+ Animate UberBox39 alpha "255" Linear 13.0 0.001
+ Animate UberBox40 alpha "255" Linear 13.33 0.001
+ Animate UberBox41 alpha "255" Linear 13.67 0.001
+ Animate UberBox42 alpha "255" Linear 14.0 0.001
+ Animate UberBox43 alpha "255" Linear 14.33 0.001
+ Animate UberBox44 alpha "255" Linear 14.67 0.001
+ Animate UberBox45 alpha "255" Linear 15.0 0.001
+ Animate UberBox46 alpha "255" Linear 15.33 0.001
+ Animate UberBox47 alpha "255" Linear 15.67 0.001
+ Animate UberBox48 alpha "255" Linear 16.0 0.001
+ Animate UberBox49 alpha "255" Linear 16.33 0.001
+ Animate UberBox50 alpha "255" Linear 16.67 0.001
+ Animate UberBox51 alpha "255" Linear 17.0 0.001
+ Animate UberBox52 alpha "255" Linear 17.33 0.001
+ Animate UberBox53 alpha "255" Linear 17.67 0.001
+ Animate UberBox54 alpha "255" Linear 18.0 0.001
+ Animate UberBox55 alpha "255" Linear 18.33 0.001
+ Animate UberBox56 alpha "255" Linear 18.67 0.001
+ Animate UberBox57 alpha "255" Linear 19.0 0.001
+ Animate UberBox58 alpha "255" Linear 19.33 0.001
+ Animate UberBox59 alpha "255" Linear 19.67 0.001
+ Animate UberBox60 alpha "255" Linear 20.0 0.001
+ Animate UberBox61 alpha "255" Linear 20.33 0.001
+ Animate UberBox62 alpha "255" Linear 20.67 0.001
+ Animate UberBox63 alpha "255" Linear 21.0 0.001
+ Animate UberBox64 alpha "255" Linear 21.33 0.001
+ Animate UberBox65 alpha "255" Linear 21.67 0.001
+ Animate UberBox66 alpha "255" Linear 22.0 0.001
+ Animate UberBox67 alpha "255" Linear 22.33 0.001
+ Animate UberBox68 alpha "255" Linear 22.67 0.001
+ Animate UberBox69 alpha "255" Linear 23.0 0.001
+ Animate UberBox70 alpha "255" Linear 23.33 0.001
+ Animate UberBox71 alpha "255" Linear 23.67 0.001
+ Animate UberBox72 alpha "255" Linear 24.0 0.001
+ Animate UberBox73 alpha "255" Linear 24.33 0.001
+ Animate UberBox74 alpha "255" Linear 24.67 0.001
+ Animate UberBox75 alpha "255" Linear 25.0 0.001
+ Animate UberBox76 alpha "255" Linear 25.33 0.001
+ Animate UberBox77 alpha "255" Linear 25.67 0.001
+ Animate UberBox78 alpha "255" Linear 26.0 0.001
+ Animate UberBox79 alpha "255" Linear 26.33 0.001
+ Animate UberBox80 alpha "255" Linear 26.67 0.001
+ Animate UberBox81 alpha "255" Linear 27.0 0.001
+ Animate UberBox82 alpha "255" Linear 27.33 0.001
+ Animate UberBox83 alpha "255" Linear 27.67 0.001
+ Animate UberBox84 alpha "255" Linear 28.0 0.001
+ Animate UberBox85 alpha "255" Linear 28.33 0.001
+ Animate UberBox86 alpha "255" Linear 28.67 0.001
+ Animate UberBox87 alpha "255" Linear 29.0 0.001
+ Animate UberBox88 alpha "255" Linear 29.33 0.001
+ Animate UberBox89 alpha "255" Linear 29.67 0.001
+ Animate UberBox90 alpha "255" Linear 30.0 0.001
+ Animate UberBox91 alpha "255" Linear 30.33 0.001
+ Animate UberBox92 alpha "255" Linear 30.67 0.001
+ Animate UberBox93 alpha "255" Linear 31.0 0.001
+ Animate UberBox94 alpha "255" Linear 31.33 0.001
+ Animate UberBox95 alpha "255" Linear 31.67 0.001
+ Animate UberBox96 alpha "255" Linear 32.0 0.001
+ Animate UberBox97 alpha "255" Linear 32.33 0.001
+ Animate UberBox98 alpha "255" Linear 32.67 0.001
+ Animate UberBox99 alpha "255" Linear 33.0 0.001
+ Animate UberBox100 alpha "255" Linear 33.33 0.001
+ Animate UberBox101 alpha "255" Linear 33.67 0.001
+ Animate UberBox102 alpha "255" Linear 34.0 0.001
+ Animate UberBox103 alpha "255" Linear 34.33 0.001
+ Animate UberBox104 alpha "255" Linear 34.67 0.001
+ Animate UberBox105 alpha "255" Linear 35.0 0.001
+ Animate UberBox106 alpha "255" Linear 35.33 0.001
+ Animate UberBox107 alpha "255" Linear 35.67 0.001
+ Animate UberBox108 alpha "255" Linear 36.0 0.001
+ Animate UberBox109 alpha "255" Linear 36.33 0.001
+ Animate UberBox110 alpha "255" Linear 36.67 0.001
+ Animate UberBox111 alpha "255" Linear 37.0 0.001
+ Animate UberBox112 alpha "255" Linear 37.33 0.001
+ Animate UberBox113 alpha "255" Linear 37.67 0.001
+ Animate UberBox114 alpha "255" Linear 38.0 0.001
+ Animate UberBox115 alpha "255" Linear 38.33 0.001
+ Animate UberBox116 alpha "255" Linear 38.67 0.001
+ Animate UberBox117 alpha "255" Linear 39.0 0.001
+ Animate UberBox118 alpha "255" Linear 39.33 0.001
+ Animate UberBox119 alpha "255" Linear 39.67 0.001
+}
+
+event ClearUberBar
+{
+ Animate UberBox0 alpha "0" Linear 0.0 0.001
+ Animate UberBox1 alpha "0" Linear 0.0 0.001
+ Animate UberBox2 alpha "0" Linear 0.0 0.001
+ Animate UberBox3 alpha "0" Linear 0.0 0.001
+ Animate UberBox4 alpha "0" Linear 0.0 0.001
+ Animate UberBox5 alpha "0" Linear 0.0 0.001
+ Animate UberBox6 alpha "0" Linear 0.0 0.001
+ Animate UberBox7 alpha "0" Linear 0.0 0.001
+ Animate UberBox8 alpha "0" Linear 0.0 0.001
+ Animate UberBox9 alpha "0" Linear 0.0 0.001
+ Animate UberBox10 alpha "0" Linear 0.0 0.001
+ Animate UberBox11 alpha "0" Linear 0.0 0.001
+ Animate UberBox12 alpha "0" Linear 0.0 0.001
+ Animate UberBox13 alpha "0" Linear 0.0 0.001
+ Animate UberBox14 alpha "0" Linear 0.0 0.001
+ Animate UberBox15 alpha "0" Linear 0.0 0.001
+ Animate UberBox16 alpha "0" Linear 0.0 0.001
+ Animate UberBox17 alpha "0" Linear 0.0 0.001
+ Animate UberBox18 alpha "0" Linear 0.0 0.001
+ Animate UberBox19 alpha "0" Linear 0.0 0.001
+ Animate UberBox20 alpha "0" Linear 0.0 0.001
+ Animate UberBox21 alpha "0" Linear 0.0 0.001
+ Animate UberBox22 alpha "0" Linear 0.0 0.001
+ Animate UberBox23 alpha "0" Linear 0.0 0.001
+ Animate UberBox24 alpha "0" Linear 0.0 0.001
+ Animate UberBox25 alpha "0" Linear 0.0 0.001
+ Animate UberBox26 alpha "0" Linear 0.0 0.001
+ Animate UberBox27 alpha "0" Linear 0.0 0.001
+ Animate UberBox28 alpha "0" Linear 0.0 0.001
+ Animate UberBox29 alpha "0" Linear 0.0 0.001
+ Animate UberBox30 alpha "0" Linear 0.0 0.001
+ Animate UberBox31 alpha "0" Linear 0.0 0.001
+ Animate UberBox32 alpha "0" Linear 0.0 0.001
+ Animate UberBox33 alpha "0" Linear 0.0 0.001
+ Animate UberBox34 alpha "0" Linear 0.0 0.001
+ Animate UberBox35 alpha "0" Linear 0.0 0.001
+ Animate UberBox36 alpha "0" Linear 0.0 0.001
+ Animate UberBox37 alpha "0" Linear 0.0 0.001
+ Animate UberBox38 alpha "0" Linear 0.0 0.001
+ Animate UberBox39 alpha "0" Linear 0.0 0.001
+ Animate UberBox40 alpha "0" Linear 0.0 0.001
+ Animate UberBox41 alpha "0" Linear 0.0 0.001
+ Animate UberBox42 alpha "0" Linear 0.0 0.001
+ Animate UberBox43 alpha "0" Linear 0.0 0.001
+ Animate UberBox44 alpha "0" Linear 0.0 0.001
+ Animate UberBox45 alpha "0" Linear 0.0 0.001
+ Animate UberBox46 alpha "0" Linear 0.0 0.001
+ Animate UberBox47 alpha "0" Linear 0.0 0.001
+ Animate UberBox48 alpha "0" Linear 0.0 0.001
+ Animate UberBox49 alpha "0" Linear 0.0 0.001
+ Animate UberBox50 alpha "0" Linear 0.0 0.001
+ Animate UberBox51 alpha "0" Linear 0.0 0.001
+ Animate UberBox52 alpha "0" Linear 0.0 0.001
+ Animate UberBox53 alpha "0" Linear 0.0 0.001
+ Animate UberBox54 alpha "0" Linear 0.0 0.001
+ Animate UberBox55 alpha "0" Linear 0.0 0.001
+ Animate UberBox56 alpha "0" Linear 0.0 0.001
+ Animate UberBox57 alpha "0" Linear 0.0 0.001
+ Animate UberBox58 alpha "0" Linear 0.0 0.001
+ Animate UberBox59 alpha "0" Linear 0.0 0.001
+ Animate UberBox60 alpha "0" Linear 0.0 0.001
+ Animate UberBox61 alpha "0" Linear 0.0 0.001
+ Animate UberBox62 alpha "0" Linear 0.0 0.001
+ Animate UberBox63 alpha "0" Linear 0.0 0.001
+ Animate UberBox64 alpha "0" Linear 0.0 0.001
+ Animate UberBox65 alpha "0" Linear 0.0 0.001
+ Animate UberBox66 alpha "0" Linear 0.0 0.001
+ Animate UberBox67 alpha "0" Linear 0.0 0.001
+ Animate UberBox68 alpha "0" Linear 0.0 0.001
+ Animate UberBox69 alpha "0" Linear 0.0 0.001
+ Animate UberBox70 alpha "0" Linear 0.0 0.001
+ Animate UberBox71 alpha "0" Linear 0.0 0.001
+ Animate UberBox72 alpha "0" Linear 0.0 0.001
+ Animate UberBox73 alpha "0" Linear 0.0 0.001
+ Animate UberBox74 alpha "0" Linear 0.0 0.001
+ Animate UberBox75 alpha "0" Linear 0.0 0.001
+ Animate UberBox76 alpha "0" Linear 0.0 0.001
+ Animate UberBox77 alpha "0" Linear 0.0 0.001
+ Animate UberBox78 alpha "0" Linear 0.0 0.001
+ Animate UberBox79 alpha "0" Linear 0.0 0.001
+ Animate UberBox80 alpha "0" Linear 0.0 0.001
+ Animate UberBox81 alpha "0" Linear 0.0 0.001
+ Animate UberBox82 alpha "0" Linear 0.0 0.001
+ Animate UberBox83 alpha "0" Linear 0.0 0.001
+ Animate UberBox84 alpha "0" Linear 0.0 0.001
+ Animate UberBox85 alpha "0" Linear 0.0 0.001
+ Animate UberBox86 alpha "0" Linear 0.0 0.001
+ Animate UberBox87 alpha "0" Linear 0.0 0.001
+ Animate UberBox88 alpha "0" Linear 0.0 0.001
+ Animate UberBox89 alpha "0" Linear 0.0 0.001
+ Animate UberBox90 alpha "0" Linear 0.0 0.001
+ Animate UberBox91 alpha "0" Linear 0.0 0.001
+ Animate UberBox92 alpha "0" Linear 0.0 0.001
+ Animate UberBox93 alpha "0" Linear 0.0 0.001
+ Animate UberBox94 alpha "0" Linear 0.0 0.001
+ Animate UberBox95 alpha "0" Linear 0.0 0.001
+ Animate UberBox96 alpha "0" Linear 0.0 0.001
+ Animate UberBox97 alpha "0" Linear 0.0 0.001
+ Animate UberBox98 alpha "0" Linear 0.0 0.001
+ Animate UberBox99 alpha "0" Linear 0.0 0.001
+ Animate UberBox100 alpha "0" Linear 0.0 0.001
+ Animate UberBox101 alpha "0" Linear 0.0 0.001
+ Animate UberBox102 alpha "0" Linear 0.0 0.001
+ Animate UberBox103 alpha "0" Linear 0.0 0.001
+ Animate UberBox104 alpha "0" Linear 0.0 0.001
+ Animate UberBox105 alpha "0" Linear 0.0 0.001
+ Animate UberBox106 alpha "0" Linear 0.0 0.001
+ Animate UberBox107 alpha "0" Linear 0.0 0.001
+ Animate UberBox108 alpha "0" Linear 0.0 0.001
+ Animate UberBox109 alpha "0" Linear 0.0 0.001
+ Animate UberBox110 alpha "0" Linear 0.0 0.001
+ Animate UberBox111 alpha "0" Linear 0.0 0.001
+ Animate UberBox112 alpha "0" Linear 0.0 0.001
+ Animate UberBox113 alpha "0" Linear 0.0 0.001
+ Animate UberBox114 alpha "0" Linear 0.0 0.001
+ Animate UberBox115 alpha "0" Linear 0.0 0.001
+ Animate UberBox116 alpha "0" Linear 0.0 0.001
+ Animate UberBox117 alpha "0" Linear 0.0 0.001
+ Animate UberBox118 alpha "0" Linear 0.0 0.001
+ Animate UberBox119 alpha "0" Linear 0.0 0.001
+}
+
 
 event TimerIncrement
 {
@@ -446,39 +731,39 @@ event HudMedicCharged
 {
 
 ///////Rainbow Charge
-//	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
+	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
+	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
+	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
+	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
 	
 ///////Solid Color Charge
 //	Animate ChargeLabel	FgColor		"Solid Color Uber"	Linear 0.0 0.000
 	
 ///////Orange Pulse Charge
 
-	Animate	ChargeLabel 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
-	Animate	ChargeLabel 	FgColor		"Flashing Uber Color2"		Linear 0.3 0.3
+//	Animate	ChargeLabel 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
+//	Animate	ChargeLabel 	FgColor		"Flashing Uber Color2"		Linear 0.3 0.3
 	
 
 
 
 ///////Rainbow Charge	
-//	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
+	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
+	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
+	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
+	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
 
 ///////Solid Color Charge
 //	Animate ChargeMeter	FgColor		"Solid Color Uber"	Linear 0.0 0.000
 	
 ///////Orange Pulse Charge
 
-	Animate	ChargeMeter 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
-	Animate	ChargeMeter 	FgColor		"Flashing Uber Color2"			Linear 0.3 0.3
+//	Animate	ChargeMeter 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
+//	Animate	ChargeMeter 	FgColor		"Flashing Uber Color2"			Linear 0.3 0.3
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -778,7 +1063,12 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+
+//Change "DamageCircleDot" to the fieldname of your crosshair
+//Change the TOP value of "FgColor" to whatever color you want it to flash
+//Change the BOTTOM value of "FgColor" to what you want the xhair to be colored normally
+	Animate DamageCircleDot    FgColor "242 0 0 255"		Accel 0.0 0.0
+	Animate	DamageCircleDot    FgColor "0 255 0 255"	    Accel 0.2 0.0
 }
 
 //===========================================

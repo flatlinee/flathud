@@ -87,9 +87,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"WeblySleek12"
+		"font"			"WeblySleek10"
 		"xpos"			"-40"
-		"ypos"			"195"
+		"ypos"			"189"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -101,6 +101,24 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	}
+	
+	"ToggleBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ToggleBG"
+		"xpos"			"20"
+		"ypos"			"186"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"0 0 0 100"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"CancelLabel"
@@ -130,7 +148,7 @@
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"80"
-		"tall"			"132"
+		"tall"			"146"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
