@@ -364,7 +364,7 @@
 		"ypos"			"91"
 		"ypos_minmode"	"158"
 		"zpos"			"999"
-		"wide"			"200"
+		"wide"			"180"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -649,7 +649,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -897,7 +897,7 @@
 			"labelText"		":"
 			"textAlignment"	"center"
 			"xpos"			"163"
-			"ypos"			"-10"
+			"ypos"			"-8"
 			"zpos"			"3"
 			"wide"			"116"
 			"tall"			"48"
@@ -961,11 +961,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"BigNoodleTitling36"
+			"font"			"BigNoodleTitling48"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
 			"xpos"			"143"
-			"ypos"			"-12"
+			"ypos"			"-10"
 			"zpos"			"3"
 			"wide"			"70"
 			"tall"			"55"
@@ -978,11 +978,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"BigNoodleTitling36"
+			"font"			"BigNoodleTitling48"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"229"
-			"ypos"			"-12"
+			"ypos"			"-10"
 			"zpos"			"3"
 			"wide"			"70"
 			"tall"			"55"
@@ -1406,10 +1406,10 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"DamageLabel"
 			"font"			"BigNoodleTitling16"
-			"labelText"		"#TF_ScoreBoard_DamageLabel"
+			"labelText"		"#TF_ScoreBoard_Damage"
 			"textAlignment"		"west"
-			"xpos"			"40"
-			"ypos"			"204"
+			"xpos"			"365"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1424,17 +1424,20 @@
 			"fieldName"		"Damage"
 			"font"			"BigNoodleTitling16"
 			"labelText"		"%damage%"
-			"textAlignment"		"west"		[$WIN32]
-			"xpos"			"100"
-			"ypos"			"204"
+			"textAlignment"		"center"		[$WIN32]
+			"xpos"			"173"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"TanLight"
 		}
+		
+	}
 		
 	}
 

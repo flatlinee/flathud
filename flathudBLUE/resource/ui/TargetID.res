@@ -18,24 +18,10 @@
 			"draw_corner_height" "5"
 			
 		}
-			"TargetBackground2"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBackground2"
-			"xpos" 		"0"
-			"ypos" 		"15"
-			"zpos" 		"6"
-			"wide" 		"600"
-			"tall" 		"15"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"0"
-			"enabled" 	"0"
-		}
-			"UberBackground"
+		"TargetIDLine"
 		{
 			"ControlName" "CTFImagePanel"
-			"fieldName"	  "UberBackground"
+			"fieldName"	  "TargetIDLine"
 			"xpos" 		  "0"
 			"ypos"        "29"
 			"zpos"        "1"

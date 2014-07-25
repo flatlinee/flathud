@@ -364,7 +364,7 @@
 		"ypos"			"91"
 		"ypos_minmode"	"158"
 		"zpos"			"999"
-		"wide"			"200"
+		"wide"			"180"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
