@@ -3,8 +3,8 @@
 
 	"Version"
 	{
-		"label" "Version 2.1" 
-		"command" "engine con_enable 1; engine showconsole; clear; echo flatHUD V2.1.  wooooooooooooooooooooooooooooooooooooo Thanks to Rays, Doodle, Harvest, Suyo, tstm, and all my beta testers! <3"
+		"label" "Version 2.2" 
+		"command" "engine con_enable 1; engine showconsole; clear; echo flatHUD V2.2.  wooooooooooooooooooooooooooooooooooooo Thanks to Rays, Doodle, Harvest, Suyo, tstm, and all my beta testers! <3"
 		"OnlyAtMenu" "0"
 		"tooltip" "I love you <3"
 	}

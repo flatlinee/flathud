@@ -1,5 +1,14 @@
 
-CURRENT VERSION: 2.1
+CURRENT VERSION: 2.2
+
+Version 2.2:
+-Re-added buttons back to class selection screen
+-Fixed centering of item meters
+-Fixed two charge bars on Huntsman
+-Moved metal gain/loss popup closer to metal count
+-Moved item count meters (Eyelander, Frontier Justice, etc) down farther to not conflict with other meters
+-Fixed health on revive dialog
+-Added small team-colored bar underneath targetIDs
 
 Version 2.1:
 -Minor changes to disguise panel

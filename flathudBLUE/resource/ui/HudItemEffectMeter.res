@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c137"	
+		"ypos"			"c146"	
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
-		"MeterBG"		"TransparentBlack"
+		"MeterBG"		"Grey"
 	}
 	
 	"ItemEffectMeterBG"

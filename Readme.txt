@@ -1,25 +1,16 @@
 Welcome to flatHUD!
 
-Version: 2.0
-Released: July 17th, 2014
+Version: 2.2
+Released: July 25th, 2014
 
 Changelog:
--New redesign of class selection panel (removes floating labels underneath the classes)
--Added in crosshair graphic to main HUD directory for easy crosshair selection
--Small changes to tournament HUD (to keep in same style as rest of HUD)
--All-new MvM scoreboards for each scoreboard type and resolution
--Fixed font errors on the control point countdown for KOTH maps
--Fixed certain buttons on menu popups not having color borders
--Fixed centering of the bonus HP cross on numerical HP
--Moved MvM currency HUD to accommodate this change
--Cleaned up and standardized team selection panel
--New stopwatch (payload/attack and defense) HUD
--Fixed clipping and color on Demo sticky amount
--Cleaned up hudlayout.res's crosshairs section
--Removed dummy files leftover from rayshud
--Added BG to server time limit on timer
--Added avatars to voice popups
--New Engi metal count element
+-Re-added buttons back to class selection screen
+-Fixed centering of item meters
+-Fixed two charge bars on Huntsman
+-Moved metal gain/loss popup closer to metal count
+-Moved item count meters (Eyelander, Frontier Justice, etc) down farther to not conflict with other meters
+-Fixed health on revive dialog
+-Added small team-colored bar underneath targetIDs
 
 
 
@@ -38,8 +29,12 @@ A: Sometimes the fonts mess up for whatever reason.  If your fonts aren't displa
 the fonts "big_noodle_titling" and all the ones beginning with "weblysleek".  This should fix your problem.
 
 Q: How do I use Fog's Xhairs?
-A: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3 This is the thread for Fog's xhairs, he has a tidy
-little tut for all of you.
+A: The crosshairs are already installed in the hud.  Inside hudlayout.res, there is a value called "FogCrosshair".
+The first thing we'll need to change is the "visible" value; change it to 1.  Next, using the crosshairs.png
+inside your flathud folder, change the labeltext value to whatever value is on the graphic (ex. the plain
+circle would be "7").  Finally, the "fgcolor" controls what color your crosshair is.  It uses rgba values
+(google it).  If your crosshair is off center (after you save the file and hud_reloadscheme in console), mess
+with the xpos and ypos until it looks right for you.
 
 Thanks for using flatHUD!
 

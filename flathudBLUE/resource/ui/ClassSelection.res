@@ -638,7 +638,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground""0"
-		"labelText"		"LOADOUT"
+		"labelText"		" &E LOADOUT"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"BigNoodleTitling24"
