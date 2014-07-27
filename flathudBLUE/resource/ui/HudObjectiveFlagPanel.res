@@ -354,7 +354,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica14"
+		"font"			"WeblySleek12"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
