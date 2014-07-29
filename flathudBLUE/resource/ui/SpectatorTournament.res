@@ -9,7 +9,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-		"zpos"			"999"
 				
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"280"
@@ -26,7 +25,6 @@
 			"visible"		"0"
 			"wide"			"178"
 			"tall"			"14"
-			"zpos"			"1"
 		
 
 			
