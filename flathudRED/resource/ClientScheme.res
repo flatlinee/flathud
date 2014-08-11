@@ -5543,65 +5543,65 @@ Scheme
 		"7" // Main font
 		{
 		
-			"font" "resource/Cerbetica.ttf"
+			"font" "resource/fonts/Cerbetica.ttf"
 			"name" "Cerbetica"
 		}
 		"8" // Tournament HUD block
 		{
 		
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 		"9" // Fog's xHairs
 		{
-			"font" "resource/crosshairs.ttf"
+			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
 		"10" // Thin Cross
 		{
-			"font" "resource/Symbol.ttf"
+			"font" "resource/fonts/Symbol.ttf"
 			"name" "Symbol"
 		}
 		"11" // Konr Wings
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
 		"12" // Edited font for TargetIDs, menus, etc.
 		{
 		
-			"font" "resource/Cerbetica_edited.ttf"
+			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica"
 		}
 		"13" // Cerbetica Bolded, for ammo/health, etc.
 		{
 		
-			"font" "resource/Cerbetica_bold.ttf"
+			"font" "resource/fonts/Cerbetica_bold.ttf"
 			"name" "Cerbetica_bold"
 		}
 		"14" // BigNoodleTitling (Main font)
 		{
-		    "font" "resource/big_noodle_titling.ttf"
+		    "font" "resource/fonts/big_noodle_titling.ttf"
 			"name" "BigNoodleTitling"
         }
 		"15" // WeblySleek (Body font)
 		{
-		    "font" "resource/weblysleekuisb.ttf"
+		    "font" "resource/fonts/weblysleekuisb.ttf"
 			"name" "WeblySleek UI Semibold"
 		}
 		"16" //Blocks (Body font)
 		{
-		    "font" "resource/Blocks.ttf"
+		    "font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 		"17" //Entypo
 		{
-			"font" "resource/Entypo.otf"
+			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
 		"18" //Modernpics
 		{
-			"font" "resource/modernpics.otf"
+			"font" "resource/fonts/modernpics.otf"
 			"name" "ModernPictograms"
 		}
 	}

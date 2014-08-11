@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"0 0 0 200"
 	}
 	
 	"LowerBG"
@@ -59,7 +59,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"0 0 0 200"
 	}
 
 	"ColorBar1"

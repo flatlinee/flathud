@@ -1,5 +1,16 @@
 
-CURRENT VERSION: 2.2
+CURRENT VERSION: 2.3
+
+Version 2.3:
+-Updated MvM popup panels:
+-Wave complete panel
+-Wave loss panel (boot camp)
+-Wave loss panel (mann up)
+-Victory! splash panel
+-Mission Complete panel
+-Removed rest of borders from lobby panels
+-Darkened backgrounds on class selection screen for more visibility
+-Moved all fonts into their own folder
 
 Version 2.2:
 -Re-added buttons back to class selection screen
@@ -35,7 +46,6 @@ Version 2.0:
 -Added avatars to voice popups
 -New Engi metal count element
 
-
 Version 1.9:
 Changelog:
 -UI rework of popup panels to maintain consistency (style setting, training, store panels, etc)
@@ -56,7 +66,6 @@ Changelog:
 -Widened custom text window (for logs)
 -Synchronized colors in clientscheme.res with other files for easier customization
 -Added files for taunt selection menu (currently not implemented in game)
-
 
 
 Version 1.71:

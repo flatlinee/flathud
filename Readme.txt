@@ -1,16 +1,18 @@
 Welcome to flatHUD!
 
-Version: 2.2
-Released: July 25th, 2014
+Version: 2.3
+Released: August 10th, 2014
 
 Changelog:
--Re-added buttons back to class selection screen
--Fixed centering of item meters
--Fixed two charge bars on Huntsman
--Moved metal gain/loss popup closer to metal count
--Moved item count meters (Eyelander, Frontier Justice, etc) down farther to not conflict with other meters
--Fixed health on revive dialog
--Added small team-colored bar underneath targetIDs
+-Updated MvM popup panels:
+-Wave complete panel
+-Wave loss panel (boot camp)
+-Wave loss panel (mann up)
+-Victory! splash panel
+-Mission Complete panel
+-Removed rest of borders from lobby panels
+-Darkened backgrounds on class selection screen for more visibility
+-Moved all fonts into their own folder
 
 
 

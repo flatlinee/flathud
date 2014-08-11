@@ -86,15 +86,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName" 	"IndividualChargesLabelShadow"
-		"xpos" 			"238"
-		"ypos" 			"41"
+		"xpos" 			"202"
+		"ypos" 			"81"
 		"zpos" 			"1"
 		"wide" 			"120"
 		"tall" 			"72"
 		"autoResize" 	"1"
 		"pinCorner" 	"2"
 		"visible" 		"0"
-		"enabled" 		"0"
+		"enabled" 		"1"
 		"tabPosition" 	"0"
 		"labelText" 	"#TF_IndividualUberchargesMinHUD"
 		"textAlignment" "center"
@@ -267,7 +267,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"		"0 0 0 255"
 	}
 	

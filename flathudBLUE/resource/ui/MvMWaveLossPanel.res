@@ -15,17 +15,27 @@
 
         "PanelBackground"
         {
-                "ControlName"        "EditablePanel"
-                "fieldName"                "PanelBackground"
+                "ControlName"        		  "ImagePanel"
+                "fieldName"                	  "PanelBackground"
                 "xpos"                        "c-275"
                 "ypos"                        "100"
                 "wide"                        "550"
                 "tall"                        "350"
-                "visible"                "1"
-                
-                "PaintBackgroundType"        "2"
-                "paintbackground"        "0"
-                "border"                "MainMenuHighlightBorder"
+                "visible"               	  "1"
+                "fillcolor"				      "15 15 15 255"
+				"border"					  "CyanBorderThick"
+        }
+		   "PanelBackground2"
+        {
+                "ControlName"        		  "ImagePanel"
+                "fieldName"                	  "PanelBackground2"
+                "xpos"                        "c-275"
+                "ypos"                        "100"
+                "wide"                        "550"
+                "tall"                        "350"
+                "visible"               	  "1"
+                "fillcolor"				      "15 15 15 255"
+				"border"					  "CyanBorderThick"
         }
         
         "WaveFailHeaderShadow"
@@ -53,7 +63,7 @@
                 "ypos"                        "100"
                 "wide"                        "550"
                 "tall"                        "30"
-                "fgcolor"                "Orange"
+                "fgcolor"                "TanLight"
         }
         
         "HeaderDivider"
@@ -76,10 +86,10 @@
                 "labelText"                "%summaryheader%"
                 "textAlignment" "west"
                 "xpos"                        "c-250"
-                "ypos"                        "135"
+                "ypos"                        "133"
                 "wide"                        "550"
                 "tall"                        "30"
-                "fgcolor"                "Black"
+                "fgcolor"                "TanLight"
         }
         
         "CollectionContainer"
@@ -102,7 +112,7 @@
                         "xpos"                        "0"
                         "ypos"                        "0"
                         "wide"                        "140"
-                        "fgcolor"                "Black"
+                        "fgcolor"                "TanLight"
                 }
         
                 "CollectedLabel"
@@ -115,7 +125,7 @@
                         "xpos"                        "0"
                         "ypos"                        "25"
                         "wide"                        "120"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "CollectedCount"
@@ -141,7 +151,7 @@
                         "xpos"                        "0"
                         "ypos"                        "40"
                         "wide"                        "120"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "MissedCount"
@@ -167,7 +177,7 @@
                         "xpos"                        "0"
                         "ypos"                        "55"
                         "wide"                        "120"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BonusCount"
@@ -204,7 +214,7 @@
                         "xpos"                        "0"
                         "ypos"                        "0"
                         "wide"                        "195"
-                        "fgcolor"                "Black"
+                        "fgcolor"                "TanLight"
                 }
         
                 "YouLabel"
@@ -217,7 +227,7 @@
                         "xpos"                        "120"
                         "ypos"                        "15"
                         "wide"                        "35"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "TeamLabel"
@@ -230,7 +240,7 @@
                         "xpos"                        "175"
                         "ypos"                        "15"
                         "wide"                        "35"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BuybackLabel"
@@ -243,7 +253,7 @@
                         "xpos"                        "0"
                         "ypos"                        "25"
                         "wide"                        "120"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BuybackCountYou"
@@ -256,7 +266,7 @@
                         "xpos"                        "120"
                         "ypos"                        "25"
                         "wide"                        "35"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BuybackCountTeam"
@@ -269,7 +279,7 @@
                         "xpos"                        "175"
                         "ypos"                        "25"
                         "wide"                        "35"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BottleLabel"
@@ -282,7 +292,7 @@
                         "xpos"                        "0"
                         "ypos"                        "40"
                         "wide"                        "120"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BottleCountYou"
@@ -295,7 +305,7 @@
                         "xpos"                        "120"
                         "ypos"                        "40"
                         "wide"                        "35"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "BottleCountTeam"
@@ -308,7 +318,7 @@
                         "xpos"                        "175"
                         "ypos"                        "40"
                         "wide"                        "35"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "InactiveLabel"
@@ -321,7 +331,7 @@
                         "xpos"                        "0"
                         "ypos"                        "55"
                         "wide"                        "120"
-                        "fgcolor"                "TanDarker"
+                        "fgcolor"                "TanLight"
                 }
                 
                 "InactiveCountYou"
@@ -363,7 +373,7 @@
                 
                 "Background"
                 {
-                        "ControlName"        "ScalableImagePanel"
+                        "ControlName"        "ImagePanel"
                         "fieldName"                "Background"
                         "xpos"                        "0"
                         "ypos"                        "0"
@@ -373,13 +383,24 @@
                         "pinCorner"                "0"
                         "visible"                "1"
                         "enabled"                "1"
-                        "image"                        "../HUD/tournament_panel_black"
-
-                        "src_corner_height"        "22"                                // pixels inside the image
-                        "src_corner_width"        "22"
-                
-                        "draw_corner_width"        "5"                                // screen size of the corners ( and sides ), proportional
-                        "draw_corner_height"         "5"        
+                        "fillcolor"				 "15 15 15 255"
+						"border"				 "CyanBorderThick"
+                }
+				
+				 "Background2"
+                {
+                        "ControlName"        "ImagePanel"
+                        "fieldName"                "Background2"
+                        "xpos"                        "0"
+                        "ypos"                        "0"
+                        "wide"                        "500"
+                        "tall"                        "150"
+                        "autoResize"        "0"
+                        "pinCorner"                "0"
+                        "visible"                "1"
+                        "enabled"                "1"
+                        "fillcolor"				 "15 15 15 255"
+						"border"				 "CyanBorderThick"
                 }
                 
                 "Header"
@@ -392,7 +413,7 @@
                         "xpos"                        "0"
                         "ypos"                        "5"
                         "wide"                        "500"
-                        "fgcolor"                "Gray"
+                        "fgcolor"                "TanLight"
                 }
 
                 "CptCntnBody"
@@ -465,7 +486,7 @@
                         "ypos"                        "60"
                         "wide"                        "185"
                         "tall"                        "55"
-                        "fgcolor"                "Gray"
+                        "fgcolor"                "TanLight"
                         "wrap"                        "1"
                 }
                 
@@ -494,7 +515,7 @@
                         "ypos"                        "60"
                         "wide"                        "185"
                         "tall"                        "55"
-                        "fgcolor"                "Gray"
+                        "fgcolor"                "TanLight"
                         "wrap"                        "1"
                 }
         }
@@ -521,7 +542,14 @@
                 "sound_depressed"        "UI/buttonclick.wav"
                 "sound_released"        "UI/buttonclickrelease.wav"
                 
-                "image_drawcolor"        "235 226 202 255"
+                "defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
                 "Command"                "vote_restart"
         }
                 
@@ -547,7 +575,14 @@
                 "sound_depressed"        "UI/buttonclick.wav"
                 "sound_released"        "UI/buttonclickrelease.wav"
                 
-                "image_drawcolor"        "235 226 202 255"
+                "defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
                 "Command"                "continue"
         }
 }
