@@ -870,8 +870,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BigNoodleTitling"
-				"tall"		"32"
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
 			}

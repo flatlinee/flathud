@@ -53,7 +53,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			"labelText"		"#TF_Quickplay_Title"
 			"textAlignment"	"center"
 			"xpos"			"40"
@@ -358,7 +358,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"BigNoodleTitling32"
 				"labelText"		"#TF_Quickplay_AdvancedOptions"
 				"textAlignment"	"center"
 				"xpos"			"10"

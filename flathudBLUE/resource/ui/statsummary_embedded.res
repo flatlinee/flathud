@@ -29,7 +29,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"BigNoodleTitling32"
 		"labelText"		"#LoadingMap"
 		"textAlignment"		"center"
 		"xpos"			"0"
@@ -47,7 +47,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [$X360]
+		"font"			"BigNoodleTitling32" [$X360]
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center" [$WIN32]
 		"textAlignment"		"west" [$X360]
@@ -2494,6 +2494,7 @@
 		"labelText"		"#TF_NextTip"
 		"textAlignment"	"center"
 		"dulltext"		"0"
+		"font"			"WeblySleek12"
 		"brighttext"	"0"
 		"Command"		"nexttip"
 			"defaultBgColor_override"	"15 15 15 255"
@@ -2521,6 +2522,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_ResetStats"
 		"textAlignment"	"center"
+		"font"			"WeblySleek12"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
@@ -2530,8 +2532,8 @@
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			"border_default"			"CyanBorder"
+			"border_armed"				"CyanBorder"
 	}
 	"CloseButton" [$WIN32]
 	{

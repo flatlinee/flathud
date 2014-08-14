@@ -322,7 +322,7 @@
 			"wide"			"370"
 			"tall"			"25"
 			"labelText"		"#TF_MvM_HeaderMannVsMachine"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			//"fgcolor_override"	"89 81 71 255"
 			"fgcolor_override"	"201 79 57 255"
 			"textAlignment"	"west"
@@ -697,7 +697,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
@@ -766,7 +766,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
@@ -1069,7 +1069,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"NoGCTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			"labelText"		"#TF_Matchmaking_PleaseWait"
 			"xpos"		"30"
 			"ypos"		"20"
@@ -1117,7 +1117,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"SearchActiveTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			"labelText"		"#TF_Matchmaking_Searching"
 			"xpos"		"30"
 			"ypos"		"20"
@@ -1518,7 +1518,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PartyLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"BigNoodleTitling32"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"

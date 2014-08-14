@@ -263,7 +263,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"BigNoodleTitling32"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
