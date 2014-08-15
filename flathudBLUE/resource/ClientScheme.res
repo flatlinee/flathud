@@ -3754,6 +3754,94 @@ Scheme
 			}
 		}
 		
+		LimeGreenBorder2
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "15 255 15 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "15 255 15 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		RedBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "255 15 15 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 15 15 255"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		PinkBorder
 		{
 			"inset" "0 0 0 0"
