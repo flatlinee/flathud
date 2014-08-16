@@ -505,7 +505,7 @@
 		"textAlignment"		"west"
 		"xpos"			"c-55"
 		"xpos_minmode"	"c-55"
-		"ypos"			"367"
+		"ypos"			"421"
 		"ypos_minmode"	"340"
 		"zpos"			"4"
 		"wide"			"540"
@@ -1436,8 +1436,6 @@
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
 		}
-		
-	}
 		
 	}
 
