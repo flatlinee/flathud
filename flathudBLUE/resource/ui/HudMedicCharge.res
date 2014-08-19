@@ -118,10 +118,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor" 		"32 32 32 128"
+		"bgcolor_override" 		"TransparentBlack"
 		"fgcolor_override" "Uber Bar Color"
 	}
 
@@ -130,11 +129,11 @@
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter1"
 		"font" 				"Default"
-		"xpos" 				"134"
-		"ypos" 				"117"
+		"xpos" 				"269"
+		"ypos" 				"98"
 		"zpos"				"2"
-		"wide" 				"15"
-		"tall" 				"15"
+		"wide" 				"21"
+		"tall" 				"18"
 		"autoResize" 		"0"
 		"pinCorner" 		"0"
 		"visible" 			"1"
@@ -143,6 +142,8 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"fgcolor_override"		"Uber Bar Color"
+		"bgcolor_override"		"0 0 0 255"
+		"border"				"TeamMenuBorder"
 	
 	}
 
@@ -151,11 +152,11 @@
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter2"
 		"font" 				"Default"
-		"xpos" 				"151"
-		"ypos" 				"117"
+		"xpos" 				"289"
+		"ypos" 				"98"
 		"zpos" 				"2"
-		"wide" 				"15"
-		"tall" 				"15"
+		"wide" 				"21"
+		"tall" 				"18"
 		"autoResize" 		"0"
 		"pinCorner"			"0"
 		"visible" 			"1"
@@ -164,6 +165,8 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"fgcolor_override"		"Uber Bar Color"
+		"bgcolor_override"		"0 0 0 255"
+		"border"				"TeamMenuBorder"
 	}
 
 	"ChargeMeter3"
@@ -171,11 +174,11 @@
 		"ControlName" 	"ContinuousProgressBar"
 		"fieldName" 	"ChargeMeter3"
 		"font" 			"Default"
-		"xpos" 			"134"
-		"ypos" 			"134"
+		"xpos" 			"269"
+		"ypos" 			"115"
 		"zpos" 			"2"
-		"wide" 			"15"
-		"tall" 			"15"
+		"wide" 			"21"
+		"tall" 			"18"
 		"autoResize" 	"0"
 		"pinCorner"		"0"
 		"visible" 		"1"
@@ -184,6 +187,8 @@
 		"dulltext" 		"0"
 		"brighttext" 	"0"
 		"fgcolor_override"		"Uber Bar Color"
+		"bgcolor_override"		"0 0 0 255"
+		"border"				"TeamMenuBorder"
 	}
 
 	"ChargeMeter4"
@@ -191,11 +196,11 @@
 		"ControlName" 	"ContinuousProgressBar"
 		"fieldName" 	"ChargeMeter4"
 		"font" 			"Default"
-		"xpos"			"151"
-		"ypos" 			"134"
+		"xpos"			"289"
+		"ypos" 			"115"
 		"zpos" 			"2"
-		"wide" 			"15"
-		"tall" 			"15"
+		"wide" 			"21"
+		"tall" 			"18"
 		"autoResize" 	"0"
 		"pinCorner" 	"0"
 		"visible" 		"1"
@@ -204,6 +209,8 @@
 		"dulltext" 		"0"
 		"brighttext" 	"0"
 		"fgcolor_override"		"Uber Bar Color"
+		"bgcolor_override"		"0 0 0 255"
+		"border"				"TeamMenuBorder"
 	}
 
 	"ChargeMeterLabel"
@@ -217,7 +224,7 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"UberCharge"
@@ -255,20 +262,6 @@
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
-	}
-	
-	"VacBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VacBG"
-		"xpos"			"132"
-		"ypos"			"115"
-		"zpos"			"-9999"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
 	}
 	
 }

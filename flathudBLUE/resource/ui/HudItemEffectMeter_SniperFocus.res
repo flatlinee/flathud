@@ -53,7 +53,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"WeblySleek12"
-		"fgcolor_override"		"150 150 150 255"
+		"fgcolor_override"		"Gray"
 	}
 
 	"ItemEffectMeter"
@@ -73,5 +73,6 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override"		"TransparentBlack"
 	}				
 }
