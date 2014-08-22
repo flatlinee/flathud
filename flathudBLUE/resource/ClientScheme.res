@@ -42,12 +42,12 @@ Scheme
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"255 255 255 255"
-		"Spec Health Buff"						"0 255 128 255"			
+		"Spec Health Buff"						"0 200 100 255"			
 		"Spec Health Hurt"						"255 153 0 255"
 		
 		//refers to player health/targetids
 		"Health Normal"							"255 255 255 255"
-		"Health Buff"							"0 255 128 255"
+		"Health Buff"							"0 200 100 255"
 		"Health Hurt"							"255 153 0 255"
 		
 		"Uber Bar Color"						"235 226 202 255"

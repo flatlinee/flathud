@@ -493,8 +493,12 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
 	Animate PlayerStatusHealthValue 		 FgColor "Health Buff" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Buff" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Buff" Accel 0.0 0.0
+	
+	Animate	SpecBG 	        BgColor		"Spec Health Buff"        Accel 0.0 0.0
+    
+    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -511,8 +515,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue FgColor "Health Normal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
+	
+	Animate	SpecBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
+    Animate	SpecBG 	         Alpha		    "0"		           Accel 0.0 0.0
 }
 
 //===========================================
@@ -524,8 +530,11 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
 	Animate PlayerStatusHealthValue 		 FgColor 				"Health Hurt" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor 		"Spec Health Hurt" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor 		"Spec Health Hurt" Accel 0.0 0.0
+	
+	Animate SpecBG 	        BgColor		"Spec Health Hurt"	    Accel 0.0 0.0
+    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -542,8 +551,10 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue FgColor "Health Normal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
+	
+	Animate	SpecBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
+    Animate	SpecBG 	         Alpha		    "0"		           Accel 0.0 0.0
 }
 
 //===========================================

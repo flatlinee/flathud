@@ -1,5 +1,23 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
+    "SpecBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SpecBG"
+		"xpos"		"-1"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"        "160"
+		"tall"        "20"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"Spec Health Normal"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+		"alpha"		"0"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
