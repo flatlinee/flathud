@@ -101,7 +101,7 @@ p.fl-desc {
 .fl-button-container {
 	margin-left:auto;
 	margin-right:auto;
-	width:1000px;
+	width:1250px;
 }
 
 a.fl-button {
@@ -153,6 +153,12 @@ a.fl-button[data-role="red-underline"]:hover {
 	box-shadow:0 3px 0 #FF3E43;
 	-moz-box-shadow:0 3px 0 #FF3E43;
 	-webkit-box-shadow:0 3px 0 #FF3E43;
+}
+
+a.fl-button[data-role="purple-underline"]:hover {
+	box-shadow:0 3px 0 #AA00FF;
+	-moz-box-shadow:0 3px 0 #AA00FF;
+	-webkit-box-shadow:0 3px 0 #AA00FF;
 }
 
 .fl-content-container {
