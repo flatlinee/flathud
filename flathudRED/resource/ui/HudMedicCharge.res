@@ -16,7 +16,27 @@
 		"teambg_2"		"../hud/medic_charge_red_bg"
 		"teambg_3"		"../hud/medic_charge_blue_bg"				
 	}
-	
+	"ChargeLabelCrosshair"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelCrosshair"
+		"xpos"			"92"
+		"ypos"			"-27"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"72"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"BigNoodleTitling20"
+		"fgcolor_override"		"255 255 255 255"
+	}
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"

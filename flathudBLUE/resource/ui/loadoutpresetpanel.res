@@ -26,6 +26,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
 			"paintbackground"	"1"
+			"defaultbgcolor_override"					"15 15 15 255"
+			"armedbgcolor_override"				"25 25 25 255"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
 			"border_depressed"			"NoBorder"

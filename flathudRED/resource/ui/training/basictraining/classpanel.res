@@ -30,14 +30,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
-		"border_disabled"	"CyanBorder"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "235 226 202 255"
-		"armedFgColor_override" "209 0 0 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}
 	
 	"ProgressLabel"

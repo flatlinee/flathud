@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 255"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"BigNoodleTitling32"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -173,7 +173,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"BigNoodleTitling32"
 		"labelText"		"#Discarded"
 		"textAlignment"	"west"
 		"xpos"			"c115"

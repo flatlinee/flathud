@@ -30,18 +30,17 @@
 		"zpos"			"0"
 		"wide"			"150"
 		"tall"			"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		""
-		"image"			"../hud/cart_track"
-		"scaleImage"	"1"
+		"bgcolor_override"		"0 0 0 200"
 		
 		"if_multiple_trains"
 		{
 			"ypos"			"114"
 			"zpos"			"3"
 			"tall"			"11"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"bgcolor_override"		"0 0 0 200"
 		}
 		
 		"if_single_with_hills"
@@ -50,7 +49,38 @@
 			"ypos_minmode"	"120"
 			"tall"			"10"
 			"tall_minmode"	"10"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"bgcolor_override"	"0 0 0 200"
+		}		
+	}	
+	
+	"LevelBar2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LevelBar2"	
+		"xpos"			"130"
+		"ypos"			"123"
+		"zpos"			"0"
+		"wide"			"150"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 150"
+		
+		"if_multiple_trains"
+		{
+			"ypos"			"114"
+			"zpos"			"3"
+			"tall"			"11"
+			"fillcolor"		"0 0 0 150"
+		}
+		
+		"if_single_with_hills"
+		{
+			"ypos"			"120"
+			"ypos_minmode"	"120"
+			"tall"			"10"
+			"tall_minmode"	"10"
+			"fillcolor"	"0 0 0 150"
 		}		
 	}	
 	
@@ -58,8 +88,8 @@
 	{
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
-		"xpos"			"73"
-		"ypos"			"123"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"4"
 		"wide"			"150"
 		"tall"			"4"
@@ -69,17 +99,17 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
-			"xpos"			"130"
+			"ypos"			"9999"
+			"xpos"			"9999"
 			"zpos"			"6"
 			"tall"			"10"
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}		
 	
 	"HomeCPIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"120"
 		"xpos_minmode"	"120"		
@@ -92,26 +122,29 @@
 		"tall_minmode"	"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"labelText"		"o"
+		"font"			"Circle16"
+		"fgcolor_override"	"HUDBlueTeamSolid"
 		"scaleImage"	"1"	
 		
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"fgcolor_override"	"HUDRedTeamSolid"
 		}
 		
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"fgcolor_override"	"HUDBlueTeamSolid"
+			"ypos"				"121"
 		}		
 		
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"fgcolor_override"	"HUDRedTeamSolid"
+			"ypos"				"121"
 		}		
 		
 		"if_multiple_trains"
@@ -143,46 +176,147 @@
 			"image"			"../hud/cart_home_blue_square"
 		}
 	}
+	"HomeCPIcon2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HomeCPIcon2"	
+		"xpos"			"123"
+		"xpos_minmode"	"123"		
+		"ypos"			"114"
+		"ypos_minmode"	"114"
+		"zpos"			"1"
+		"wide"			"18"
+		"wide_minmode"	"18"
+		"tall"			"18"
+		"tall_minmode"	"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"O"
+		"font"			"Circle16"
+		"fgcolor_override"	"HUDBlueTeamSolid"
+		
+		"if_team_red"
+		{
+			"fgcolor_override"	"HUDRedTeamSolid"
+		}
+		
+		"if_single_with_hills_blue"
+		{
+			"fgcolor_override"	"HUDBlueTeamSolid"
+			"ypos"				"116"
+		}		
+		
+		"if_single_with_hills_red"
+		{
+			"fgcolor_override"	"HUDRedTeamSolid"
+			"ypos"				"116"
+		}		
+		
+		"if_multiple_trains"
+		{
+			"xpos"			"120"
+			"zpos"			"5"
+			"wide"			"18"
+			"tall"			"18"
+			"image"			"../hud/cart_track_neutral_opaque"
+		}
+		
+		"if_multiple_trains_top"
+		{
+			"ypos"			"110"
+		}
+		
+		"if_multiple_trains_bottom"
+		{
+			"ypos"			"110"
+		}
+		
+		"if_multiple_trains_red"
+		{
+			"fgcolor_override"	"HUDRedTeamSolid"
+		}
+		
+		"if_multiple_trains_blue"
+		{
+			"fgcolor_override"	"HUDBlueTeamSolid"
+		}
+	}
 	
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
-		"xpos"			"65"
-		"xpos_minmode"		"65"		
-		"ypos"			"117"
-		"ypos_minmode"		"117"		
+		"xpos"			"65"		
+		"ypos"			"117"	
 		"zpos"			"1"
 		"wide"			"14"
-		"wide_minmode"		"14"		
 		"tall"			"14"
-		"tall_minmode"		"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_point_neutral"
-		"scaleImage"	"1"	
+		"image"			"/hud/cart_point_neutral"
+		"scaleimage"	"1"
+		
 												
 		"if_multiple_trains"
 		{
-			"xpos"			"61"
-			"ypos"			"114"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"5"	
 			"wide"			"11"
 			"tall"			"11"
+			"fgcolor_override"	"Black"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"	"118"
-			"wide"	"14"
-			"tall"	"14"
+			"ypos"	"119"
 		}
 	}
-
+	
+	"SimpleControlPointTemplate2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SimpleControlPointTemplate2"	
+		"xpos"			"9999"		
+		"ypos"			"9999"	
+		"zpos"			"1"
+		"wide"			"14"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"O"
+		"font"			"Circle16"
+		"fgcolor_override"	"Black"
+		
+												
+		"if_multiple_trains"
+		{
+			"xpos"			"273"
+			"ypos"			"112"
+			"zpos"			"5"	
+			"wide"			"14"
+			"tall"			"14"
+		}
+		
+		"if_single_with_hills"
+		{
+			"ypos"	"119"
+		}
+	}
+	
+	
+	
+	
 	"EscortItemPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -284,6 +418,7 @@
 				"tall"			"24"
 			}						
 		}
+		
 		"EscortItemImageBG"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -300,12 +435,12 @@
 			"image"			"../HUD/tournament_panel_brown"
 
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
 		
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 		
 		"EscortItemImageBottom"
 		{

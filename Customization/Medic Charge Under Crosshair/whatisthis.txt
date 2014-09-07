@@ -1,0 +1,3 @@
+Adds a small charge label underneath your crosshair.  Useful for medic mains.
+
+Drag into resource/ui.

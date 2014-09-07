@@ -164,7 +164,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"weblysleek10"
+			"font"			"WeblySleek10"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -186,7 +186,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"WeblySleek10"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

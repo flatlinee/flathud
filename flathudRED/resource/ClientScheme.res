@@ -2274,6 +2274,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Circle16"
+		{
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "24"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
 
 		// rays fonts and stuff
 
@@ -5692,6 +5702,11 @@ Scheme
 			"font" "resource/fonts/modernpics.otf"
 			"name" "ModernPictograms"
 		}
+		"19"
+		{
+            "font" "resource/fonts/Paula.ttf"
+            "name" "Paula"
+        }
 	}
 }
 

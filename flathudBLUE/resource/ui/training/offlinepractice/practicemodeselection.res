@@ -28,7 +28,9 @@
 		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
-		"image"			"illustrations/bg"
+		"border"		"noborder"
+		"fillcolor_override"	"15 15 15 255"
+		"paintbackground"	"1"
 	}
 	
 	"PrevButton"
@@ -54,6 +56,15 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}	
 	
 	"NextButton"
@@ -79,6 +90,15 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}	
 	
 	"GameModeLabel"
@@ -97,7 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"83 75 66 255"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"CurPageLabel"
@@ -117,7 +137,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override"	"83 75 66 255"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"DescLabel"
@@ -136,7 +156,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"83 75 66 255"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"SelectCurrentGameModeButton"
@@ -162,13 +182,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "235 226 202 255"
-		"armedFgColor_override" "0 89 140 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}
 	
 }

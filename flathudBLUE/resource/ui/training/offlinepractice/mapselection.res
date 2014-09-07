@@ -11,7 +11,6 @@
 		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
-		"border"		"CyanBorderThick"
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
@@ -70,6 +69,15 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}	
 	
 	"NextButton"
@@ -95,6 +103,15 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}	
 	
 	"MapNameLabel"
@@ -163,13 +180,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}
 	
 	"DifficultyLabel"

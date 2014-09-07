@@ -384,7 +384,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"BigNoodleTitling32"
 		"labelText"		"#Discarded"
 		"textAlignment"	"center"
 		"xpos"			"c-215"

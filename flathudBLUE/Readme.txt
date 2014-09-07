@@ -1,18 +1,19 @@
 Welcome to flatHUD!
 
-Version: 2.3
-Released: August 10th, 2014
+Version: 2.4
+Released: September 7th, 2014
 
 Changelog:
--Updated MvM popup panels:
--Wave complete panel
--Wave loss panel (boot camp)
--Wave loss panel (mann up)
--Victory! splash panel
--Mission Complete panel
--Removed rest of borders from lobby panels
--Darkened backgrounds on class selection screen for more visibility
--Moved all fonts into their own folder
+-Added ubercharge label under crosshair as a customization option
+-Fixed spacing on loadout/taunt buttons on class loadout menu
+-Added "select class" label to class selection screen
+-Fixed spacing of player panels on the trade popup window
+-Also changed colors of the trading popup to better reflect the hud
+-New PL and PLR hud that doesn't use base TF2 materials
+-Removed white borders from pictures on quickplay selection and training menus
+-Lowered name width on spectator tournament hud
+-Added winning team label on the winpanel for staged PL maps (like goldrush)
+-Other small bugfixes
 
 
 

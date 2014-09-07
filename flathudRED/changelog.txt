@@ -1,5 +1,18 @@
 
-CURRENT VERSION: 2.3
+CURRENT VERSION: 2.4
+
+Version 2.4:
+-Added ubercharge label under crosshair as a customization option
+-Fixed spacing on loadout/taunt buttons on class loadout menu
+-Added "select class" label to class selection screen
+-Fixed spacing of player panels on the trade popup window
+-Also changed colors of the trading popup to better reflect the hud
+-New PL and PLR hud that doesn't use base TF2 materials
+-Removed white borders from pictures on quickplay selection and training menus
+-Lowered name width on spectator tournament hud
+-Added winning team label on the winpanel for staged PL maps (like goldrush)
+-Other small bugfixes
+
 
 Version 2.3:
 -Updated MvM popup panels:
