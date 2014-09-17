@@ -13,7 +13,7 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimary"			"209 0 0 255"
+		"RaysPrimary"			"0 89 140 255"
 		"RaysPrimaryLight"		"0 109 196 255"
 		"RaysPrimaryDark"		"0 69 86 255"
 		"RaysBlack"				"15 15 15 255"
@@ -56,8 +56,8 @@ Scheme
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"200 200 200 196"
-		Border.Dark						"40 40 40 196"
+		Border.Bright					"0 0 0 0"
+		Border.Dark						"0 0 0 0"
 		Border.Selection				"0 0 0 196"default/selected button
 
 		Button.TextColor				"196 196 196 255"

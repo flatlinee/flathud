@@ -56,8 +56,8 @@ Scheme
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"200 200 200 196"
-		Border.Dark						"40 40 40 196"
+		Border.Bright					"0 0 0 0"
+		Border.Dark						"0 0 0 0"
 		Border.Selection				"0 0 0 196"default/selected button
 
 		Button.TextColor				"196 196 196 255"
