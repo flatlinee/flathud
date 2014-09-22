@@ -33,7 +33,9 @@ Scheme
 		"MenuTabs"      "166 0 0 255"                  //Tabs border on menus; footers and headers for menu stuff also thin border on buttons (like the back button)
 		"MenuDark"      "222 0 0 255"                  //Darker borders (not used very often)
 		"MenuHover"     "168 0 0 255"                  //Hover color (only used in matchmaking and quickplay)
-	
+		"MainMenuBG"	"0 0 0 255"						//Optional solid color background, enable in mainmenuoverride.res
+		
+		
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
 		"Ammo In Clip Low"						"255 151 38 255"

@@ -77,6 +77,22 @@
 				}				
 			}		
 		}
+		//solid color background
+		//choose color in clientscheme.res
+		
+		"MainBackground"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MainBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"0"	//change this to 1 to enable
+			"enabled"		"1"
+			"fillcolor"		"MainMenuBG"
+		}
 		
 		"SaxxySettings"
 		{
