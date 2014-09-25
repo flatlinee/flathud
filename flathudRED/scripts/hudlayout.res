@@ -13,7 +13,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"FogCrosshair"
-		"visible"		"0"
+		"visible"		"0"					//Change this to "1" to enable your crosshair
 		"enabled"		"1"
 		"zpos"			"2"
 
