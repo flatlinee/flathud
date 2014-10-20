@@ -3802,7 +3802,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 0 0 0"
+					"color" "15 255 15 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "15 255 15 255"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "15 255 15 255"
 					"offset" "0 0"
 				}
 			}
@@ -3811,12 +3821,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 15 255"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "15 255 15 255"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -3847,6 +3852,114 @@ Scheme
 			{
 				"1"
 				{
+					"color" "255 15 15 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 15 15 255"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "255 15 15 255"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		MenuButtonBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"6"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"7"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"8"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"9"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"10"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"11"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"12"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+				"13"
+				{
+					"color" "MenuMouseover"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
 					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
@@ -3855,12 +3968,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "255 15 15 255"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "255 15 15 255"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}

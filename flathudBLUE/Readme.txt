@@ -1,19 +1,17 @@
 Welcome to flatHUD!
 
-Version: 2.4
+Version: 2.5
 Released: September 7th, 2014
 
 Changelog:
--Added ubercharge label under crosshair as a customization option
--Fixed spacing on loadout/taunt buttons on class loadout menu
--Added "select class" label to class selection screen
--Fixed spacing of player panels on the trade popup window
--Also changed colors of the trading popup to better reflect the hud
--New PL and PLR hud that doesn't use base TF2 materials
--Removed white borders from pictures on quickplay selection and training menus
--Lowered name width on spectator tournament hud
--Added winning team label on the winpanel for staged PL maps (like goldrush)
--Other small bugfixes
+-Changed font of health pickup popup
+-Slightly moved timer position to not clip w/team bar
+-Re-styled tournament ready popup
+-Added "Welcome back" line to main menu
+-Added highlight borders to main menu buttons
+-Fixed textures for subsequent caps not showing up on PL hud
+-Changed colors of PL points to better reflect the team colors
+-Changed styling of hud tooltips to better reflect the hud style
 
 
 

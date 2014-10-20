@@ -196,7 +196,7 @@
 		"tabPosition"	"0"
 		"labelText"		"O"
 		"font"			"Circle16"
-		"fgcolor_override"	"HUDBlueTeamSolid"
+		"fgcolor_override"	"88 133 162 255"
 		
 		"if_team_red"
 		{
@@ -205,7 +205,7 @@
 		
 		"if_single_with_hills_blue"
 		{
-			"fgcolor_override"	"HUDBlueTeamSolid"
+			"fgcolor_override"	"88 133 162 255"
 			"ypos"				"116"
 		}		
 		
@@ -241,7 +241,7 @@
 		
 		"if_multiple_trains_blue"
 		{
-			"fgcolor_override"	"HUDBlueTeamSolid"
+			"fgcolor_override"	"88 133 162 255"
 		}
 	}
 	
@@ -260,7 +260,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"/hud/cart_point_neutral"
+		"image"			"../hud/cart_point_neutral"
 		"scaleimage"	"1"
 		
 												
@@ -276,7 +276,7 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"	"119"
+			"ypos"	"118"
 		}
 	}
 	
@@ -419,29 +419,6 @@
 			}						
 		}
 		
-		"EscortItemImageBG"
-		{
-			"ControlName"	"ScalableImagePanel"
-			"fieldName"		"EscortItemIMageBG"
-			"xpos"			"14"
-			"ypos"			"45"
-			"zpos"			"-1"
-			"wide"			"25"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
-
-
-			"src_corner_height"	"23"				// pixels inside the image
-			"src_corner_width"	"23"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
-		
 		"EscortItemImageBottom"
 		{
 			"ControlName"	"ImagePanel"
@@ -483,11 +460,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageAlert"	
-			"xpos"			"-4"
-			"ypos"			"40"
+			"xpos"			"2"
+			"ypos"			"41"
 			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"30"
+			"wide"			"42"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -499,8 +476,8 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"			"-5"
-				"ypos"			"75"
+				"xpos"			"2"
+				"ypos"			"80"
 			}
 		}
 		
@@ -553,10 +530,10 @@
 			"ypos"			"9999"
 			"ypos_minmode"		"9999"
 			"zpos"			"3"
-			"wide"			"3"
-			"wide_minmode"		"3"
-			"tall"			"7"
-			"tall_minmode"		"7"
+			"wide"			"0"
+			"wide_minmode"		"0"
+			"tall"			"0"
+			"tall_minmode"		"0"
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			"capture_icon_white"
@@ -672,8 +649,8 @@
 			"xpos"				"9999"
 			"ypos"				"9999"		
 			"zpos"				"20"
-			"wide"				"100"		
-			"tall"				"65"			
+			"wide"				"0"		
+			"tall"				"0"			
 			"visible"			"0"
 			"enabled"			"1"
 			
@@ -794,8 +771,6 @@
 				
 				"if_multiple_trains"
 				{
-					"xpos"			"8"
-					"ypos"			"28"			
 					"wide"			"10"			
 					"tall"			"10"			
 				}		

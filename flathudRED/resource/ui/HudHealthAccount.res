@@ -9,6 +9,6 @@
 		"PositiveColor"			"Heal Numbers"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"WeblySleek24"
+		"delta_item_font"		"BigNoodleTitling24"
 	}
 }

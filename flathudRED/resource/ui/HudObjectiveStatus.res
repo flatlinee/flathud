@@ -25,7 +25,7 @@
 			"font"			"BigNoodleTitling28"
 			"fgcolor"		"TanLight"
 			"xpos"			"25"
-			"ypos"			"-4"
+			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"31"
