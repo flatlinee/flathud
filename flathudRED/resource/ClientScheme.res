@@ -3335,7 +3335,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 0 0 255"
+					"color" "MenuMouseover"
 					"offset" "0 1"
 				}
 				"2"
