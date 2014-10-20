@@ -58,7 +58,8 @@ Scheme
 		// scheme-specific colors
 		Border.Bright					"0 0 0 0"
 		Border.Dark						"0 0 0 0"
-		Border.Selection				"0 0 0 196"default/selected button
+		Border.Selection				"0 0 0 0"default/selected button
+		Border.DarkSolid				"40 40 40 255"
 
 		Button.TextColor				"196 196 196 255"
 		Button.BgColor					"120 120 120 128"
@@ -74,8 +75,8 @@ Scheme
 		CheckButton.HighlightFgColor	"RaysPrimary"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
-		CheckButton.Border1  			"Black"
-		CheckButton.Border2  			"Black"
+		CheckButton.Border1  			"Blank"
+		CheckButton.Border2  			"Blank"
 		CheckButton.Check				"White"
 		CheckButton.DisabledBgColor	   	"Blank"
 
@@ -147,8 +148,8 @@ Scheme
 		Frame.TitleTextInsetX			14
 		Frame.ClientInsetY				9
 		Frame.ClientInsetX				8
-		Frame.FocusTransitionEffectTime	"0.3"
-		Frame.TransitionEffectTime		"0.3"
+		Frame.FocusTransitionEffectTime	"0.4"
+		Frame.TransitionEffectTime		"0.4"
 		Frame.AutoSnapRange				"0"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
@@ -210,6 +211,81 @@ Scheme
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	
+		//
+	//////////////////// BORDERS //////////////////////////////
+	//
+	// describes all the border types
+	Borders
+	{
+		BaseBorder		SubtleBorder
+		ButtonBorder	RaisedBorder
+		ComboBoxBorder	DepressedBorder
+		MenuBorder		SubtleBorder
+		BrowserBorder	DepressedBorder
+		PropertySheetBorder	RaisedBorder
+
+		FrameBorder
+		{
+			// rounded corners for frames
+			//"backgroundtype" "2"
+
+			Left
+			{
+				"1"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.DarkSolid"
+					"offset" "0 0"
+				}
+			}
+		}
+	}
 	Fonts
 	{
 		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
@@ -295,6 +371,7 @@ Scheme
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
 		}
+	
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
