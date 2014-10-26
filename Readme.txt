@@ -1,7 +1,7 @@
 Welcome to flatHUD!
 
 Version: 2.5
-Released: September 7th, 2014
+Released: October 9th, 2014
 
 Changelog:
 -Changed font of health pickup popup
