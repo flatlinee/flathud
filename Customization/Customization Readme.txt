@@ -10,9 +10,9 @@ Q: Is this it (customization options)?
 A: At the time.  I hope to add in more choices through community input.
 
 Q: Okay, so how do I give my feedback?
-A: Post on the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud) and I'll get around to you eventually.
-That thread, the website, and the github are the only places
-to get flatHUD.  Any gamebanana or tf2mods threads are NOT MINE.
+A: Post on the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud) or in the group (http://steamcommunity.com/groups/flathud)
+and I'll get around to you eventually.  That thread/gamebanana thread, the website, the group, and the github are the only places
+to get flatHUD.  Any tf2mods threads are NOT MINE.
 
 
 Thanks for using flatHUD.
