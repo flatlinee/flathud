@@ -2574,13 +2574,22 @@ Scheme
 			}
 		}
 		
-		"ModernPics"
+		"Sosa Small"
 		{
 			"1"
 			{
-			"name"			"ModernPictograms"
+			"name"			"Sosa Regular"
+			"tall"			"14"
+			"antialias"		"1"
+			}
+		}
+		
+		"Sosa Regular"
+		{
+			"1"
+			{
+			"name"			"Sosa Regular"
 			"tall"			"28"
-			"weight"		"0"
 			"antialias"		"1"
 			}
 		}
@@ -5845,10 +5854,10 @@ Scheme
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
-		"18" //Modernpics
+		"18" //Sosa
 		{
-			"font" "resource/fonts/modernpics.otf"
-			"name" "ModernPictograms"
+			"font" "resource/fonts/sosa-regular-webfont.ttf"
+			"name" "Sosa Regular"
 		}
 		"19"
 		{
