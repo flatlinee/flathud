@@ -6,19 +6,20 @@ Scheme
 {
 	Colors
 	{
-		// rayshud	
+		// flathud	
 		"White"				"255 255 255 255"
 		"OffWhite"			"200 200 200 255"
 		"DullWhite"			"142 142 142 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimary"			"209 0 0 255"
-		"RaysPrimaryLight"		"0 109 196 255"
-		"RaysPrimaryDark"		"0 69 86 255"
-		"RaysBlack"				"15 15 15 255"
-		"RaysBlackTrans"		"15 15 15 190"
-		"RaysButtonHover"		"12 52 85 128"
+		"FlatPrimary"			"209 0 0 255"
+		"FlatPrimaryLight"		"0 109 196 255"
+		"FlatPrimaryDark"		"0 69 86 255"
+		"FlatBlack"				"15 15 15 255"
+		"FlatBlackTrans"		"15 15 15 190"
+		"FlatButtonHover"		"12 52 85 128"
+		"ControlBlack"			"32 32 32 255"
 		
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"
@@ -59,12 +60,12 @@ Scheme
 		Border.Bright					"0 0 0 0"
 		Border.Dark						"0 0 0 0"
 		Border.Selection				"0 0 0 0"default/selected button
-		Border.DarkSolid				"40 40 40 255"
+		Border.DarkSolid				"32 32 32 255"
 
 		Button.TextColor				"196 196 196 255"
-		Button.BgColor					"120 120 120 128"
+		Button.BgColor					"55 55 55 255"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"RaysButtonHover"
+		Button.ArmedBgColor				"FlatButtonHover"
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Blank"
@@ -72,7 +73,7 @@ Scheme
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.HighlightFgColor	"RaysPrimary"
+		CheckButton.HighlightFgColor	"FlatPrimary"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Blank"
@@ -91,13 +92,13 @@ Scheme
 		RadioButton.SelectedTextColor	"White"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"40 40 40 245"
-		Frame.OutOfFocusBgColor			"40 40 40 100"
-		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 196"
+		Frame.BgColor					"ControlBlack"
+		Frame.OutOfFocusBgColor			"32 32 32 100"
+		FrameGrip.Color1				"200 200 200 255"
+		FrameGrip.Color2				"0 0 0 0"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleBar.Font				"UiBold"
-		FrameTitleBar.TextColor			"RaysPrimary"
+		FrameTitleBar.TextColor			"FlatPrimary"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
 		
 		Label.TextDullColor				"DullWhite"
@@ -110,18 +111,18 @@ Scheme
 		
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedBgColor			"RaysPrimary"
+		ListPanel.SelectedBgColor			"FlatPrimary"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 		
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"RaysPrimary"
+		MainMenu.ArmedTextColor		"FlatPrimary"
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
 		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedFgColor		"RaysPrimary"
-		Menu.ArmedBgColor				"RaysPrimary"
+		Menu.ArmedFgColor		"FlatPrimary"
+		Menu.ArmedBgColor				"FlatPrimary"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"White"
@@ -142,7 +143,7 @@ Scheme
 		
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.SelectedBgColor	"RaysPrimary"
+		TextEntry.SelectedBgColor	"FlatPrimary"
 		
 		// Borrowed from CS:S SourceScheme
 		Frame.TitleTextInsetX			14
@@ -177,7 +178,7 @@ Scheme
 		RichText.TextColor				"OffWhite"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"RaysPrimary"
+		RichText.SelectedBgColor		"FlatPrimary"
 		ScrollBar.Wide					17
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -186,7 +187,7 @@ Scheme
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"RaysPrimary"
+		SectionedListPanel.SelectedBgColor				"FlatPrimary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
 		TextEntry.BgColor			"TransparentBlack"
@@ -197,7 +198,7 @@ Scheme
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 		ToggleButton.SelectedTextColor	"White"
 		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"RaysPrimary"
+		Tooltip.BgColor				"FlatPrimary"
 		TreeView.BgColor			"TransparentBlack"
 		WizardSubPanel.BgColor		"Blank"
 		MainMenu.DepressedTextColor	"150 150 150 128"
@@ -207,7 +208,7 @@ Scheme
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"RaysPrimary"
+		NewGame.SelectionColor		"FlatPrimary"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	//
@@ -226,7 +227,7 @@ Scheme
 		FrameBorder
 		{
 			// rounded corners for frames
-			//"backgroundtype" "2"
+			//"backgroundtype" "1"
 
 			Left
 			{

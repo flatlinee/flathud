@@ -6,19 +6,20 @@ Scheme
 {
 	Colors
 	{
-		// rayshud	
+		// flathud	
 		"White"				"255 255 255 255"
 		"OffWhite"			"200 200 200 255"
 		"DullWhite"			"142 142 142 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimary"			"0 89 140 255"
-		"RaysPrimaryLight"		"0 109 196 255"
-		"RaysPrimaryDark"		"0 69 86 255"
-		"RaysBlack"				"15 15 15 255"
-		"RaysBlackTrans"		"15 15 15 190"
-		"RaysButtonHover"		"12 52 85 128"
+		"FlatPrimary"			"0 89 140 255"
+		"FlatPrimaryLight"		"0 109 196 255"
+		"FlatPrimaryDark"		"0 69 86 255"
+		"FlatBlack"				"15 15 15 255"
+		"FlatBlackTrans"		"15 15 15 190"
+		"FlatButtonHover"		"12 52 85 128"
+		"ControlBlack"			"32 32 32 255"
 		
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"
@@ -59,12 +60,12 @@ Scheme
 		Border.Bright					"0 0 0 0"
 		Border.Dark						"0 0 0 0"
 		Border.Selection				"0 0 0 0"default/selected button
-		Border.DarkSolid				"40 40 40 255"
+		Border.DarkSolid				"32 32 32 255"
 
 		Button.TextColor				"196 196 196 255"
-		Button.BgColor					"120 120 120 128"
+		Button.BgColor					"55 55 55 255"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"RaysButtonHover"
+		Button.ArmedBgColor				"FlatButtonHover"
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Blank"
@@ -72,7 +73,7 @@ Scheme
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.HighlightFgColor	"RaysPrimary"
+		CheckButton.HighlightFgColor	"FlatPrimary"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Blank"
@@ -91,13 +92,13 @@ Scheme
 		RadioButton.SelectedTextColor	"White"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"40 40 40 245"
-		Frame.OutOfFocusBgColor			"40 40 40 100"
-		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 196"
+		Frame.BgColor					"ControlBlack"
+		Frame.OutOfFocusBgColor			"32 32 32 100"
+		FrameGrip.Color1				"200 200 200 255"
+		FrameGrip.Color2				"0 0 0 0"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleBar.Font				"UiBold"
-		FrameTitleBar.TextColor			"RaysPrimary"
+		FrameTitleBar.TextColor			"FlatPrimary"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
 		
 		Label.TextDullColor				"DullWhite"
@@ -110,18 +111,18 @@ Scheme
 		
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedBgColor			"RaysPrimary"
+		ListPanel.SelectedBgColor			"FlatPrimary"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 		
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"RaysPrimary"
+		MainMenu.ArmedTextColor		"FlatPrimary"
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
 		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedFgColor		"RaysPrimary"
-		Menu.ArmedBgColor				"RaysPrimary"
+		Menu.ArmedFgColor		"FlatPrimary"
+		Menu.ArmedBgColor				"FlatPrimary"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"White"
@@ -142,7 +143,7 @@ Scheme
 		
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.SelectedBgColor	"RaysPrimary"
+		TextEntry.SelectedBgColor	"FlatPrimary"
 		
 		// Borrowed from CS:S SourceScheme
 		Frame.TitleTextInsetX			14
@@ -177,7 +178,7 @@ Scheme
 		RichText.TextColor				"OffWhite"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"RaysPrimary"
+		RichText.SelectedBgColor		"FlatPrimary"
 		ScrollBar.Wide					17
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -186,7 +187,7 @@ Scheme
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"RaysPrimary"
+		SectionedListPanel.SelectedBgColor				"FlatPrimary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
 		TextEntry.BgColor			"TransparentBlack"
@@ -197,7 +198,7 @@ Scheme
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 		ToggleButton.SelectedTextColor	"White"
 		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"RaysPrimary"
+		Tooltip.BgColor				"FlatPrimary"
 		TreeView.BgColor			"TransparentBlack"
 		WizardSubPanel.BgColor		"Blank"
 		MainMenu.DepressedTextColor	"150 150 150 128"
@@ -207,11 +208,11 @@ Scheme
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"RaysPrimary"
+		NewGame.SelectionColor		"FlatPrimary"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	
-		//
+	//
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
@@ -227,7 +228,7 @@ Scheme
 		FrameBorder
 		{
 			// rounded corners for frames
-			//"backgroundtype" "2"
+			//"backgroundtype" "1"
 
 			Left
 			{
@@ -285,92 +286,10 @@ Scheme
 				}
 			}
 		}
+		
 	}
 	Fonts
 	{
-		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
-		{
-            "1" //For screen heights between 480 and 599 (eg 4:3 aspect Width 640x480 High, Width 720x576 High. 16:10 aspect Width 720x480 High)
-            {
-                "name"         "Verdana" [$WINDOWS] // Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"         "Lucida Console" [$X360]    //"Lucida Console"
-                "name"         "Georgia" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "11" [$POSIX]  // "11"
-                "tall"         "10" //good positioning is ... "net_graphpos 183" and "net_graphheight 30" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20" 
-                "weight"     "0"  //"0" // This is the thickness, like a bold setting max is about 700. Small fonts will look better as "0".
-                "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         "480 599"            
-                "outline"     "0"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  "1"  //not default added //smoothing the edges.                
-            }
-            "2" //For screen heights between 600 and 767 (eg 4:3 aspect Width 800X600 High, ... 16:9 aspect Width 1152x648 High.)
-            {
-                "name"         "Verdana" [$WINDOWS] // Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"         "Lucida Console" [$X360]    //"Lucida Console"
-                "name"         "Georgia" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "12" [$POSIX]  // "11"                
-                "tall"         "12" //good positioning is ... "net_graphpos 190" and "net_graphheight 45" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
-                "weight"     "0"
-                "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         "600 767"
-                "outline"     "0"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  "1"  //not default added //smoothing the edges.                
-            }
-            "3" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
-            {
-                "name"         "Verdana" [$WINDOWS] // Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"         "Lucida Console" [$X360]    //"Lucida Console"
-                "name"         "Verdana" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "16" [$POSIX]  // "11"                
-                "tall"         "16"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
-                "weight"     "0"
-                "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         "768 1023"
-                "outline"     "1"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  "0"  //not default added //smoothing the edges.
-            }
-            "4" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
-            {
-                "name"         "Arial" [$WINDOWS] // Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"         "Lucida Console" [$X360]    //"Lucida Console"
-                "name"         "Arial" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "19" [$POSIX]  // "11"                
-                "tall"         "19"  // good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
-                "weight"     "0"
-                "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         "1024 1199"
-                "outline"     "1"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  "0"  //not default added //smoothing the edges.
-            }
-            "5" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
-            {
-                "name"         "Arial" [$WINDOWS] // Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
-                "name"         "Lucida Console" [$X360]    //"Lucida Console"
-                "name"         "Arial" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" and "Arial" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "19" [$POSIX]  // "11"                
-                "tall"         "19" // good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
-                "weight"     "0"
-                "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"         "1200 6000"
-                "outline"     "1"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
-                "antialias"  "0"  //not default added //smoothing the edges.
-            }
-		}
 	
 		"MainMenuFont"
 		{
