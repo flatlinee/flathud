@@ -16,13 +16,13 @@
 		"PositiveColor"			"48 255 48 255"
 		"NegativeColor"			"255 48 48 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Cerbetica12"
+		"delta_item_font"		"BigNoodleTitling12"
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"BigNoodleTitling28"
+			"font"			"BigNoodleTitling20"
 			"fgcolor"		"TanLight"
 			"xpos"			"25"
 			"ypos"			"-5"
