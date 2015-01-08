@@ -106,7 +106,7 @@ Scheme
 		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"117 117 117 255"
+		Label.DisabledFgColor1			"0 0 0 255"
 		Label.DisabledFgColor2			"30 30 30 255"
 		
 		ListPanel.TextColor					"OffWhite"
