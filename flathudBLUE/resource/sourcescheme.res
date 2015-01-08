@@ -1,4 +1,4 @@
-//SourceScheme.res edited by rays, originally by:
+//SourceScheme.res edited by flatline, originally by:
 // Doodles - DoodleHUD - http://doodlesstuff.com
 //
 #base "SourceSchemeBase.res"
@@ -94,7 +94,7 @@ Scheme
 		
 		Frame.BgColor					"ControlBlack"
 		Frame.OutOfFocusBgColor			"32 32 32 100"
-		FrameGrip.Color1				"200 200 200 255"
+		FrameGrip.Color1				"65 65 65 255"
 		FrameGrip.Color2				"0 0 0 0"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleBar.Font				"UiBold"
@@ -106,7 +106,7 @@ Scheme
 		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"117 117 117 255"
+		Label.DisabledFgColor1			"0 0 0 0"
 		Label.DisabledFgColor2			"30 30 30 255"
 		
 		ListPanel.TextColor					"OffWhite"
@@ -120,7 +120,7 @@ Scheme
 		
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
-		Menu.BgColor					"160 160 160 64"
+		Menu.BgColor					"17 17 17 255"
 		Menu.ArmedFgColor		"FlatPrimary"
 		Menu.ArmedBgColor				"FlatPrimary"
 		Menu.DividerColor		"BorderDark"
@@ -132,8 +132,8 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"100 100 100 150"
-		ScrollBarSlider.BgColor				"70 70 70 96"
+		ScrollBarSlider.FgColor				"55 55 55 255"
+		ScrollBarSlider.BgColor				"0 0 0 0"
 		
 		Slider.NobColor				"108 108 108 255"
 		Slider.TextColor			"180 180 180 255"
