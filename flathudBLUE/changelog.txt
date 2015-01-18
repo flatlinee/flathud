@@ -1,5 +1,10 @@
 
-CURRENT VERSION: 2.5
+CURRENT VERSION: 2.6
+
+Version 2.6:
+-Overhauled Build, Destroy, and Taunt Menus
+-Fixed compatibility with Pip-Boy menus
+-Also updated Pip-Boy menus to match the new style
 
 Version 2.5:
 -Changed font of health pickup popup

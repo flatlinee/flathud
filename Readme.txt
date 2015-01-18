@@ -1,17 +1,12 @@
 Welcome to flatHUD!
 
-Version: 2.5
-Released: October 9th, 2014
+Version: 2.6
+Released: January 18th, 2015
 
 Changelog:
--Changed font of health pickup popup
--Slightly moved timer position to not clip w/team bar
--Re-styled tournament ready popup
--Added "Welcome back" line to main menu
--Added highlight borders to main menu buttons
--Fixed textures for subsequent caps not showing up on PL hud
--Changed colors of PL points to better reflect the team colors
--Changed styling of hud tooltips to better reflect the hud style
+-Overhauled Build, Destroy, and Taunt Menus
+-Fixed compatibility with Pip-Boy menus
+-Also updated Pip-Boy menus to match the new style
 
 
 

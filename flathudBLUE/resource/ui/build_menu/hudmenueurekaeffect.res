@@ -7,13 +7,41 @@
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"250"
-		"tall"			"170"
+		"wide"			"157"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"border"		"NoBorder"
 		"fillcolor"		"0 0 0 100"
+	}
+	
+	"TitleLabelBackground"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TitleLabelBackground"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"157"
+		"tall"	 		"14"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"BuildIcon"	
@@ -52,10 +80,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"WeblySleek24"
-		"xpos"			"10"			// align me to the left edge of the first selection
-		"ypos"			"-10"
-		"zpos"			"2"
+		"font"			"WeblySleek16"
+		"xpos"			"-74"			// align me to the left edge of the first selection
+		"ypos"			"-2"
+		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"38"
 		"autoResize"	"0"
@@ -63,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -72,11 +100,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"WeblySleek24"
+		"font"			"WeblySleek16"
 		"fgcolor"		"Transparentblack"
-		"xpos"			"12"			// align me to the left edge of the first selection
-		"ypos"			"-8"
-		"zpos"			"1"
+		"xpos"			"-73"			// align me to the left edge of the first selection
+		"ypos"			"-1"
+		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
 		"autoResize"	"0"
@@ -84,7 +112,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -113,8 +141,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"-10"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"124"
@@ -125,8 +153,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"65"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
@@ -137,8 +165,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"-10"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
@@ -149,8 +177,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"65"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"

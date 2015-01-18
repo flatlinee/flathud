@@ -15,4 +15,8 @@
 	{	
 		"labelText"		"3"
 	}
+	"BuildingIcon"
+	{
+		"icon"			"hud_menu_tele_entrance_build"
+	}
 }

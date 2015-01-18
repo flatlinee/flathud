@@ -4,10 +4,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek16"
 		"xpos"			"10"
-		"ypos"			"48"
-		"zpos"			"2"
+		"ypos"			"50"
+		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -16,7 +16,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Already_Built"
 		"textAlignment"	"Center"
-		"fgcolor"		"0 255 0 255"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -25,7 +24,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CerbeticaBold12"
+		"font"			"WeblySleek12"
 		"xpos"			"15"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -33,9 +32,8 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"0 255 0 255"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
@@ -62,8 +60,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"22"
+		"ypos"			"33"
 		"zpos"			"2"
 		"wide"			"56"
 		"tall"			"56"
@@ -71,7 +69,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"MetalIcon"	
@@ -94,7 +92,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"WeblySleek12"
 		"fgcolor"		"TanLight"
 		"xpos"			"99999"
 		"ypos"			"99999"
@@ -148,8 +146,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"0 255 0 255"
+		"font"			"WeblySleek14"
+		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"95"
 		"zpos"			"1"
@@ -168,7 +166,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"WeblySleek14"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"1"
 		"ypos"			"96"

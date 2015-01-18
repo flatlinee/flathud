@@ -15,4 +15,8 @@
 	{	
 		"labelText"		"2"
 	}
+	"BuildingIcon"
+	{
+		"icon"			"hud_menu_dispenser_build"
+	}
 }

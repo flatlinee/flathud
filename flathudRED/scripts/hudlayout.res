@@ -31,6 +31,39 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
+	"Resource/HudLayout.res"
+{
+	//###########################//
+	//    FOG'S CROSSHAIRS V3    //
+	//    	 (C) FOG 2014        //
+	// QUESTIONS? README IN MAIN //
+	//    PICK YOUR CROSSHAIR    //
+	//  WITH THE CROSSHAIRS PNG	 //
+	//  IN YOUR ROOT HUD FOLDER  //
+	//###########################//
+	
+	"DamageCircleDot"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"DamageCircleDot"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"		"KonrWingsOutline24"
+
+		"font"			"Crosshairs34"
+		"labelText"		"8"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"0 255 0 255"
+	}
+	
 	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
 	
 	"16x9Crosshair_vertical1"
@@ -1409,8 +1442,9 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-250"
-		"ypos"			"c-75"
+		"xpos"			"c-215"
+		"ypos"			"c-12"
+		"zpos"			"100"
 		"wide"			"500"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1421,8 +1455,9 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-250"
-		"ypos"			"c-75"
+		"xpos"			"c-215"
+		"ypos"			"c-12"
+		"zpos"			"100"
 		"wide"			"500"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1433,8 +1468,9 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
+		"zpos"			"3"
+		"xpos"			"c-78"
+		"ypos"			"c-12"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1831,9 +1867,10 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"ypos"			"c-12"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
+		"zpos"			"100"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

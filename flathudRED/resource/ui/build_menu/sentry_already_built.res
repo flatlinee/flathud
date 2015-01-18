@@ -12,4 +12,9 @@
 	{	
 		"labelText"		"1"
 	}
+	
+	"BuildingIcon"	
+	{
+		"icon"			"hud_menu_sentry_build"
+	}
 }

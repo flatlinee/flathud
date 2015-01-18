@@ -15,4 +15,9 @@
 	{	
 		"labelText"		"4"
 	}
+	
+	"BuildingIcon"	
+	{
+		"icon"			"hud_menu_tele_exit_build"
+	}
 }
