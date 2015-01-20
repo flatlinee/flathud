@@ -31,39 +31,6 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	"Resource/HudLayout.res"
-{
-	//###########################//
-	//    FOG'S CROSSHAIRS V3    //
-	//    	 (C) FOG 2014        //
-	// QUESTIONS? README IN MAIN //
-	//    PICK YOUR CROSSHAIR    //
-	//  WITH THE CROSSHAIRS PNG	 //
-	//  IN YOUR ROOT HUD FOLDER  //
-	//###########################//
-	
-	"DamageCircleDot"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"DamageCircleDot"
-		"visible"		"1"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-
-		//"font"		"KonrWingsOutline24"
-
-		"font"			"Crosshairs34"
-		"labelText"		"8"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"0 255 0 255"
-	}
-	
 	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
 	
 	"16x9Crosshair_vertical1"
