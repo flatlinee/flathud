@@ -62,10 +62,10 @@ Scheme
 		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
 	
 		"Heal Numbers"							"0 255 128 255"
-		"Damage Numbers"						"72 136 255 255"
+		"Damage Numbers"						"255 255 0 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"					"72 136 255 255"
+		"Last DamageHeal Info"					"255 255 0 255"
 		
 		//Changes the colors of the bars on the "Stats" tab
 		

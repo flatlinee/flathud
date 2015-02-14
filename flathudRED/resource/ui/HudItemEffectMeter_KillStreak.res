@@ -5,8 +5,8 @@
                 "fieldName"                "HudItemEffectMeter"
                 "visible"                "1"
                 "enabled"                "1"
-                "xpos"        "-28"        [$WIN32]
-                "ypos"        "r110"        [$WIN32]
+                "xpos"        "-35"        [$WIN32]
+                "ypos"        "r37"        [$WIN32]
                 "wide"                        "100"
                 "tall"                        "50"
                 "MeterFG"                "White"
@@ -22,8 +22,8 @@
                 "zpos"                        "0"
                 "wide"                        "35"
                 "tall"                        "35"
-                "visible"                "1"
-                "visible_minmode"        "1"
+                "visible"                "0"
+                "visible_minmode"        "0"
                 "enabled"                "1"
                 "image"                        "../hud/misc_ammo_area_blue"
                 "scaleImage"        "1"        
@@ -47,7 +47,7 @@
                 "tall"                                        "15"
                 "autoResize"                        "1"
                 "pinCorner"                                "2"
-                "visible"                                "1"
+                "visible"                                "0"
                 "enabled"                                "1"
                 "tabPosition"                        "0"
                 "labelText"                                "#TF_KillStreak"

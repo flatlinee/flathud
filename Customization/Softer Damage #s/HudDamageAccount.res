@@ -11,7 +11,7 @@
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"BigNoodleTitling24" 
-		"delta_item_font_big"	"BigNoodleTitling28"
+		"delta_item_font_big"	"BigNoodleTitling24"
 		"outline"				"1"
 
 	}
