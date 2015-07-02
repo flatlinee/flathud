@@ -13,15 +13,18 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"avatar_width"		"54"	
-		"name_width"		"50"
-		"name_width_minmode""50"
-		"status_width"		"15"	
-		"nemesis_width"		"15"	
-		"class_width"		"15"	
-		"score_width"		"24"
-		"ping_width"		"24"
-		"streak_width"		"0"
+		"medal_width"		"0"
+		"avatar_width"		"57"	[$WIN32]
+		"name_width"		"50"	[$WIN32]		
+		"status_width"		"15"	[$WIN32]
+		"nemesis_width"		"15"	[$WIN32]
+		"class_width"		"15"	[$WIN32]
+		"score_width"		"25"
+		"score_width_lodef"	"35"
+		"score_width_hidef"	"50"
+		"ping_width"		"23"	[$WIN32]
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 	"BlueScoreBG"
 	{
@@ -530,9 +533,9 @@
 		"font"			"WeblySleek12"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
-		"xpos"			"c65"
-		"xpos_minmode"	"c65"
-		"ypos"			"372"	
+		"xpos"			"c-225"
+		"xpos_minmode"	"c-225"
+		"ypos_minmode"	"340"	
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"

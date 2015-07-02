@@ -1,4 +1,0 @@
-Changes your main menu to have an empty server links bracket.  Also gives you a tutorial on how to edit
-your own servers into that server list.
-
-Place into resource/ui.
