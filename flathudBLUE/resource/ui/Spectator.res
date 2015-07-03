@@ -303,7 +303,7 @@
 		"ypos"			"150"
 		"zpos"			"10"
 		"wide"			"240"
-		"tall"			"9999"
+		"tall"			"100"
 		"visible"		"1"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
@@ -311,8 +311,8 @@
 		
 		"model_xpos"		"130"
 		"model_center_y"	"0"
-		"model_center_x"    "1"
-		"model_ypos"        "15"
+		"model_center_x"    "0"
+		"model_ypos"        "10"
 		"model_wide"		"70"
 		"model_tall"		"48"
 		
