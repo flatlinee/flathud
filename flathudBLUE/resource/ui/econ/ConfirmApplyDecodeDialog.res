@@ -9,12 +9,12 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"46 43 42 0"
+		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"paintborder"			"2"
-		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
-		"bgcolor_override"		"25 25 25 255"
+		"border"				"GrayDialogBorder"
 	}
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -27,30 +27,15 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
-    	}
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -69,17 +54,18 @@
 			"centerwrap"	"1"
 		}
 	}
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Cerbetica32"
+		"font"			"HudFontSmallBold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
-		"xpos"			"100"
+		"xpos"			"95"
 		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"200"
+		"wide"			"210"
 		"tall"			"60"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -87,6 +73,7 @@
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
+
 	"ToolBG"
 	{
 		"ControlName"	"CExLabel"
@@ -140,7 +127,7 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"
+		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
@@ -203,7 +190,7 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"
+		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
 		"itemmodelpanel"
@@ -211,25 +198,46 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}
+	}	
+	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
 		"font"			"HudFontSmall"
-		"labelText"		"#ToolDecodeConfirm"
+		"labelText"		"%confirm_text%"
 		"textAlignment"	"center"
 		"xpos"			"20"
 		"ypos"			"80"
 		"zpos"			"0"
 		"wide"			"360"
-		"tall"			"20"
+		"tall"			"100"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "200 80 60 255"
 	}
+
+	"OptionalAppendLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"OptionalAppendLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"%optional_append%"
+		"textAlignment"	"center"
+		"xpos"			"20"
+		"ypos"			"120"
+		"zpos"			"0"
+		"wide"			"360"
+		"tall"			"60"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "200 80 60 255"
+	}
+	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -245,7 +253,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"WeblySleek12"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -253,16 +261,8 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
 	}
+	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -278,7 +278,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"WeblySleek12"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -286,14 +286,5 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
 	}
 }

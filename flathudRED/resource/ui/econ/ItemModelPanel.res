@@ -1,5 +1,20 @@
 "Resource/UI/ItemModelPanel.res"
-{
+{	
+	"mouseoveritempanel"
+	{
+		"fieldName"				"mouseoveritempanel"
+		"collection_wide"		"500"
+		"collection_list_xpos"	"250"
+		"is_mouseover"			"1"
+		"text_xpos_collection"	"0"
+		"text_ypos"			"15"
+		"text_forcesize" "0"
+		//"model_xpos_collection"	"77"
+		//"model_ypos_collection"	"20"
+		//"model_wide_collection"	"156"
+		//"model_tall_collection"	"100"
+	}
+	
 	"LoadingSpinner"
 	{
 		"ControlName"		"ImagePanel"

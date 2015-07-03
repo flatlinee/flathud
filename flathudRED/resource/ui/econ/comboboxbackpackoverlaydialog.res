@@ -23,7 +23,7 @@
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-5"
 		"zpos"			"0"
 		"wide"			"280"
 		"tall"			"60"

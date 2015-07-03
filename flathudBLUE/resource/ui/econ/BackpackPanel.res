@@ -58,7 +58,7 @@
 				"tall"			"13"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"255 255 255 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"1"
 				"textAlignment"	"center"
@@ -72,7 +72,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"WeblySleek10"
 				"textAlignment"	"east"
 				"ypos"			"0"
 				"xpos"			"0"
@@ -129,7 +129,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"WeblySleek10"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
 				"zpos"			"15"
