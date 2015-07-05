@@ -17,12 +17,13 @@ A: Download the flathud master folder and pick your color version, Blue or Red. 
 into your tf/custom folder and you're good to go.
 
 Q: I have [x] bug.  How do I report this?
-A: Report it to me through the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud).  This is the only
-place you can contact me about this.
+A: Report it to me through the tftv thread (http://teamfortress.tv/forum/thread/14664-flathud) or on the steam group (http://steamcommunity.com/groups/flathud).  I might add you if we have to talk through something (do NOT add me for these things).
 
-Q: My fonts are weird.  What do I have to do?
+Q: My fonts are weird/don't show up.  What do I have to do?
 A: Sometimes the fonts mess up for whatever reason.  If your fonts aren't displaying correctly, navigate to your flathud/resource folder and install
-the fonts "big_noodle_titling" and all the ones beginning with "weblysleek".  This should fix your problem.
+the fonts "big_noodle_titling" and all the ones beginning with "weblysleek" and test.  If they still are messed up, post on the thread or the group.
+
+**NOTE: Mac and Linux users often have font problems, these are unfixable**
 
 Q: How do I use Fog's Xhairs?
 A: The crosshairs are already installed in the hud.  Inside hudlayout.res, there is a value called "FogCrosshair".
