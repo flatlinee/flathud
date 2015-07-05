@@ -162,32 +162,61 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"140"
+		"xpos"			"r249"
+		"ypos"			"c35"
+		"zpos"			"1"
+		"wide"			"240"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_xpos"		"0"
+		"model_xpos"		"10"
 		"model_center_y"	"1"
-		"model_center_x"    "0"
-		"model_ypos"        "10"
-		"model_wide"		"140"
+		"model_wide"		"64"
 		"model_tall"		"48"
 		
-		"text_xpos"		"0"
-		"text_ypos"		"65"
-		"text_wide"		"140"
+		"text_xpos"		"90"
+		"text_ypos"		"25"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
-		"max_text_height"	"5"
+		"max_text_height"	"90"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
-		"text_forcesize"	"-2"
+		"text_forcesize"	"2"
+		
+			"ItemBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-1"
+			"wide" "240"
+			"tall" "850"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 100"
+			}
+			"TitleBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "TitleBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-1"
+			"wide" "85"
+			"tall" "850"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "0"
+			"enabled" "1"
+			"fillcolor" "0 0 0 125"
+			}
 		
 		"itemmodelpanel"
 		{
@@ -196,47 +225,15 @@
 			"useparentbg"		"1"
 		}
 		
-		"ItemBackground"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "ItemBackground"
-			"xpos" "0"
-			"ypos" "0"
-			"zpos" "-99"
-			"wide" "140"
-			"tall" "900"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
-		}
-		"TitleBackground"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TitleBackground"
-			"xpos" "94"
-			"ypos" "-1"
-			"zpos" "-999"
-			"wide" "150"
-			"tall" "900"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "0"
-			"enabled" "0"
-			"fillcolor" "0 0 0 200"
-		}
-		
-		
 		"ItemLabel"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"WeblySleek8"
-			"xpos"			"135"
-			"ypos"			"0"
+			"font"			"WeblySleek12"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
-			"wide"			"100"
+			"wide"			"270"
 			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -248,7 +245,8 @@
 			"brighttext"	"0"
 		}
 		
-	}
+	
+	}		
 	
 	"FreezePanelBase"	[$WIN32]
 	{

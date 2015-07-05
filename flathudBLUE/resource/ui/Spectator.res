@@ -295,12 +295,12 @@
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
-"itempanel"
+	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"r240"
+		"ypos"			"150"
 		"zpos"			"10"
 		"wide"			"140"
 		"tall"			"100"
