@@ -94,6 +94,65 @@
 			"fillcolor"		"MainMenuBG"
 		}
 		
+		"FavoriteServer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"FavoriteServer"
+			"xpos"			"r35"
+			"ypos"			"445"
+			"zpos"			"1"
+			"wide"			"30"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"FavoriteServerBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FavoriteServerBG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-5"
+				"wide"			"30"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"25 25 25 255"
+				"border"		"CyanBorderThick"
+			}
+			
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"30"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"font"			"Sosa Regular"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"paintbackground" "0"
+				"image_drawcolor"	"235 226 202 255"
+				"image_armedcolor"	"255 255 255 255"
+				
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override"		"MenuMouseover"
+				"depressedFgColor_override"	"MenuMouseover"
+			}
+		}
 
 		"SaxxySettings"
 		{
@@ -489,11 +548,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"205"
+		"xpos"			"c-220"
 		"ypos"			"445"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -515,32 +574,35 @@
 		}
 		
 		
-		"MOTD_ShowButtonPanel_SB"
+		
+		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"xpos"			"1"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"É"
 			"font"			"Sosa Regular"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"Command"		"motd_show"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
+			
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"MenuMouseover"
+			"depressedFgColor_override"	"MenuMouseover"
 
 			"SubImage"
 			{
@@ -845,11 +907,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"205"
+		"xpos"			"c-220"
 		"ypos"			"410"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"40"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -927,28 +989,32 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
-			"xpos"			"1"
-			"ypos"			"-1"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Ä"
+			"labeltext"		"Ä"
 			"font"			"Sosa Regular"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"Command"		"noti_show"
+			"command" "noti_show"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
+			
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"MenuMouseover"
+			"depressedFgColor_override"	"MenuMouseover"
 			
 			"SubImage"
 			{
@@ -971,11 +1037,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"205"
+		"xpos"			"c-220"
 		"ypos"			"375"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -1006,17 +1072,15 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"j"
 			"use_proportional_insets" "1"
 			"font"			"Sosa Regular"
-			"command"		"questlog"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1032,6 +1096,10 @@
 			"paintborder"		"0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
+			
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"MenuMouseover"
+			"depressedFgColor_override"	"MenuMouseover"
 
 			"SubImage"
 			{
@@ -4513,7 +4581,5 @@
 			"angles_z"		"0"
 		}
 	}
-}
-
 }
 

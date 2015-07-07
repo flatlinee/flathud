@@ -87,7 +87,7 @@
 		"xpos"			"443"
 		"ypos"			"58"
 		"zpos"			"-1"
-		"wide"			"67"
+		"wide"			"66"
 		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"

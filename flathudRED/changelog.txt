@@ -1,5 +1,12 @@
 
-CURRENT VERSION: 2.6
+CURRENT VERSION: 2.7
+
+Version 2.7:
+-Fully updated for Gun Mettle
+-Changed icons/styles of News, Alerts, and Contracts buttons
+-Added tooltips for aforementioned buttons
+-Added "favorite server" button in lieu of server links customization
+-Removed labels from Item Meters and shortened them
 
 Version 2.6:
 -Overhauled Build, Destroy, and Taunt Menus

@@ -3,8 +3,8 @@
 
 	"Version"
 	{
-		"label" "Version 2.6" 
-		"command" "engine con_enable 1; engine showconsole; clear; echo flatHUD V2.5.  wooooooooooooooooooooooooooooooooooooo Thanks to Rays, Doodle, Harvest, Suyo, tstm, and all my beta testers! <3"
+		"label" "Version 2.7" 
+		"command" "engine con_enable 1; engine showconsole; clear; echo flatHUD V2.7.  wooooooooooooooooooooooooooooooooooooo Thanks to Rays, Doodle, Harvest, Suyo, tstm, and all my beta testers! <3"
 		"OnlyAtMenu" "0"
 		"tooltip" "I love you <3"
 	}
@@ -62,6 +62,25 @@
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
+	"FavoriteServer"
+	{
+		"label"   "Ç"
+		"command" "engine connect 162.248.92.11:27015"
+        "tooltip" "Favorite Server"
+	}
+	"QuestLogButton"
+	{
+		"label"	  "j"
+		"command" "questlog"
+        "tooltip" "Contracts"
+	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label"	  "g"
+		"command" "motd_show"
+        "tooltip" "News"
+	}
+	
 	
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"

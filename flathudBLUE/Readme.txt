@@ -1,13 +1,14 @@
 Welcome to flatHUD!
 
-Version: 2.6
-Released: January 18th, 2015
+Version: 2.7
+Released: July 7th, 2015
 
 Changelog:
--Overhauled Build, Destroy, and Taunt Menus
--Fixed compatibility with Pip-Boy menus
--Also updated Pip-Boy menus to match the new style
-
+-Fully updated for Gun Mettle
+-Changed icons/styles of News, Alerts, and Contracts buttons
+-Added tooltips for aforementioned buttons
+-Added "favorite server" button in lieu of server links customization
+-Removed labels from Item Meters and shortened them
 
 
 FAQ:
@@ -23,6 +24,12 @@ place you can contact me about this.
 Q: My fonts are weird.  What do I have to do?
 A: Sometimes the fonts mess up for whatever reason.  If your fonts aren't displaying correctly, navigate to your flathud/resource folder and install
 the fonts "big_noodle_titling" and all the ones beginning with "weblysleek".  This should fix your problem.
+
+Q: How do I use the "favorite server" button?
+A: First, obtain the IP of whatever server you want.  Next, go to resource/gamemenu.res and find the "FavoriteServer"
+entry.  Then, paste your IP after the "connect" portion in the "command" section (make sure to leave a space).
+
+Example:  "command"  "engine connect 162.248.92.11:27015"
 
 Q: How do I use Fog's Xhairs?
 A: The crosshairs are already installed in the hud.  Inside hudlayout.res, there is a value called "FogCrosshair".
