@@ -548,7 +548,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-220"
+		"xpos"			"210"
 		"ypos"			"445"
 		"zpos"			"1"
 		"wide"			"30"
@@ -907,7 +907,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c-220"
+		"xpos"			"210"
 		"ypos"			"410"
 		"zpos"			"1"
 		"wide"			"40"
@@ -1037,7 +1037,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c-220"
+		"xpos"			"210"
 		"ypos"			"375"
 		"zpos"			"1"
 		"wide"			"30"
@@ -4278,7 +4278,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c-250"
+		"xpos"			"180"
 		"ypos"			"-275"
 		"zpos"			"-60"
 		"wide"			"320"
