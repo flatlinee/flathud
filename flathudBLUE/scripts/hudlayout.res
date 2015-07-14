@@ -9,26 +9,26 @@
 	//  IN YOUR ROOT HUD FOLDER  //
 	//###########################//
 	
-	"DamageCircleDot"
+	"FogCrosshair"
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"DamageCircleDot"
-		"visible"		"1"
+		"fieldName"	 	"FogCrosshair"
+		"visible"		"0"					//Change this to "1" to enable your crosshair
 		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
-		"ypos"			"c-97"
+		"ypos"			"c-98"
 		"wide"			"200"
 		"tall"			"200"
 
 		//"font"		"KonrWingsOutline24"
 
-		"font"			"Crosshairs34"
-		"labelText"		"8"
+		"font"			"Crosshairs32"
+		"labelText"		"`"                //Change this to whatever letter is under the xhair you want
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
