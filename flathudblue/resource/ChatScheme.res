@@ -1,6 +1,6 @@
 Scheme
 {
-	Cfolors
+	Colors
 	{
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
