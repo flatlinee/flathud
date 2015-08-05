@@ -65,7 +65,7 @@
 	"FavoriteServer"
 	{
 		"label"   "Ç"
-		"command" "engine connect 162.248.92.11:27015"
+		"command" "engine"
         "tooltip" "Favorite Server"
 	}
 	"QuestLogButton"
