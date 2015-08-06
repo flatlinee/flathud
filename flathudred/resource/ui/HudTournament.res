@@ -56,6 +56,22 @@
 					"textAlignment"		"center"
 					"font"				"WeblySleek10"
 				}
+				if_competitive
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"WeblySleek10"
+				}
+				if_readymode
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"WeblySleek10"
+				}
 			}
 			
 			"classimage"
@@ -73,6 +89,22 @@
 				"scaleImage"	"1"	
 				
 				if_mvm
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
+				if_competitive
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
+				if_readymode
 				{
 					"xpos"			"5"
 					"ypos"			"4"
@@ -100,6 +132,14 @@
 				{
 					"visible"		"0"
 				}
+				if_competitive
+				{
+					"visible"		"0"
+				}
+				if_readymode
+				{
+					"visible"		"0"
+				}
 			}
 			
 			"classimageBG2"
@@ -117,6 +157,14 @@
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
+				{
+					"visible"		"1"
+				}
+				if_competitive
+				{
+					"visible"		"1"
+				}
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -138,6 +186,12 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				
+				if_readymode
+				{
+					"xpos"	"9999"
+					"ypos"	"9999"
+				}
 			}
 			
 			"ReadyBG"
@@ -165,6 +219,14 @@
 				{
 					"visible"		"1"
 				}	
+				if_competitive
+				{
+					"visible"		"1"
+				}	
+				if_readymode
+				{
+					"visible"		"1"
+				}
 			}
 			
 			"ReadyImage"
@@ -184,6 +246,14 @@
 				"scaleImage"		"1"
 
 				if_mvm
+				{
+					"visible"		"1"
+				}
+				if_competitive
+				{
+					"visible"		"1"
+				}
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -210,6 +280,14 @@
 				{
 					"font"		"WeblySleek10"
 				}
+				if_competitive
+				{
+					"font"		"WeblySleek10"
+				}
+				if_readymode
+				{
+					"font"		"WeblySleek10"
+				}
 			}
 			
 			"chargeamount"
@@ -233,6 +311,14 @@
 				{	
 					"visible"		"0"
 				}
+				if_competitive
+				{	
+					"visible"		"0"
+				}
+				if_readymode
+				{	
+					"visible"		"0"
+				}
 			}
 			
 			"specindex"
@@ -247,7 +333,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -257,6 +343,19 @@
 			{
 				"wide"		"55"
 				"tall"		"35"
+				"visible"	"0"
+			}
+			if_competitive
+			{
+				"wide"		"55"
+				"tall"		"35"
+				"visible"	"0"
+			}
+			if_readymode
+			{
+				"wide"		"55"
+				"tall"		"35"
+				"visible"	"0"
 			}
 		}
 		
@@ -270,6 +369,30 @@
 			"team1_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
 		}		
+		if_competitive
+		{
+			"xpos"							"c-320"
+			"ypos"							"0"
+			"wide"							"640"
+			"tall"							"480"
+
+			"team1_player_base_y"			"66"
+			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+			"team2_player_base_offset_x"	"5"
+		}
+		if_readymode
+		{
+			"xpos"							"c-320"
+			"ypos"							"0"
+			"wide"							"640"
+			"tall"							"480"
+
+			"team1_player_base_y"			"66"
+			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+			"team2_player_base_offset_x"	"5"
+		}	
 	}
 
 	"HudTournamentBackground"
@@ -297,6 +420,14 @@
 		{
 			"visible"		"0"
 		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentLabel"
 	{	
@@ -317,6 +448,14 @@
 		"textAlignment"		"center"
 		
 		if_mvm
+		{
+			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -346,6 +485,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"xpos"			"170"
 		}
 	}
 	"TournamentBLUELabel"
@@ -369,6 +516,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"xpos"			"174"
 		}
 	}
 	"TournamentBLUEStateLabel"
@@ -390,6 +545,14 @@
 		"textAlignment"		"east"
 		
 		if_mvm
+		{
+			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -419,6 +582,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"xpos"			"320"
 		}
 	}
 	"TournamentREDLabel"
@@ -442,6 +613,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"xpos"			"395"
 		}
 	}
 	"TournamentREDStateLabel"
@@ -463,6 +642,14 @@
 		"textAlignment"		"west"
 		
 		if_mvm
+		{
+			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -489,6 +676,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"xpos"			"195"
 		}
 	}
 
@@ -517,6 +712,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"visible"		"0"
 		}
 	}
 	
@@ -538,6 +741,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"xpos"			"170"
 		}
 	}
 	
@@ -568,6 +779,24 @@
 			"tall"			"16"
 			"zpos"			"3"
 		}
+		if_competitive
+		{
+			"font"			"WeblySleek12"
+			"xpos"			"155"
+			"ypos"			"105"
+			"wide"			"190"
+			"tall"			"16"
+			"zpos"			"3"
+		}
+		if_readymode
+		{
+			"font"			"WeblySleek12"
+			"xpos"			"195"
+			"ypos"			"40"
+			"wide"			"250"
+			"tall"			"16"
+			"zpos"			"3"
+		}
 	}
 	
 	"InstructionsBackground"
@@ -585,6 +814,14 @@
 		"fillcolor"		"0 0 0 100"
 		
 		if_mvm
+		{
+			"visible"		"0"
+		}	
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
 		{
 			"visible"		"0"
 		}
