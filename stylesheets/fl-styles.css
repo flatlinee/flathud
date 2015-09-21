@@ -132,9 +132,9 @@ a.fl-button:hover {
 }
 
 a.fl-button[data-role="blue-underline"]:hover {
-	box-shadow:0 3px 0 #6962FF;
-	-moz-box-shadow:0 3px 0 #6962FF;
-	-webkit-box-shadow:0 3px 0 #6962FF;
+	box-shadow:0 3px 0 #00458C;
+	-moz-box-shadow:0 3px 0 #00458C;
+	-webkit-box-shadow:0 3px 0 #00458C;
 }
 
 a.fl-button[data-role="yellow-underline"]:hover {
