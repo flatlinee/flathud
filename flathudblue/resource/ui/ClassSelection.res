@@ -752,7 +752,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectClass"
 		"xpos"			"c-75"
-		"ypos"			"1"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"30"
@@ -1556,6 +1556,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		"render_texture""0"
 		"fov"			"25"
 		"allow_rot"		"0"
 

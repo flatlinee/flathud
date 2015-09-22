@@ -141,7 +141,7 @@
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"c-30"
 			"xpos_hidef"		"c35"
-			"ypos"			"253"
+			"ypos"			"252"
 			"ypos_hidef"		"253"
 			"ypos_lodef"		"223"
 			"zpos"			"1"
@@ -172,9 +172,10 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
-		"model_wide"		"64"
+		"model_xpos"		"0"
+		"model_center_x"    "1"
+		"model_ypos"        "10"
+		"model_wide"		"140"
 		"model_tall"		"48"
 		
 		"text_xpos"		"90"

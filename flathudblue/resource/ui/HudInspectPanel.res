@@ -15,8 +15,7 @@
 		"paintborder"	"0"
 		
 		"model_xpos"		"0"
-		"model_center_y"	"1"
-		"model_center_x"    "0"
+		"model_center_x"    "1"
 		"model_ypos"        "10"
 		"model_wide"		"140"
 		"model_tall"		"48"
