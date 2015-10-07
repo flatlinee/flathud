@@ -4278,8 +4278,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"180"
-		"ypos"			"-275"
+		"xpos"			"-18"
+		"ypos"			"-100"
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
@@ -4312,7 +4312,7 @@
 			"ypos"			"300"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"94"
 			"visible"		"1"
 			"PaintBackgroundType"	"1"
 			"proportionaltoparent"	"1"
@@ -4341,117 +4341,15 @@
 				"fgcolor_override"	"235 227 203 255"
 			}
 
-			"ViewDetailsButton"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"
-					"fieldName"		"SubButton"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"autoResize"	"0"
-					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
-					"tabPosition"	"0"
-					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
-					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"default"		"1"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-					"labeltext"		"#MMenu_ViewUpdateDetails"
-					"proportionaltoparent"	"1"
-					"command"		"view_update_page"
-					"actionsignallevel"	"4"
-			
-					"defaultBgColor_override"	"15 15 15 255"
-					"armedBgColor_override"		"25 25 25 255"
-					"depressedBgColor_override"	"25 25 25 255"
-					"defaultFgColor_override"	"TanLight"
-					"armedFgColor_override" 	"TanLight"
-					"depressedFgColor_override" "TanLight"
-					"border_default"			"ButtonHover"
-					"border_armed"				"ButtonHover"
-					"paintbackground"			"1"
-				}
-			}
-			
-			"ViewComicButton"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewComicButton"
-				"xpos"			"p0.5"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"
-					"fieldName"		"SubButton"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"autoResize"	"0"
-					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
-					"tabPosition"	"0"
-					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
-					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"default"		"1"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-					"labeltext"		"#MMenu_ViewUpdateComic"
-					"proportionaltoparent"	"1"
-					"command"		"view_update_comic"
-					"actionsignallevel"	"4"
-			
-					"defaultBgColor_override"	"15 15 15 255"
-					"armedBgColor_override"		"25 25 25 255"
-					"depressedBgColor_override"	"25 25 25 255"
-					"defaultFgColor_override"	"TanLight"
-					"armedFgColor_override" 	"TanLight"
-					"depressedFgColor_override" "TanLight"
-					"border_default"			"ButtonHover"
-					"border_armed"				"ButtonHover"
-					"paintbackground"			"1"
-				}
-			}
-
 			"CyclingAd"
 			{
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"28"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4463,8 +4361,8 @@
 				{
 					"0"
 					{
-						"item"		"Unused Summer 2015 Operation Pass"
-						
+						"item"		"Unused Invasion Pass"
+
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
@@ -4472,15 +4370,16 @@
 					}
 					"1"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
-						
+						"item"		"Invasion Key"
+
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
+						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
+						"item"		"Invasion Case 01"
 
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4488,39 +4387,11 @@
 					}
 					"3"
 					{
-						"item"		"Summer 2015 Operation Key"
-						
+						"item"		"Invasion Case 02"
+
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: The Boxtrot"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: The Proletariat Showoff"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Taunt: Kazotsky Kick"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 				}
 			}
@@ -4582,4 +4453,3 @@
 		}
 	}
 }
-
