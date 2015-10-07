@@ -4278,8 +4278,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"-18"
-		"ypos"			"-100"
+		"xpos"			"180"
+		"ypos"			"-275"
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
