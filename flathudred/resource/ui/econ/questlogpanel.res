@@ -162,7 +162,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"ã"
-			"font"			"Sosa Small"
+			"font"			"Sosa Verysmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -212,6 +212,10 @@
 
 			"entry_step" "10"
 			"entry_y"	"10"
+			
+			"no_quests"		"#QuestLog_NoQuests"
+			"need_a_pass"	"#QuestLog_NeedPassForContracts"
+			"not_possible"	"#QuestLog_NoContractsPossible"
 		}
 	}
 }

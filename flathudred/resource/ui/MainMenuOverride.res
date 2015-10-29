@@ -4361,37 +4361,22 @@
 				{
 					"0"
 					{
-						"item"		"Unused Invasion Pass"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Invasion Key"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+						"item"		"Halloween 2015 case"
 					}
 					"2"
 					{
-						"item"		"Invasion Case 01"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Invasion Case 02"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Maggot's Condolence"
+						"show_market"	"0"
 					}
 				}
 			}
