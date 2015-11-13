@@ -13,42 +13,6 @@
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"
 		//"model_tall_collection"	"100"
-		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
-			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"xpos"			"0"
-				"ypos"			"30"
-				"zpos"			"999"
-				"wide"			"140"
-				"tall"			"60"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%attriblist%"
-				"textAlignment"	"center"
-				"fgcolor"		"117 107 94 255"
-				"centerwrap"	"1"
-			}
-    	}
 	}
 	
 	"LoadingSpinner"
