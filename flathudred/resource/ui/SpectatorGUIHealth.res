@@ -45,13 +45,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"11"
-		"ypos"			"14"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"22"
 		"tall"			"22"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"font" 			"WeblySleek16"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"TransparentBlack"
 		"textAlignment"	"center"	
 	}
 	"PlayerStatusPlayerLevel"
@@ -101,5 +101,24 @@
 		"textAlignment"	"center"	
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
-	}						
+	}	
+
+	"TargetBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TargetBG"
+		"xpos"		"-5"
+		"ypos"		"18"
+		"zpos"		"1"
+		"wide"        "160"
+		"tall"        "14"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"Spec Health Normal"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+		"alpha"		"0"
+	}
 }

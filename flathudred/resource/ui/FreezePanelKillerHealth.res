@@ -45,8 +45,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"22"
 		"tall"			"22"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFreezePanel"
-		"xpos"			"3"
+		"xpos"			"2"
 		"ypos"			"3"
 		"zpos"			"5"
 		"wide"			"26"
@@ -67,14 +67,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"WeblySleek12"
+		"font" 			"WeblySleek14"
 		"textAlignment"	"center"		
 	}
 	"PlayerStatusHealthValueFreezeBackground"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
-		"xpos"			"4"
+		"xpos"			"3"
 		"ypos"			"4"
 		"zpos"			"5"
 		"wide"			"26"
@@ -82,10 +82,27 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"WeblySleek12"
-		"fgcolor"		"0 0 0 255"
+		"font" 			"WeblySleek14"
+		"fgcolor"		"TransparentBlack"
 		"textAlignment"	"center"	
 	}			
 	
-
+	"FreezeBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"FreezeBG"
+		"xpos"		"-16"
+		"ypos"		"9"
+		"zpos"		"5"
+		"wide"        "160"
+		"tall"        "15"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"Spec Health Normal"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+		"alpha"		"0"
+	}
 }

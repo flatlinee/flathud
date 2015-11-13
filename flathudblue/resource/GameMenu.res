@@ -1,13 +1,5 @@
 "GameMenu" [$WIN32]
 {
-
-	"Version"
-	{
-		"label" "Version 2.7" 
-		"command" "engine con_enable 1; engine showconsole; clear; echo flatHUD V2.7.  wooooooooooooooooooooooooooooooooooooo Thanks to Rays, Doodle, Harvest, Suyo, tstm, and all my beta testers! <3"
-		"OnlyAtMenu" "0"
-		"tooltip" "I love you <3"
-	}
 	"QuickplayButton"
 	{
 		"label" "Quickplay" 
@@ -45,27 +37,30 @@
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replays"
+		"label" "U"
 		"command" "engine replay_reloadbrowser"
 		"subimage" ""
+		"tooltip"	"Replays"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
+		"label" "V"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" ""
+		"tooltip"	"Workshop"
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
+		"label" "a"
 		"command" "offlinepractice"
 		"subimage" ""
 		"OnlyAtMenu" "0"
+		"tooltip"	"Training"
 	}
 	"FavoriteServer"
 	{
 		"label"   "Ç"
-		"command" "engine"
+		"command" "engine connect 162.248.92.11:27015"
         "tooltip" "Favorite Server"
 	}
 	"QuestLogButton"
@@ -85,9 +80,9 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "{"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 		"tooltip" "Create Server"
 	}
 	"GeneralStoreButton"
@@ -102,12 +97,19 @@
 		"command" "engine open_charinfo"
 		"subimage" ""
 	}
+	"ScoreboardToggle"
+	{
+		"label" "A"
+		"command" "engine incrementvar cl_hud_minmode 0 1 1"
+		"OnlyAtMenu" "0"
+		"tooltip" "Switch Scoreboards"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"å"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -115,7 +117,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"9"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -123,7 +125,7 @@
 	}
 	"RequestCoachButton"
 	{
-		"label"			""
+		"label"			"p"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"

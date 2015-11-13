@@ -497,12 +497,13 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c70"
+		"xpos"	"c72"
 		"ypos"	"c66"
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"300"

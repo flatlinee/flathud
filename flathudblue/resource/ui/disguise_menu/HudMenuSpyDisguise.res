@@ -101,6 +101,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"wordwrap"		"1"
 	}
 	
 	"ToggleBG"
@@ -469,7 +470,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"WeblySleek14"
+		"font"			"WeblySleek12"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"159"

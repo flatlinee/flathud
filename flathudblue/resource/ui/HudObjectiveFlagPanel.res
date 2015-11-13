@@ -183,7 +183,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Cerbetica40"
+		"font"			"BigNoodleTitling36"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -215,7 +215,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Cerbetica40"
+		"font"			"BigNoodleTitling36"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -247,7 +247,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Cerbetica40"
+		"font"			"BigNoodleTitling36"
 		"fgcolor"		"TanLight"		
 		
 		"if_hybrid"
@@ -279,7 +279,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Cerbetica40"
+		"font"			"BigNoodleTitling36"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"

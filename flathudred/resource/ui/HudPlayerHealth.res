@@ -1,6 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -50,8 +51,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"442"
-		"ypos"			"57"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"68"	
 		"tall"			"68"	
@@ -59,31 +60,7 @@
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
-	}
-	"HealthBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HealthBG"
-		"xpos"			"115"
-		"ypos"			"65"
-		"zpos"			"-5"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-		"scaleimage"	"1"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		"src_corner_height" "20"
-		"src_corner_width" "20"
-		"draw_corner_width" "0"
-		"draw_corner_height" "0"
-	}
-		
-		
+	}		
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -99,6 +76,44 @@
 		"textAlignment"	"center"	
 		"font"			"BigNoodleTitling48"
 		"fgcolor"		"Health Normal"
+	}
+	"HealthBuffBG"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBuffBG"
+		"xpos"		"441"
+		"ypos"		"71"
+		"zpos"		"1"
+		"wide"        "70"
+		"tall"        "40"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Spec Health Buff"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+		"alpha"		"0"
+		"border"	"NoBorder"
+	}
+	"HealthLowBG"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthLowBG"
+		"xpos"		"441"
+		"ypos"		"71"
+		"zpos"		"1"
+		"wide"        "70"
+		"tall"        "40"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Spec Health Hurt"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+		"alpha"		"0"
+		"border"	"NoBorder"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

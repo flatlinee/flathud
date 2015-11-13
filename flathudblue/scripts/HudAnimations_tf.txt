@@ -489,16 +489,26 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		 FgColor "Health Buff" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Buff" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		 FgColor "Health Buff Cross" Accel 0.0 0.0
+	
+	Animate	HealthBuffBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	HealthBuffBG 	        Alpha		"255"		        Accel 0.3 0.6
 	
 	Animate	SpecBG 	        BgColor		"Spec Health Buff"        Accel 0.0 0.0
-    
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
-	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6 
+	
+	Animate	FreezeBG 	        BgColor		"Spec Health Buff"        Accel 0.0 0.0
+    Animate	FreezeBG 	        Alpha		"255"		        Accel 0.0 0.0
+	Animate	FreezeBG 	        Alpha		"255"		        Accel 0.3 0.6 
+	
+	Animate	TargetBG 	        BgColor		"Spec Health Buff"        Accel 0.0 0.0
+    Animate	TargetBG 	        Alpha		"255"		        Accel 0.0 0.0
+	Animate	TargetBG 	        Alpha		"255"		        Accel 0.3 0.6 
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -514,11 +524,18 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "Health Normal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "Health Normal Cross" Accel 0.0 0.0
+	
+	Animate	HealthBuffBG 	         Alpha		    "0"		           Accel 0.0 0.0
 	
 	Animate	SpecBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "0"		           Accel 0.0 0.0
+	
+	Animate	FreezeBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
+    Animate	FreezeBG 	         Alpha		    "0"		           Accel 0.0 0.0
+	
+	Animate	TargetBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
+    Animate	TargetBG 	         Alpha		    "0"		           Accel 0.0 0.0
 }
 
 //===========================================
@@ -526,15 +543,21 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	
-	Animate PlayerStatusHealthValue 		 FgColor 				"Health Hurt" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor 		"Spec Health Hurt" Accel 0.0 0.0
+
+    Animate	HealthLowBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	HealthLowBG 	        Alpha		"255"		        Accel 0.3 0.6
 	
 	Animate SpecBG 	        BgColor		"Spec Health Hurt"	    Accel 0.0 0.0
     Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
 	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
+	
+	Animate FreezeBG 	        BgColor		"Spec Health Hurt"	    Accel 0.0 0.0
+    Animate	FreezeBG 	        Alpha		"255"		        Accel 0.0 0.0
+	Animate	FreezeBG 	        Alpha		"255"		        Accel 0.3 0.6
+	
+	Animate TargetBG 	        BgColor		"Spec Health Hurt"	    Accel 0.0 0.0
+    Animate	TargetBG 	        Alpha		"255"		        Accel 0.0 0.0
+	Animate	TargetBG 	        Alpha		"255"		        Accel 0.3 0.6
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -550,12 +573,18 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "Health Normal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
+	Animate	HealthLowBG 	         Alpha		    "0"		           Accel 0.0 0.0
 	
 	Animate	SpecBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
     Animate	SpecBG 	         Alpha		    "0"		           Accel 0.0 0.0
+	
+	Animate	FreezeBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
+    Animate	FreezeBG 	         Alpha		    "0"		           Accel 0.0 0.0
+	
+	Animate	TargetBG 	         BgColor		"Spec Health Normal"	       Accel 0.0 0.0
+    Animate	TargetBG 	         Alpha		    "0"		           Accel 0.0 0.0
 }
+
 
 //===========================================
 
@@ -564,11 +593,9 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha	"255"					Linear 0.0 		0.075
 	Animate	HudWeaponLowAmmoImage		Alpha	"0"						Linear 0.125 	0.075
 	
-	Animate AmmoInClip 					FgColor "Ammo In Clip Low"			Linear 0.0 		0.000
-
-	Animate AmmoInReserve 				FgColor "Ammo In Reserve Low" 	Linear 0.0 		0.000
-
-	Animate AmmoNoClip 					FgColor "Ammo In Clip Low"		Linear 0.0 		0.000
+    Animate	AmmoLowBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	AmmoLowBG 	        Alpha		"255"		        Accel 0.3 0.6
+	
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -584,11 +611,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
-	Animate	  AmmoInClip		FgColor		"Ammo In Clip"			Accel 0.0 0.0
-	
-	Animate	  AmmoInReserve		FgColor		"Ammo In Reserve"		Accel 0.0 0.0
-
-	Animate	  AmmoNoClip		FgColor		"Ammo In Clip"			Accel 0.0 0.0
+    Animate	AmmoLowBG 	         Alpha		    "0"		           Accel 0.0 0.0
 }
 
 //===========================================
@@ -1075,11 +1098,12 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer
 {
 
+	Animate DamageCircleDot    FgColor "242 0 0 255"		Accel 0.0 0.0
+	Animate	DamageCircleDot    FgColor "0 255 0 255"	    Accel 0.2 0.0
+	
 //Change "DamageCircleDot" to the fieldname of your crosshair
 //Change the TOP value of "FgColor" to whatever color you want it to flash
 //Change the BOTTOM value of "FgColor" to what you want the xhair to be colored normally
-	Animate DamageCircleDot    FgColor "242 0 0 255"		Accel 0.0 0.0
-	Animate	DamageCircleDot    FgColor "0 255 0 255"	    Accel 0.2 0.0
 }
 
 //===========================================
@@ -1502,3 +1526,7 @@ event QuestItem_Highlight_Off_Halloween
 }
 
 //
+
+
+
+
