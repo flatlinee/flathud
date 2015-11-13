@@ -1,14 +1,22 @@
 Welcome to flatHUD!
 
-Version: 2.7
-Released: July 7th, 2015
+Version: 3.0
+Released: November 13th, 2015
 
 Changelog:
--Fully updated for Gun Mettle
--Changed icons/styles of News, Alerts, and Contracts buttons
--Added tooltips for aforementioned buttons
--Added "favorite server" button in lieu of server links customization
--Removed labels from Item Meters and shortened them
+-Completely redesigned main menu
+-Changed loadout/stats tab design
+-Restyled quickplay panel
+-Replaced sized health cross with health-varying background
+-Did the same to targetID, freezecam, spy disguise panel, etc
+-Added low ammo background (same design as the health background)
+-New team selection menu
+-Made default font size smaller
+-Slight redesign of freezecam panel
+-Created (admittedly hacky) fix for green scoreboard numbers
+-Changed font of flag panel
+-Fix spy disguise panel HP box
+-Various other bugfixes
 
 
 FAQ:
