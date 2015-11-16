@@ -35,7 +35,7 @@ Scheme
 		"MenuHover"     "0 59 168 255"                  //Hover color (only used in matchmaking and quickplay)
 		"MainMenuBG"	"0 0 0 255"						//Optional solid color background, enable in mainmenuoverride.res
 	
-	
+		//refers to Ammo values, Ammo Low is used as the low ammo BG color
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
 		"Ammo No Clip"							"255 255 255 255"
