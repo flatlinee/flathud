@@ -45,12 +45,12 @@ Scheme
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"255 255 255 255"
 		"Spec Health Buff"						"0 200 100 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Hurt"						"255 51 51 255"
 		
 		//refers to player health/targetids
 		"Health Normal"							"255 255 255 255"
 		"Health Buff"							"0 200 100 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Hurt"							"255 51 51 255"
 		
 		//Change these if you're using the Brosel cross or Health cross
 		"Health Normal Cross"					"255 255 255 255"
