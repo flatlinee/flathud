@@ -15,16 +15,16 @@
 		"tabPosition"		"0"
 		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
-		"name_width"		"50"	[$WIN32]		
-		"status_width"		"15"	[$WIN32]
+		"spacer"			"5"
+		"name_width"		"50"	[$WIN32]
+		"name_width_short"	"50"
 		"nemesis_width"		"15"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
-		"score_width"		"25"
-		"score_width_lodef"	"35"
-		"score_width_hidef"	"50"
-		"ping_width"		"23"	[$WIN32]
+		"score_width"		"20"
+		"ping_width"		"20"	[$WIN32]
 		"stats_width"		"30"
-		"killstreak_width"	"20"
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -120,7 +120,7 @@
 		"xpos"			"9999"
 		"xpos_minmode"	"c"
 		"ypos"			"9999"
-		"ypos_minmode"	"194"
+		"ypos_minmode"	"195"
 		"zpos"			"-1"
 		"wide_minmode"	"240"
 		"tall"			"150"
@@ -142,7 +142,7 @@
 		"xpos"			"9999"
 		"xpos_minmode"	"c-240"
 		"ypos"			"9999"
-		"ypos_minmode"	"194"
+		"ypos_minmode"	"195"
 		"zpos"			"-1"
 		"wide"			"240"
 		"tall"			"150"
