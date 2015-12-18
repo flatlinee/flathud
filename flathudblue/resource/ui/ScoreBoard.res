@@ -14,14 +14,14 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"medal_width"		"15"
-		"avatar_width"		"57"	[$WIN32]
+		"avatar_width"		"57"
 		"spacer"			"5"
-		"name_width"		"50"	[$WIN32]
-		"name_width_short"	"50"
-		"nemesis_width"		"15"	[$WIN32]
-		"class_width"		"15"	[$WIN32]
-		"score_width"		"20"
-		"ping_width"		"20"	[$WIN32]
+		"name_width"		"100"
+		"name_width_short"	"100"
+		"nemesis_width"		"15"
+		"class_width"		"20"
+		"score_width"		"25"
+		"ping_width"		"20"
 		"stats_width"		"30"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
