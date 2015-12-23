@@ -67,4 +67,8 @@ with the xpos and ypos until it looks right for you.
 
 **Thanks for using flatHUD!**
 
+<<<<<<< HEAD
 -flatline
+=======
+-flatline
+>>>>>>> origin/master
