@@ -4,8 +4,10 @@
 flathud is a Team Fortress 2 HUD modification made by flatline (that's me!).  The original development started around September of 2013.  Its design aims to present the most amount of information in the least amount of space as well as reimagine the style of TF2's graphical design.
 
 
+
 #####Version: 3.0
 #####Released: November 13th, 2015
+
 
 
 ####Changelog:
