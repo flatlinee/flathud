@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-   "$basetexture" "vgui\replay\thumbnails\intel_blue"
+   "$basetexture" "vgui/replay/thumbnails/cart_point_neutral"
    "$vertexcolor" 		1 
    "$vertexalpha" 		1 
    "$nolod" 		1
