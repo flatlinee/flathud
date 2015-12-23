@@ -1550,6 +1550,20 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"14"
+				"tall_hidef"	"24"
+				"tall_lodef"	"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
@@ -1562,6 +1576,18 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -2142,12 +2168,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
 			}
-		}		
+		}			
 		"ItemFontAttribLarge"
 		{
 		"1"
@@ -2453,7 +2479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2465,7 +2491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2476,7 +2502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"

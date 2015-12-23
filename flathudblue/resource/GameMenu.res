@@ -21,6 +21,22 @@
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "Competitive" 
+		"command" "ladder_ui_show"
+		"subimage" ""
+		"OnlyAtMenu"	"0"
+		"OnlyWhenCompetitiveEnabled" "1"
+	}
+	"CompetitiveButton"
+	{
+		"label" "Competitive" 
+		"command" "ladder_ui_show"
+		"subimage" ""
+		"OnlyAtMenu"	"0"
+		"OnlyWhenCompetitiveEnabled" "0"
+	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 
@@ -87,9 +103,10 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Shop"
+		"label" "Å"
 		"command" "engine open_store"
 		"subimage" ""
+		"tooltip" "Store"
 	}	
 	"CharacterSetupButton"
 	{
