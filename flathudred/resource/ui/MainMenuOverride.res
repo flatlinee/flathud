@@ -3572,7 +3572,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"577"
+		"xpos"			"c150"
 		"ypos"			"448"
 		"zpos"			"1"
 		"wide"			"100"
