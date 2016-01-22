@@ -311,9 +311,9 @@
 		
 		"model_xpos"		"0"
 		"model_center_x"    "1"
-		"model_ypos"        "10"
-		"model_wide"		"140"
-		"model_tall"		"48"
+		"model_ypos"        "20"
+		"model_wide"		"90"
+		"model_tall"		"50"
 		
 		"text_xpos"		"0"
 		"text_ypos"		"65"
@@ -328,7 +328,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
