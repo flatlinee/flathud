@@ -1912,15 +1912,15 @@
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor_override"	"132 229 37 255"
+				"fgcolor_override"	"MenuMouseover"
 			}
 
 			"RankProgressMeterBG"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"RankProgressMeterBG"
-				"xpos"			"99"
-				"ypos"			"49"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"-1"
 				"wide"			"187"
 				"tall"			"12"

@@ -18,8 +18,11 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"48"
 		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"50"
+		"teams_player_delta_x_comp"			"52"
 		
+		
+		"avatar_width"	"57"
+		"name_width"	"57"
 		
 		if_mvm
 		{
@@ -35,13 +38,14 @@
 		
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
+			"xpos"							"0"
 			"ypos"							"0"
 			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"			"75"
+			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}
 		
@@ -110,24 +114,24 @@
 					
 				if_mvm
 				{
-					"xpos"				"4"
-					"ypos"				"25"
+					"xpos"				"3"
+					"ypos"				"24"
 					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"WeblySleek10"
 				}
 				if_competitive
 				{
-					"xpos"				"4"
-					"ypos"				"25"
+					"xpos"				"3"
+					"ypos"				"24"
 					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"WeblySleek10"
 				}
 				if_readymode
 				{
-					"xpos"				"4"
-					"ypos"				"25"
+					"xpos"				"3"
+					"ypos"				"24"
 					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"WeblySleek10"
@@ -418,41 +422,6 @@
 				"visible"	"0"
 			}
 		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-		}		
-		if_competitive
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}
-		if_readymode
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}	
 	}
 
 	"HudTournamentBackground"
@@ -563,7 +532,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"170"
+			"xpos"			"c-150"
 		}
 		if_readymode
 		{
@@ -594,7 +563,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"174"
+			"xpos"			"c-146"
 		}
 		if_readymode
 		{
@@ -660,7 +629,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"320"
+			"xpos"			"c"
 		}
 		if_readymode
 		{
@@ -691,7 +660,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"395"
+			"xpos"			"c75"
 		}
 		if_readymode
 		{
@@ -754,7 +723,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"195"
+			"xpos"			"c-125"
 		}
 		if_readymode
 		{
@@ -819,7 +788,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"170"
+			"xpos"			"c-150"
 		}
 		if_readymode
 		{
@@ -857,7 +826,7 @@
 		if_competitive
 		{
 			"font"			"WeblySleek12"
-			"xpos"			"195"
+			"xpos"			"c-125"
 			"ypos"			"40"
 			"wide"			"250"
 			"tall"			"16"
@@ -902,15 +871,13 @@
 		}
 	}
 	
-
-	
-	"CountdownBG"
+		"CountdownBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"230"
 		"ypos"			"r55"
-		"zpos"			"-1"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"autoResize"		"0"
@@ -919,23 +886,36 @@
 		"enabled"		"1"
 		"image"			"../HUD/color_panel_red"
 
-		"src_corner_height"	"35"				// pixels inside the image
-		"src_corner_width"	"35"
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" "0"	
+		"draw_corner_height" 	"0"	
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"150"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"BigNoodleTitling32"
+		"font"			"HudFontGiant"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"5"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -943,19 +923,33 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"white"
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"HudFontGiant"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 	
 	"CountdownLabelShadow"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"BigNoodleTitling32"
+		"font"			"HudFontGiant"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"4"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -964,5 +958,255 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
+			"font"			"HudFontGiant"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+	"FrontParticlePanel"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"FrontParticlePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos" "c0"
+				"particle_ypos" "c0"
+				"particle_scale"	"2"
+				"particleName"	"versus_door_slam"
+				"start_activated" "0"
+				"loop"	"0"
+			}
+		}
+
+		"paintbackground"	"0"	
+	}
+
+	"MatchStartingBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MatchStartingBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fov"			"70"
+		"proportionaltoparent"	"1"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/versus_doors.mdl"
+			"skin"		"0"
+			"angles_x"	"0"
+			"angles_y"	"0"
+			"angles_z"	"0"
+			"origin_x"	"120"
+			"origin_y"	"0"
+			"origin_z"	"-77"
+
+			"animation"
+			{
+				"name"			"ref"
+				"sequence"		"ref"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"open"
+				"sequence"		"open"
+			}
+			
+			"animation"
+			{
+				"name"			"close"
+				"sequence"		"close"
+			}
+
+			"animation"
+			{
+				"name"			"idle_closed"
+				"sequence"		"idle_closed"
+			}
+		}
+	}	
+
+	"BlueTeamPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BlueTeamPanel"
+		"xpos"			"-155"
+		"ypos"			"139"
+		"zpos"			"50"
+		"wide"			"150"
+		"tall"			"260"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"BlueTeamBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueTeamBG"
+			"xpos"			"0"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"147"
+			"tall"			"36"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderBlueBGOpaque"
+		}
+		"BlueTeamImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BlueTeamImage"
+			"xpos"			"9"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"56"
+			"tall"			"56"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/team_blue"
+			"scaleImage"		"1"
+		}
+		"BluePlayerList"
+		{
+			"ControlName"	"SectionedListPanel"
+			"fieldName"		"BluePlayerList"
+			"xpos"			"6"
+			"ypos"			"38"
+			"zpos"			"1"
+			"wide"			"136"
+			"tall"			"177"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"autoresize"	"3"
+			"linespacing"	"26"
+			"linegap"		"0"
+			//"show_columns"	"1"
+			"border"		"NoBorder"
+		}
+		"BluePlayerListBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BluePlayerListBG"
+			"xpos"			"4"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"139"
+			"tall"			"155"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderClearBG"
+		}
+	}
+
+	"RedTeamPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RedTeamPanel"
+		"xpos"			"r-5"
+		"ypos"			"139"
+		"zpos"			"50"
+		"wide"			"150"
+		"tall"			"260"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"RedTeamBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RedTeamBG"
+			"xpos"			"0"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"147"
+			"tall"			"36"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderRedBGOpaque"
+		}
+		"RedTeamImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RedTeamImage"
+			"xpos"			"84"
+			"ypos"			"-9"
+			"zpos"			"5"
+			"wide"			"70"
+			"tall"			"70"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/team_Red"
+			"scaleImage"		"1"
+		}
+		"RedPlayerList"
+		{
+			"ControlName"	"SectionedListPanel"
+			"fieldName"		"RedPlayerList"
+			"xpos"			"6"
+			"ypos"			"38"
+			"zpos"			"1"
+			"wide"			"136"
+			"tall"			"177"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"autoresize"	"3"
+			"linespacing"	"26"
+			"linegap"		"0"
+			//"show_columns"	"1"
+			"border"		"NoBorder"
+		}
+		"RedPlayerListBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RedPlayerListBG"
+			"xpos"			"4"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"139"
+			"tall"			"155"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"NoBorder"
+		}
 	}
 }
+
