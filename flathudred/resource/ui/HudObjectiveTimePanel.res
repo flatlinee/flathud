@@ -9,7 +9,7 @@
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"	"1"

@@ -167,10 +167,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"0"
+		"xpos"			"-10"
 		"ypos"			"449"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
