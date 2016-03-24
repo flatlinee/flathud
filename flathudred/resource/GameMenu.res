@@ -25,17 +25,9 @@
 	{
 		"label" "Competitive" 
 		"command" "ladder_ui_show"
-		"subimage" ""
-		"OnlyAtMenu"	"0"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
 		"OnlyWhenCompetitiveEnabled" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" ""
-		"OnlyAtMenu"	"0"
-		"OnlyWhenCompetitiveEnabled" "0"
 	}
 	"ServerBrowserButton"
 	{
@@ -79,7 +71,7 @@
 		"command" "engine connect 162.248.92.11:27015"
         "tooltip" "Favorite Server"
 	}
-	"QuestLogButton"
+	"QuestLogButton1"
 	{
 		"label"	  "j"
 		"command" "questlog"
@@ -91,7 +83,12 @@
 		"command" "motd_show"
         "tooltip" "News"
 	}
-	
+	"WatchStreamButton1"
+	{
+		"label"	  ":"
+		"command" "watch_stream"
+        "tooltip" "Watch Streams"
+	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
