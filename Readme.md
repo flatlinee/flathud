@@ -5,25 +5,17 @@ flathud is a Team Fortress 2 HUD modification made by flatline (that's me!).  Th
 
 
 
-#####Version: 3.0
-#####Released: November 13th, 2015
+#####Version: 3.1
+#####Released: March 25th, 2016
 
 
 
 ####Changelog:
-* Completely redesigned main menu
-* Changed loadout/stats tab design
-* Restyled quickplay panel
-* Replaced sized health cross with health-varying background
-* Did the same to targetID, freezecam, spy disguise panel, etc
-* Added low ammo background (same design as the health background)
-* New team selection menu
-* Made default font size smaller
-* Slight redesign of freezecam panel
-* Created (admittedly hacky) fix for green scoreboard numbers
-* Changed font of flag panel
-* Fix spy disguise panel HP box
-* Various other bugfixes
+* Fully updated for Matchmaking (at time of this writing) 
+* Added watch streams button 
+* Created uniform styling for main menu context buttons (contracts, streams, alerts, motd) 
+* Tons of bugfixes 
+* Deleted files relating to a now-unsupported hud management program 
 
 
 ####FAQ:
