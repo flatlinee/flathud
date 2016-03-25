@@ -2088,7 +2088,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"font"	"BigNoodleTitling16"
-		"labelText"	"Version 3.0"
+		"labelText"	"Version 3.1"
 		"textAlignment"	"west"
 	}
 	
