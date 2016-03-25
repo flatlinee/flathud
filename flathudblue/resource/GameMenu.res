@@ -26,7 +26,7 @@
 		"label" "Competitive" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 		"OnlyWhenCompetitiveEnabled" "1"
 	}
 	"ServerBrowserButton"

@@ -87,7 +87,7 @@
 			"font"			"BigNoodleTitling20"
 			"fgcolor"		"TanLight"
 			"xpos"			"25"
-			"ypos"			"2"
+			"ypos"			"-5"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"31"
@@ -95,6 +95,11 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			
+			if_comp
+			{
+				"ypos"	"2"
+			}
 		}	
 	}
 }

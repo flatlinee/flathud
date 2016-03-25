@@ -328,4 +328,16 @@ event Hud_StatsAndMedals_Show
 	Animate BlueMedals ypos 75 Accel 0 0.1
 	Animate RedMedals ypos 75 Accel 0 0.1
 }
-//
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	Animate DeathPanel ypos 8 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+	SetVisible DeathPanel  0 0.2
+}
