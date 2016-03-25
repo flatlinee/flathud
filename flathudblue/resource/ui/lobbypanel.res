@@ -1520,7 +1520,7 @@
 		"fieldName"		"PartyActiveGroupBox"
 		"xpos"			"c+100"
 		"ypos"		"10"
-		"zpos"		"-1"
+		"zpos"		"5"
 		"wide"		"200"
 		"tall"		"330"
 		"visible"	"0"
