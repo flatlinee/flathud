@@ -341,3 +341,14 @@ event TeamStatus_PlayerAlive
 	Animate respawntime ypos 0 Accel 0 0.2
 	SetVisible DeathPanel  0 0.2
 }
+
+event WinPanel_CompPos
+{
+    Animate WinPanel ypos 290 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+    Animate WinPanel ypos 290 Linear 0 0
+}
+

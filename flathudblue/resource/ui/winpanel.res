@@ -9,11 +9,42 @@
 		"wide"			"500"
 		"tall"			"200"
 		"visible"		"1"
-
+		
 		"BlueScoreBG"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
+			"xpos"			"50"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
+		}
+		"RedScoreBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedScoreBG"
+			"xpos"			"197"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
+		}
+
+		"BlueScoreBG1"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlueScoreBG1"
 			"xpos"			"0"
 			"ypos"			"110"
 			"wide"			"100"
@@ -25,10 +56,10 @@
 			"fillcolor"		"70 130 180 153"
 			"scaleImage"		"1"
 		}
-		"RedScoreBG"
+		"RedScoreBG1"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"RedScoreBG"
+			"fieldName"		"RedScoreBG1"
 			"xpos"			"300"
 			"ypos"			"110"
 			"wide"			"100"
@@ -91,7 +122,35 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
-		}					
+		}		
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"61"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"59"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}												
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -143,27 +202,54 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
-		}					
+		}	
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"280"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"278"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}				
 
 	}
-	"WinPanelBG"
+		
+	"WinPanelBGBorder"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
 		"zpos"			"0"
-		"wide"			"500"
-		"tall"			"80"
-		"visible"		"1"
+		"wide"			"p0.94"
+		"tall"			"185"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"fillcolor"		"0 0 0 100"
-		"src_corner_height" "3"
-		"src_corner_width" "3"
-		"draw_corner_width" "0"
-		"draw_corner_height" "0"		
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
+	
 	"WinPanelBackground2"
 	{
 		"ControlName"	"ImagePanel"
