@@ -870,4 +870,38 @@
 			"visible"		"0"
 		}
 	}
+	"CountdownBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"CountdownBG"
+		"xpos"			"230"
+		"ypos"			"r55"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"40"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/color_panel_red"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"150"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
 }
