@@ -174,8 +174,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"Back"
 		"font"			"BigNoodleTitling24"
@@ -190,7 +190,36 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanDark"
 		"depressedFgColor_override" "TanDark"
-	}		
+	}	
+
+	"BackButton1"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton1"
+		"xpos"			"-10"
+		"ypos"			"449"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"<< Back"
+		"font"			"BigNoodleTitling24"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"back"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanDark"
+	}	
 	
 	"BackButton2"
 	{

@@ -870,6 +870,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"CountdownBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -896,6 +897,74 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"150"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+
+	"CountdownLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"CountdownLabel"
+		"font"			"HudFontGiant"
+		"xpos"			"230"
+		"ypos"			"r55"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"5"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"HudFontGiant"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"HudFontGiant"
+		"xpos"			"231"
+		"ypos"			"r54"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"4"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"fgcolor"		"Black"
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
+			"font"			"HudFontGiant"
 		}
 
 		if_readymode

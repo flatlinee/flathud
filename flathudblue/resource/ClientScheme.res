@@ -184,8 +184,8 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
+		"ProgressOffWhite"	"0 69 140 255"
+		"ProgressBackground"	"35 35 35 255"
 		"HealthBgGrey"		"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
@@ -1664,7 +1664,29 @@ Scheme
 				"antialias" "1"
 			}
 		}
+			"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		"ControlPointTimer"
 		{
 			"1"
@@ -5051,6 +5073,17 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
@@ -5084,7 +5117,18 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-				TFFatLineBorderBlueBGOpaque
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		TFFatLineBorderBlueBGOpaque
 		{
 			"bordertype"	"scalable_image"
 			"backgroundtype"	"2"
