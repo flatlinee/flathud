@@ -4703,7 +4703,7 @@
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"-2"
 				"wide"			"f0"
 				"tall"			"30"
 				"autoResize"	"0"
@@ -4719,7 +4719,7 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"28"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
 				"tall"					"60"
@@ -4734,22 +4734,43 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		"Mayflower Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Mayflower Cosmetic Case"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
+						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Maggot's Condolence"
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
+					}
+					"4"
+					{
+						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Mannrobics"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
+					}
+					"7"
+					{
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 				}
 			}
