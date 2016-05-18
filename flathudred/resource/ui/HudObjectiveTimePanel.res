@@ -17,11 +17,6 @@
 		"src_corner_width" "3"
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
-		
-		if_comp
-		{
-			"visible"	"0"
-		}
 	}
 	"TimePanelBG2"
 	{
