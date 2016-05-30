@@ -41,10 +41,12 @@ body {
 
 .slidesjs-previous {
 	left:30px;
+	color:#00458C;
 }
 
 .slidesjs-next {
 	left:890px;
+	color:#00458C;
 }
 
 .slidesjs-navigation:hover {
