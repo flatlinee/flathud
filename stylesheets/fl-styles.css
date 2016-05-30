@@ -159,7 +159,7 @@ a.fl-button[data-role="red-underline"]:hover {
 .fl-content-container {
 	width:100%;
 	height:200px;
-	background-color:rgba(0,0,0,0.50);
+	background-color:rgba(25,25,25,0.75);
 }
 
 .fl-content-container .fl-container {
@@ -174,7 +174,7 @@ a.fl-button[data-role="red-underline"]:hover {
 
 .fl-content-container .fl-container p {
 	font-size:14px;
-	text-shadow:0 1px 0 rgba(25,25,25,0.75);
+	text-shadow:0 1px 0 rgba();
 	margin-top:-50px;
 }
 
