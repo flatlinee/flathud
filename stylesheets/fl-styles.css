@@ -174,12 +174,12 @@ a.fl-button[data-role="red-underline"]:hover {
 
 .fl-content-container .fl-container p {
 	font-size:14px;
-	text-shadow:0 1px 0 rgba(0,0,0,0.50);
+	text-shadow:0 1px 0 rgba(25,25,25,0.75);
 	margin-top:-50px;
 }
 
 .fl-footer {
-	background:rgba(25,25,25,0.75);
+	background-color:#1e1e1e;
 	text-align:center;
 	color:#e1e1e1;
 	width:100%;
