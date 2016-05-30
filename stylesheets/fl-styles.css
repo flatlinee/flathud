@@ -54,7 +54,7 @@ body {
 .fl-header {
 	width:100%;
 	height:150px;
-	background:rgba(25,25,25,0.50);
+	background:rgba(25,25,25,0.75);
 	overflow:hidden;
 }
 
@@ -179,7 +179,7 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-footer {
-	background-color:#191919;
+	background:rgba(25,25,25,0.75);
 	text-align:center;
 	color:#e1e1e1;
 	width:100%;
