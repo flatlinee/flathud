@@ -156,9 +156,9 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 a.fl-button[data-role="purple-underline"]:hover {
-	box-shadow:0 3px 0 #2B193D;
-	-moz-box-shadow:0 3px 0 #2B193D;
-	-webkit-box-shadow:0 3px 0 #2B193D;
+	box-shadow:0 3px 0 #B163FF;
+	-moz-box-shadow:0 3px 0 #B163FF;
+	-webkit-box-shadow:0 3px 0 #B163FF;
 }
 
 
