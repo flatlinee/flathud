@@ -121,14 +121,14 @@ a.fl-button {
 	transition:ease-in-out 0.25s;
 	-moz-transition:ease-in-out 0.25s;
 	-webkit-transition:ease-in-out 0.25s;
-	background-color:rgba(133, 133, 133, 0.75);
+	background-color:rgba(25, 25, 25, 0.75);
 	box-shadow:0 3px 0 #464646;
 	-moz-box-shadow:0 3px 0 #464646;
 	-webkit-box-shadow:0 3px 0 #464646;
 }
 
 a.fl-button:hover {
-	background-color:rgba(133, 133, 133, 1);
+	background-color:rgba(25, 25, 25, 1);
 }
 
 a.fl-button[data-role="blue-underline"]:hover {
@@ -179,7 +179,7 @@ a.fl-button[data-role="red-underline"]:hover {
 }
 
 .fl-footer {
-	background-color:#1e1e1e;
+	background-color:#191919;
 	text-align:center;
 	color:#e1e1e1;
 	width:100%;
