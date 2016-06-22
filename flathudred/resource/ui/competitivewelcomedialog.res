@@ -15,28 +15,47 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"bgcolor_override"	"25 25 25 25"
+	}
+	
+	"BorderBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BorderBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"564"
+		"tall"			"387" // Bottom of confirm button + 10 margin
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"settitlebarvisible"	"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"border"		"CyanBorderThick"
 	}
 
 	"CompTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ComptTitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"BigNoodleTitling24"
 		"labelText"		"#TF_Competitive_Welcome_Title"
-		"textAlignment"	"north"
+		"textAlignment"	"center"
 		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"15"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"14"
+		"wide"			"564"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "StoreGreen"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SubtitleLabel"
@@ -71,13 +90,13 @@
 		"ypos"			"47" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override" "MenuBorder"
 	}
 
 	"SectionOneTextLabel"
@@ -98,7 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SectionTwoTitleLabel"
@@ -113,13 +132,13 @@
 		"ypos"			"108" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override" "MenuBorder"
 	}
 
 	"SectionTwoTextLabel"
@@ -140,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SectionThreeTitleLabel"
@@ -155,13 +174,13 @@
 		"ypos"			"169" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override" "MenuBorder"
 	}
 
 	"SectionThreeTextLabel"
@@ -182,7 +201,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SectionFourTitleLabel"
@@ -197,13 +216,13 @@
 		"ypos"			"230" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override" "MenuBorder"
 	}
 
 	"SectionFourTextLabel"
@@ -224,7 +243,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SectionFiveTitleLabel"
@@ -239,13 +258,13 @@
 		"ypos"			"291" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override" "MenuBorder"
 	}
 
 	"SectionFiveTextLabel"
@@ -266,7 +285,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"ConfirmButton"
