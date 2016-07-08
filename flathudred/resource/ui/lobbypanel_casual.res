@@ -29,7 +29,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"p0.8"
+		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -60,7 +60,8 @@
 			"tall"			"p1"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -142,21 +143,24 @@
 		"PartyGroupBox"
 		{
 			"tall"		"160"
-			"border"		"QuickplayBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 		}
 
 		"ChatLog"
 		{
 			"ypos"			"165"
 			"tall"			"100"
-			"border"		"QuickplayBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 		}
 
 		"ChatTextEntry"
 		{
 			"ypos"			"270"
 			"tall"			"16"
-			"border"		"QuickplayBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 		}
 	}
 
@@ -167,6 +171,8 @@
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"
+		"border"		"CyanBorderThick"
+		"bgcolor_override"	"25 25 25 255"
 
 		"SearchActiveTitle"
 		{

@@ -29,7 +29,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"p0.8"
+		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -60,8 +60,17 @@
 			"tall"			"15"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-
-				
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
+			"paintbackground"			"1"
+		
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
@@ -75,7 +84,7 @@
 
 		"ShowMatchHistoryButton"
 		{
-			"ControlName"	"Button"
+			"ControlName"	"CExButton"
 			"fieldName"		"ShowMatchHistoryButton"
 			"xpos"			"10"
 			"ypos"			"6"
@@ -84,6 +93,16 @@
 			"tall"			"15"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
+			"paintbackground"			"1"
 
 			"actionsignallevel"		"2"
 			"command"		"show_match_history"
@@ -108,7 +127,8 @@
 			"tall"			"p1"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -153,7 +173,8 @@
 					"tall"			"p1.3"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"border"		"MainMenuBGBorder"
+					"border"		"CyanBorderThick"
+					"bgcolor_override"	"25 25 25 255"
 				}
 
 				"SortArrow"
@@ -388,21 +409,24 @@
 		"PartyGroupBox"
 		{
 			"tall"		"160"
-			"border"		"QuickplayBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 		}
 
 		"ChatLog"
 		{
 			"ypos"			"165"
 			"tall"			"100"
-			"border"		"QuickplayBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 		}
 
 		"ChatTextEntry"
 		{
 			"ypos"			"270"
 			"tall"			"16"
-			"border"		"QuickplayBorder"
+			"border"		"CyanBorderThick"
+			"bgcolor_override"	"25 25 25 255"
 		}
 	}
 
@@ -413,6 +437,8 @@
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"
+		"border"		"CyanBorderThick"
+		"bgcolor_override"	"25 25 25 255"
 
 		"SearchActiveTitle"
 		{

@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"25 25 25 255"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -34,7 +34,8 @@
 		"tall"		"350"
 		"visible"	"1"
 		"enabled"	"1"
-		"border"	"MainMenuHighlightBorder"
+		"border"	"NoBorder"
+		"bgcolor_override"	"15 15 15 255"
 		
 		"MannVsMachineLabel"
 		{
@@ -47,7 +48,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_MvM_HeaderMannVsMachine"
 			"font"			"HudFontMediumBold"
-			//"fgcolor_override"	"89 81 71 255"
+			//"fgcolor_override"	"255 255 255 255"
 			"fgcolor_override"	"201 79 57 255"
 			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -59,7 +60,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"MannVsMachineExplanation"
 			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"fgcolor_override"	"255 255 255 255"
 			"labelText"		"#TF_MvM_MannVsMachineExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
@@ -103,12 +104,12 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"font"			"WeblySleek12"
+			"fgcolor_override"	"255 255 255 255"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
-			"ypos"			"50"
+			"ypos"			"70"
 			"zpos"			"0"
 			"wide"			"170"
 			"tall"			"60"
@@ -132,12 +133,12 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"font"			"WeblySleek12"
+			"fgcolor_override"	"255 255 255 255"
 			"labelText"		"#TF_MvM_PracticeExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
-			"ypos"			"50"
+			"ypos"			"70"
 			"zpos"			"0"
 			"wide"			"170"
 			"tall"			"60"
@@ -159,6 +160,7 @@
 		"NavUp"			"MvMSelectChallengeGroupBox"
 		"NavLeft"		"MvMSelectChallengeGroupBox"
 		"NavRight"		"PartyActiveGroupBox"
+		
 
 		"ChallengeLabel"
 		{
@@ -232,7 +234,8 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"	"CyanBorderThick"
+			"bgcolor_override" "25 25 25 255"
 
 			"NavToRelay"	"TourList"
 
@@ -294,7 +297,8 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"	"CyanBorderThick"
+		"bgcolor_override" "25 25 25 255"
 
 		"TourLootImage"
 		{
@@ -352,7 +356,8 @@
 		"wide"			"400"
 		"tall"			"120"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"	"CyanBorderThick"
+		"bgcolor_override" "25 25 25 255"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -459,6 +464,16 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
+			"paintbackground"			"1"
 		}
 
 		"SquadSurplusImage"
@@ -519,6 +534,16 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
+			"paintbackground"			"1"
 		}
 
 		"SquadSurplusCheckButton"
@@ -562,7 +587,8 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"	"CyanBorderThick"
+		"bgcolor_override" "25 25 25 255"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -636,6 +662,16 @@
 			"command" "mann_up_now"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
+			"paintbackground"			"1"			
 		}
 	}
 
@@ -725,7 +761,8 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"	"CyanBorderThick"
+			"bgcolor_override" "25 25 25 255"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -769,7 +806,8 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"	"CyanBorderThick"
+		"bgcolor_override" "25 25 25 255"
 
 		"NoGCTitle"
 		{
@@ -817,7 +855,8 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"	"CyanBorderThick"
+		"bgcolor_override" "25 25 25 255"
 
 		"SearchActiveTitle"
 		{
@@ -1235,7 +1274,8 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"	"CyanBorderThick"
+			"bgcolor_override" "25 25 25 255"
 
 			"NavToRelay"	"InviteButton"
 
@@ -1319,7 +1359,8 @@
 			"wide"			"200"
 			"tall"			"110"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"	"CyanBorderThick"
+			"bgcolor_override" "25 25 25 255"
 		}
 
 		"ChatTextEntry"
@@ -1333,7 +1374,8 @@
 			"wide"			"200"
 			"tall"			"20"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"	"CyanBorderThick"
+			"bgcolor_override" "25 25 25 255"
 		}
 	}
 

@@ -33,7 +33,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"CyanBorderThick"
+		"bgcolor_override"	"25 25 25 255"
 		
 		"TipLabel"
 		{
@@ -650,6 +651,16 @@
 				"brighttext"	"0"
 				"default"		"1"
 				"Command"		"invite"
+				
+				"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
+				"paintbackground"			"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"

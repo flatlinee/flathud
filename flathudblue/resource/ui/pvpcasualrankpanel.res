@@ -18,4 +18,10 @@
 			}
 		}
 	}
+	
+	"BGPanel"
+	{
+		"border"		"CyanBorderThick"
+		"bgcolor_override"	"25 25 25 255"
+	}
 }
