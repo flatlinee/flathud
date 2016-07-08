@@ -13,6 +13,42 @@
 		"model_wide"	"180"
 		"model_tall"	"120"
 		"text_forcesize" "2"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
+			"bgcolor_override"	"35 35 35 255"
+			
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"999"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
+    	}
 	}
 	
 	"LoadingSpinner"
@@ -81,7 +117,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"230 230 230 255"
 			"centerwrap"	"1"
 		}
 		
@@ -121,7 +157,7 @@
 			"enabled"		"1"
 			"labelText"		"%collectionname%"
 			"textAlignment"	"west"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"230 230 230 255"
 			"centerwrap"	"0"
 		}
 	

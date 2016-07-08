@@ -39,7 +39,7 @@
 				"tall"			"18"
 				"zpos"			"4"
 				"textinsetx"	"5"
-				"fgcolor_override"		"235 226 202 255"
+				"fgcolor_override"		"230 230 230 255"
 				"font"			"AchievementTracker_Name"
 				//"wrap"			"1"
 				"TextAlignment"		"east"

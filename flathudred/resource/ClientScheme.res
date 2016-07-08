@@ -57,7 +57,7 @@ Scheme
 		"Health Buff Cross"						"255 255 255 255"
 		"Health Hurt Cross"						"255 255 255 255"
 		
-		"Uber Bar Color"						"235 226 202 255"
+		"Uber Bar Color"						"230 230 230 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"MenuMouseover"
@@ -89,7 +89,7 @@ Scheme
 			"ColorRed"						"255 0 0 255"
 			"ColorVermillion"						"255 64 0 255"
 			"ColorOrange"					"255 128 0 255"
-			"ColorYellow"					"255 255 0 255"
+			"ColorYellow"					"255 255 0 255" 
 			"ColorLime"						"128 255 0 255"
 			"ColorGreen"					"0 255 0 255"
 			"ColorTeal"						"0 255 128 255"
@@ -108,6 +108,7 @@ Scheme
 		//end flathud colors
 		
 		
+			
 		// base tf2 colors, don't change these
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -175,7 +176,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"230 230 230 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -206,7 +207,7 @@ Scheme
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"230 230 230 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -335,13 +336,13 @@ Scheme
 		Button.DepressedTextColor		"TanLight"
 		Button.DepressedBgColor			"50 50 50 255"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
+		CheckButton.TextColor			"TanLight"
+		CheckButton.SelectedTextColor	"TanLight"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.Border1  			"TanLight" 		// the left checkbutton border
+		CheckButton.Border2  			"TanLight"		// the right checkbutton border
+		CheckButton.Check				"TanLight"		// color of the check itself
+		CheckButton.HighlightFgColor	"TanLight"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
@@ -1590,7 +1591,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"ScoreboardTeamScore"
 		{
 			"1"
@@ -1687,7 +1687,6 @@ Scheme
 				"antialias" "1"
 			}
 		}		
-		
 		"ControlPointTimer"
 		{
 			"1"
@@ -2109,8 +2108,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"BigNoodleTitling"
+				"tall"		"12"
+				"outline"	"1"
+				"dropshadow" "0"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2219,7 +2220,7 @@ Scheme
 				"antialias" "1"
 				"weight"	"500"
 			}
-		}			
+		}		
 		"ItemFontAttribLarge"
 		{
 		"1"
@@ -3785,6 +3786,17 @@ Scheme
 				"tall" 		 "124"
 				"additive"	 "0"
 				"antialias"	 "1"
+			}
+		}
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"WeblySleek UI Semibold"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -5364,6 +5376,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect"
+			"color"					"ahudGrey"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -5375,7 +5388,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect"
+			"image"					"backpack_rect_mouseover"
+			"color"					"156 146 128 255"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -6634,6 +6648,32 @@ Scheme
 			}
 		}
 		
+		MainMenuButtonGlow
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"178 83 22 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		MainMenuButtonGlow2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"238 103 17 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
@@ -6780,6 +6820,29 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		StoreHighlightedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"featured_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		StoreHighlightedBackgroundBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_featured_item_bg01"
+			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 		
 		StoreDiscountBorder
 		{
@@ -6910,7 +6973,19 @@ Scheme
 				}
 			}
 		}
-
+		SortCategoryBorder
+		{
+			"inset" "0 0 1 1"
+	
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+		}
 		SteamWorkshopBorder
 		{
 			"inset" "0 0 1 1"
@@ -7053,6 +7128,65 @@ Scheme
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
+		}
+		QuestStatusBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
 		}
 	}
 

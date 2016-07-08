@@ -86,7 +86,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"230 230 230 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -189,11 +189,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "230 230 230 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "200 80 60 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -318,7 +318,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"235 226 202 255" // tanlight
+			"bgcolor_override"	"230 230 230 255" // tanlight
 			"proportionaltoparent"	"1"
 
 			"BadgeProgressMeter"
@@ -398,7 +398,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"235 226 202 255" // tanlight
+			"bgcolor_override"	"230 230 230 255" // tanlight
 			"proportionaltoparent"	"1"
 
 			"ContractsCompletedProgressMeter"

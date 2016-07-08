@@ -286,11 +286,11 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "230 230 230 255"
 				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"230 230 230 255"
 
 				"command"	"accept_quest"
 
@@ -359,11 +359,11 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "230 230 230 255"
 				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"230 230 230 255"
 
 				"command"	"discard_quest"
 				

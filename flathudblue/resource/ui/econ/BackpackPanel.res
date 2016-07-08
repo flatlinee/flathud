@@ -58,14 +58,17 @@
 				"tall"			"13"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
-				"noitem_textcolor"		"255 255 255 255"
-				"PaintBackgroundType"	"2"
+				"noitem_textcolor"		"117 107 94 255"
+				"PaintBackgroundType" "1"
+				"PaintBackground" "1"
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
 				"font"				"HudFontSmallestBold"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"border"		"NoBorder"
 			}
 
 			"New"
@@ -229,12 +232,12 @@
 		"default"			"0"
 		"border"            "CyanBorder"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"230 230 230 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "230 230 230 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "230 230 230 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	"ShowBaseItemsCheckbox"
@@ -244,8 +247,8 @@
 		"labelText"		"#ShowBaseItemsCheckBox"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"c-70"
-		"ypos"			"27"
+		"xpos"			"c-290"
+		"ypos"			"49"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"20"
@@ -255,6 +258,7 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"235 235 235 255"
 	}
 	
 	"NameFilterLabel"
@@ -322,12 +326,12 @@
 		"unicode"			"0"
 
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"230 230 230 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "230 230 230 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "230 230 230 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -386,7 +390,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c-285"
-		"ypos"			"337"
+		"ypos"			"317"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -424,7 +428,7 @@
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-260"
-		"ypos"			"337"
+		"ypos"			"317"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -440,7 +444,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c-215"
-		"ypos"			"337"
+		"ypos"			"317"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -517,7 +521,32 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+
+	"ReloadSchemeButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReloadSchemeButton"
+		"xpos"			"c-100"
+		"ypos"			"330"
+		"zpos"			"25"
+		"wide"			"100"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"RELOADSCHEME"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"reloadscheme"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
 
 	"ShowExplanationsButton"
 	{
@@ -712,7 +741,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -869,7 +898,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -934,7 +963,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1091,7 +1120,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1138,7 +1167,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1313,7 +1342,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1360,7 +1389,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1535,7 +1564,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1582,7 +1611,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1757,7 +1786,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1804,7 +1833,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1978,7 +2007,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{

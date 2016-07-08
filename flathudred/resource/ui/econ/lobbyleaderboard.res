@@ -15,6 +15,52 @@
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
+	
+	"LocalLeaderboardButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"LocalLeaderboardButton"
+		"xpos"			"p0.05"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"p0.44"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"actionsignallevel"		"1"
+		"command"		"local"
+		"labeltext"		"#TF_Competitive_Friends"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"GlobalLeaderboardButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"GlobalLeaderboardButton"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"p0.44"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"actionsignallevel"		"1"
+		"command"		"global"
+		"labeltext"		"#TF_Competitive_Global"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
 	"Line"
 	{
@@ -103,7 +149,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"230 230 230 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

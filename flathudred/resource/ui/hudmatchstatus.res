@@ -1,8 +1,8 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -207,6 +207,13 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"BlueTeamBG"
 		{
@@ -255,6 +262,12 @@
 			"linegap"		"0"
 			//"show_columns"	"1"
 			"border"		"NoBorder"
+			
+			
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"BluePlayerListBG"
 		{
@@ -270,6 +283,12 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+			
+			
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 
@@ -284,6 +303,13 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"RedTeamBG"
 		{
@@ -332,6 +358,12 @@
 			"linegap"		"0"
 			//"show_columns"	"1"
 			"border"		"NoBorder"
+			
+			
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -347,6 +379,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"NoBorder"
+			
+			
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 
@@ -376,6 +414,11 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
 	}	
 
 	"ObjectiveStatusTimePanel"
@@ -473,7 +516,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"230 230 230 255"
 			}
 			"playernameBG"
 			{
@@ -638,7 +681,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"230 230 230 255"
 			}
 			"chargeamount"
 			{
@@ -672,7 +715,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"230 230 230 255"
 			}
 			"DeathPanel"
 			{
