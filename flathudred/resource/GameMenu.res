@@ -1,55 +1,12 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
+	
+	"FindAGameButton"
 	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Co-op" 
-		"command" "playpve"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" ""
-		"OnlyAtMenu"	"1"
-		"OnlyWhenCompetitiveEnabled" "0"
-	}
-	"PlayCompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-		"OnlyWhenCompetitiveEnabled" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"0"
 	}
 	"ReplayBrowserButton"
 	{
@@ -64,14 +21,6 @@
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" ""
 		"tooltip"	"Workshop"
-	}
-	"TrainingButton"
-	{
-		"label" "a"
-		"command" "offlinepractice"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-		"tooltip"	"Training"
 	}
 	"FavoriteServer"
 	{
@@ -108,10 +57,8 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Å"
+		"label" "#MMenu_Shop"
 		"command" "engine open_store"
-		"subimage" ""
-		"tooltip" "Store"
 	}	
 	"CharacterSetupButton"
 	{
