@@ -4446,10 +4446,10 @@
 		}		
 	}
 	
-	"EventPromo"
+	"EventPromo1"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
+		"fieldname"		"EventPromo1"
 		"xpos"			"-18"
 		"ypos"			"-150"
 		"zpos"			"-60"
