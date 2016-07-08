@@ -354,6 +354,7 @@ event WinPanel_NormalPos
 
 event MMenu_PlayList_Expand
 {
+	
 	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
 
 	FireCommand 0 "soundentry Panel.SlideDown"

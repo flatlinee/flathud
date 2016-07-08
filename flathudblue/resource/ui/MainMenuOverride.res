@@ -656,6 +656,10 @@
 			"image_drawcolor"	"230 230 230 255"
 			"image_armedcolor"	"255 255 255 255"
 			
+			"actionsignallevel" "2"
+			"Command"		"motd_show"
+			"navActivate"	"<QuickplayButton"
+			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"MenuMouseover"
 			"depressedFgColor_override"	"MenuMouseover"
@@ -771,6 +775,10 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			"actionsignallevel"	"2"
+
+			"navDown"			"MOTD_URLButton"
+			"navActivate"		"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1061,7 +1069,11 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"command" "noti_show"
+			"actionsignallevel" "2"
+
+			"Command"		"noti_show"
+			"navActivate"	"<QuickplayButton"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -1429,7 +1441,10 @@
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"actionsignallevel"	"2"
+
 			"Command"		"noti_hide"
+			"navActivate"	"<QuickplayButton"
 			
 			"paintbackground"	"0"
 			
