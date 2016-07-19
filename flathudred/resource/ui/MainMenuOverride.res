@@ -2800,7 +2800,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"87"
+		"xpos"			"39"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"24"
@@ -2855,11 +2855,12 @@
 			}				
 		}
 	}
+	
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"111"
+		"xpos"			"63"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"24"
@@ -2918,12 +2919,77 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"135"
+		"xpos"			"87"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"24"
 		"tall"			"18"
 		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"24"
+			"tall"			"18"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"Sosa Small"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "MenuMouseover"
+			"depressedFgColor_override" "MenuMouseover"
+			
+			"image_drawcolor"	"230 230 230 255"
+			"image_armedcolor"	"MenuMouseover"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}				
+		}
+	}
+	
+	"ReportPlayerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReportPlayerButton"
+		"xpos"			"111"
+		"ypos"			"120"
+		"zpos"			"12"
+		"wide"			"24"
+		"tall"			"18"
+		"visible"		"1"
+
+		"navLeft"		"ResumeGameButton"
+		"navRight"		"CallVoteButton"
+		"navDown"		"QuickplayChangeButton"
+		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{

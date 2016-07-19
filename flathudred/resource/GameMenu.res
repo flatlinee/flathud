@@ -100,4 +100,12 @@
 		"subimage" "icon_whistle"
 		"tooltip" "Request a Coach"
 	}
+	"ReportPlayerButton"
+	{
+		"label"			"ç"
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
+	}
 }

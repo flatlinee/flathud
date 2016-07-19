@@ -20,7 +20,8 @@
 		"tall"				"f0"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"		"35 35 35 255"
 	}
 
 	"Checkbutton"
@@ -40,29 +41,5 @@
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 	}
-
-	"Excludes"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Excludes"
-		"xpos"			"0"
-		"ypos"			"19"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%excludes_text%"
-		"textinsetx"	"20"
-		"use_proportional_insets" "1"
-		"font"			"ReplayMediumSmall"
-		"textAlignment"	"north-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"proportionaltoparent" "1"
-
-		"fgcolor"		"Orange"
-		"paintbackground"	"1"
-	}	
+	
 }
