@@ -17,16 +17,16 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"165"	[$WIN32]
-		"ypos"			"r95"	[$WIN32]
+		"xpos"			"30"	[$WIN32]
+		"ypos"			"r40"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
-		"alpha"			"0"
+		"alpha"			"255"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -81,6 +81,30 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
+		"xpos"			"9999"		[$WIN32]
+		"ypos"			"450"	[$WIN32]
+		"zpos"			"-9999"		
+		"wide"			"90"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"
+		"image"				"../hud/character_red_bg_clipped"	
+		"teambg_2"			"../hud/character_red_bg_clipped"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
+	}
+	
+	"classmodelpanelBG1"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG1"
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"450"	[$WIN32]
 		"zpos"			"-9999"		
