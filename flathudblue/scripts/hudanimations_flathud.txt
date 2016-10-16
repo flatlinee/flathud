@@ -210,11 +210,16 @@ event HudMedicChargedStop
 	
 }
 
-event DamagedPlayer
+event DamagedPlayer 
 {
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.02
+}
 
-	Animate DamageCircleDot    FgColor "242 0 0 255"		Accel 0.0 0.0
-	Animate	DamageCircleDot    FgColor "0 255 0 255"	    Accel 0.2 0.0
+event HitMarker 
+{
+	Animate DamageCircleDot    FgColor "242 0 0 255"		Linear 0.0 0.0
+	Animate	DamageCircleDot    FgColor "0 255 0 255"	    Linear 0.2 0.0
 	
 //Change "DamageCircleDot" to the fieldname of your crosshair
 //Change the TOP value of "FgColor" to whatever color you want it to flash
