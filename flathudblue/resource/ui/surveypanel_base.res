@@ -129,8 +129,8 @@
 			"xpos"			"rs1.4"
 			"ypos"			"s0.4"
 			"zpos"			"10"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"14"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -149,7 +149,7 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "230 230 230 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "200 80 60 255"
 			
