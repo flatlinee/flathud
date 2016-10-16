@@ -110,7 +110,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"230 230 230 255"
 					
 				if_mvm
 				{
@@ -338,7 +338,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"230 230 230 255"
 				
 				if_mvm
 				{
@@ -400,7 +400,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"230 230 230 255"
 			}
 			
 			if_mvm
@@ -532,7 +532,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c-150"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -563,7 +563,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c-146"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -629,7 +629,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -660,7 +660,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c75"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -723,7 +723,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c-125"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -788,7 +788,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c-150"
+			"visible"		"0"
 		}
 		if_readymode
 		{

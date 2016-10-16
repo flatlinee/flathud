@@ -30,7 +30,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -79,8 +79,9 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"CyanBorderThick"
 				"proportionaltoparent"	"1"
+				"bgcolor_override"	"25 25 25 255"
 			}
 
 			"LeaderContainer"
@@ -122,6 +123,16 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 
 				"RequeueButton"
@@ -151,6 +162,16 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 			}
 
@@ -218,6 +239,16 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 			}
 
@@ -388,6 +419,16 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 			}
 		}
@@ -418,8 +459,9 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"CyanBorderThick"
 				"proportionaltoparent"	"1"
+				"bgcolor_override"	"25 25 25 255"
 			}
 
 			"SearchingLabel"
@@ -499,6 +541,16 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 			}
 		}
@@ -529,8 +581,9 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"CyanBorderThick"
 				"proportionaltoparent"	"1"
+				"bgcolor_override"	"25 25 25 255"
 			}
 
 			"DescLabel"
@@ -597,6 +650,17 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
+				"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
+				"paintbackground"			"1"			
 			}
 
 			"JoinNowButton"
@@ -629,6 +693,16 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultBgColor_override"	"15 15 15 255"
+				"armedBgColor_override"		"25 25 25 255"
+				"depressedBgColor_override"	"25 25 25 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override" 	"TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"			"ButtonHover"
+				"border_armed"				"ButtonHover"
+				"paintbackground"			"1"	
 			}
 		}
 
@@ -658,8 +732,9 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"CyanBorderThick"
 				"proportionaltoparent"	"1"
+				"bgcolor_override"	"25 25 25 255"
 			}
 
 			"SearchingLabel"
